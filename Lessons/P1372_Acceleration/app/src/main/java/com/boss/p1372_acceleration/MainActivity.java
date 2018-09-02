@@ -3,7 +3,6 @@ package com.boss.p1372_acceleration;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import android.app.Activity;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -118,9 +117,6 @@ public class MainActivity extends AppCompatActivity {
                     }
                     break;
             }
-
         }
-
     };
-
 }
