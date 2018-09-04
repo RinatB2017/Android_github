@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements OnClickListener {
 
-    Button btnAdd, btnRead, btnClear;
+    Button btnAdd, btnRead, btnClear, btnTest;
     EditText etName, etEmail;
 
     DBHelper dbHelper;
@@ -36,6 +36,9 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
         btnClear = (Button) findViewById(R.id.btnClear);
         btnClear.setOnClickListener(this);
+
+        btnTest = (Button) findViewById(R.id.btnTest);
+        btnTest.setOnClickListener(this);
 
         etName = (EditText) findViewById(R.id.etName);
         etEmail = (EditText) findViewById(R.id.etEmail);
@@ -76,6 +79,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                 long rowID = db.insert("mytable", null, cv);
                 logging("row inserted, ID = " + rowID);
                 break;
+
             case R.id.btnRead:
                 logging("--- Rows in mytable: ---");
                 // делаем запрос всех данных из таблицы mytable, получаем Cursor
@@ -102,11 +106,24 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                     logging("0 rows");
                 c.close();
                 break;
+
             case R.id.btnClear:
                 logging("--- Clear mytable: ---");
                 // удаляем все записи
                 int clearCount = db.delete("mytable", null, null);
                 logging("deleted rows count = " + clearCount);
+                break;
+
+            case R.id.btnTest:
+                logging("Test");
+                Cursor cc = db.rawQuery("select * from sqlite_master where type = 'table'", null);
+                if (cc.moveToFirst()) {
+                    logging("found...");
+                    do {
+                        logging(cc.getString(0) + " " + cc.getString(1));
+                    } while (cc.moveToNext());
+                } else
+                    logging("0 rows");
                 break;
         }
         // закрываем подключение к БД
