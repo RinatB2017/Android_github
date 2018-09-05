@@ -41,12 +41,14 @@ public class MainActivity extends Activity {
     //---
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
+        outState.putInt("count", cnt);
         outState.putString("log", logView.getText().toString());
         Log.d(LOG_TAG, "onSaveInstanceState");
     }
 
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
+        cnt = savedInstanceState.getInt("count");
         logView.setText(savedInstanceState.getString("log"));
         Log.d(LOG_TAG, "onRestoreInstanceState");
     }
