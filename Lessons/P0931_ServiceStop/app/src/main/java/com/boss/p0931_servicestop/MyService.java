@@ -19,19 +19,19 @@ public class MyService extends Service {
    
   public void onCreate() {
     super.onCreate();
-    Log.d(LOG_TAG, "MyService onCreate");
+    Log.i(LOG_TAG, "MyService onCreate");
     es = Executors.newFixedThreadPool(3);
     someRes = new Object();
   }
    
   public void onDestroy() {
     super.onDestroy();
-    Log.d(LOG_TAG, "MyService onDestroy");
+    Log.i(LOG_TAG, "MyService onDestroy");
     someRes = null;
   }
  
   public int onStartCommand(Intent intent, int flags, int startId) {
-    Log.d(LOG_TAG, "MyService onStartCommand");
+    Log.i(LOG_TAG, "MyService onStartCommand");
     int time = intent.getIntExtra("time", 1);
     MyRun mr = new MyRun(time, startId);
     es.execute(mr);
@@ -50,26 +50,26 @@ public class MyService extends Service {
     public MyRun(int time, int startId) {
       this.time = time;
       this.startId = startId;
-      Log.d(LOG_TAG, "MyRun#" + startId + " create");
+      Log.i(LOG_TAG, "MyRun#" + startId + " create");
     }
      
     public void run() {
-      Log.d(LOG_TAG, "MyRun#" + startId + " start, time = " + time);
+      Log.i(LOG_TAG, "MyRun#" + startId + " start, time = " + time);
       try {
         TimeUnit.SECONDS.sleep(time);
       } catch (InterruptedException e) {
         e.printStackTrace();
       }
       try {
-        Log.d(LOG_TAG, "MyRun#" + startId + " someRes = " + someRes.getClass() );
+        Log.i(LOG_TAG, "MyRun#" + startId + " someRes = " + someRes.getClass() );
       } catch (NullPointerException e) {
-        Log.d(LOG_TAG, "MyRun#" + startId + " error, null pointer");
+        Log.i(LOG_TAG, "MyRun#" + startId + " error, null pointer");
       }
       stop();
     }
 
     void stop() {
-      Log.d(LOG_TAG, "MyRun#" + startId + " end, stopSelfResult("
+      Log.i(LOG_TAG, "MyRun#" + startId + " end, stopSelfResult("
               + startId + ") = " + stopSelfResult(startId));
     }
   }
