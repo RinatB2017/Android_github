@@ -20,24 +20,24 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(LOG_TAG, "onCreate");
+        Log.i(LOG_TAG, "onCreate");
 
         logView = (TextView)findViewById(R.id.logView);
     }
 
     protected void onDestroy() {
         super.onDestroy();
-        Log.d(LOG_TAG, "onDestroy");
+        Log.i(LOG_TAG, "onDestroy");
     }
 
     protected void onPause() {
         super.onPause();
-        Log.d(LOG_TAG, "onPause");
+        Log.i(LOG_TAG, "onPause");
     }
 
     protected void onRestart() {
         super.onRestart();
-        Log.d(LOG_TAG, "onRestart");
+        Log.i(LOG_TAG, "onRestart");
     }
 
     //---
@@ -45,30 +45,30 @@ public class MainActivity extends Activity {
         super.onSaveInstanceState(outState);
         outState.putInt("count", cnt);
         outState.putString("log", logView.getText().toString());
-        Log.d(LOG_TAG, "onSaveInstanceState");
+        Log.i(LOG_TAG, "onSaveInstanceState");
     }
 
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
         cnt = savedInstanceState.getInt("count");
         logView.setText(savedInstanceState.getString("log"));
-        Log.d(LOG_TAG, "onRestoreInstanceState");
+        Log.i(LOG_TAG, "onRestoreInstanceState");
     }
     //---
 
     protected void onResume() {
         super.onResume();
-        Log.d(LOG_TAG, "onResume ");
+        Log.i(LOG_TAG, "onResume ");
     }
 
     protected void onStart() {
         super.onStart();
-        Log.d(LOG_TAG, "onStart");
+        Log.i(LOG_TAG, "onStart");
     }
 
     protected void onStop() {
         super.onStop();
-        Log.d(LOG_TAG, "onStop");
+        Log.i(LOG_TAG, "onStop");
     }
 
     public void onclick(View v) {
