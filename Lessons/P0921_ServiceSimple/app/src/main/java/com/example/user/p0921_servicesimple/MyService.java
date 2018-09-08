@@ -35,7 +35,7 @@ public class MyService extends Service {
     void someTask() {
         new Thread(new Runnable() {
             public void run() {
-                for (int i = 1; i<=60; i++) {
+                for (int i = 1; i<=120; i++) {
                     Log.i(LOG_TAG, "i = " + i);
                     try {
                         TimeUnit.SECONDS.sleep(1);

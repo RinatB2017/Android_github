@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
+    public static final String TAG = "TestService";
+
     final String LOG_TAG = "States";
     TextView logView;
 
