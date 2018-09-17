@@ -23,6 +23,7 @@ class CalibrationLoad {
     double[] gain = new double[0];
     double centralFreq = 1000;
     double centralGain = -37.4;
+    String name = null;
 
     void loadFile(Uri calibUri, Context context) {
         String calibPath = calibUri.getPath();
@@ -99,11 +100,12 @@ class CalibrationLoad {
             Iterator itr  = freqList.iterator();
             Iterator itr2 = amplitudeDBList.iterator();
             for (int j=0; itr.hasNext(); j++ ) {
-                freq[j]        = (double)itr.next();
+                freq[j] = (double)itr.next();
                 gain[j] = (double)itr2.next();
             }
         } catch (IOException e) {
             Log.e(TAG, "Fail to read file: " + calibPath);
         }
+        name = calibPath.substring(calibPath.lastIndexOf("/")+1);
     }
 }
