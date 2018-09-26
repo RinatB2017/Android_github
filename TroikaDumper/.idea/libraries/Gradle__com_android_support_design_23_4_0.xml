@@ -1,14 +1,17 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:design-23.4.0">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/design-23.4.0.aar/bc0b9cc829c7d428d682c15e43a49f50/annotations.zip!/" />
+    </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/3ae4dfee479efcf95991652379a12d390fbf1688/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/3ae4dfee479efcf95991652379a12d390fbf1688/output/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/design-23.4.0.aar/bc0b9cc829c7d428d682c15e43a49f50/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/design-23.4.0.aar/bc0b9cc829c7d428d682c15e43a49f50/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar:///opt/android-sdk-update-manager/extras/android/m2repository/com/android/support/design/23.4.0/design-23.4.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/design/23.4.0/design-23.4.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar:///opt/android-sdk-update-manager/extras/android/m2repository/com/android/support/design/23.4.0/design-23.4.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/design/23.4.0/design-23.4.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

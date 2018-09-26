@@ -1,0 +1,132 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\f06a1fd22eba1e94cc12a6a5a228f790\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7cd8974eca866f85e5ca6136e1e189e4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:gridlayout-v7:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.1.0.aar\08fda9002654a7ae610115c3db63830c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\4fc45cf6e07a2f27fa7e032c93eeab76\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\f2aaced62a72d04593624d616af82969\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\feafe64a9e98310b6e9ba06bb158d3a3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\be7fe3117455718c4c37c11870b1670a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\76dcb9af8ad722116971f52fff850881\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\97cac5383ae570efb8b14ab1450489a2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\9e378f77a4287ad89c746119c7d36fc3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2d3be80606caccc48c8592760cd4afad\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\63e64b98e60b0b866e378c00855a79f4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a9811cfb6238d929d1a9a7cb61845606\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:4:5-36
+		INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:3:5-63
+	android:versionCode
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.NFC
+ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:8:5-61
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:8:22-59
+uses-feature#android.hardware.nfc
+ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:9:5-80
+	android:required
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:9:19-42
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:9:43-78
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:10:5-89
+	android:required
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:10:19-43
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:10:44-87
+application
+ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:12:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7cd8974eca866f85e5ca6136e1e189e4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7cd8974eca866f85e5ca6136e1e189e4\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:13:9-45
+activity#net.skora.eccardinfos.ECCardInfosActivity
+ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:15:9-22:20
+	android:clearTaskOnLaunch
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:17:46-78
+	android:label
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:17:13-45
+	android:alwaysRetainTaskState
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:17:79-115
+	android:finishOnTaskLaunch
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:17:116-149
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:16:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:18:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:20:27-74
+activity#net.skora.eccardinfos.TransactionsActivity
+ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:23:9-179
+	android:clearTaskOnLaunch
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:23:135-167
+	android:label
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:23:55-100
+	android:finishOnTaskLaunch
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:23:101-134
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml:23:19-54
+uses-sdk
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\f06a1fd22eba1e94cc12a6a5a228f790\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\f06a1fd22eba1e94cc12a6a5a228f790\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7cd8974eca866f85e5ca6136e1e189e4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7cd8974eca866f85e5ca6136e1e189e4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:gridlayout-v7:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.1.0.aar\08fda9002654a7ae610115c3db63830c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.1.0.aar\08fda9002654a7ae610115c3db63830c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\4fc45cf6e07a2f27fa7e032c93eeab76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\4fc45cf6e07a2f27fa7e032c93eeab76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\f2aaced62a72d04593624d616af82969\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\f2aaced62a72d04593624d616af82969\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\feafe64a9e98310b6e9ba06bb158d3a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\feafe64a9e98310b6e9ba06bb158d3a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\be7fe3117455718c4c37c11870b1670a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\be7fe3117455718c4c37c11870b1670a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\76dcb9af8ad722116971f52fff850881\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\76dcb9af8ad722116971f52fff850881\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\97cac5383ae570efb8b14ab1450489a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\97cac5383ae570efb8b14ab1450489a2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\9e378f77a4287ad89c746119c7d36fc3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\9e378f77a4287ad89c746119c7d36fc3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2d3be80606caccc48c8592760cd4afad\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2d3be80606caccc48c8592760cd4afad\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\63e64b98e60b0b866e378c00855a79f4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\63e64b98e60b0b866e378c00855a79f4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a9811cfb6238d929d1a9a7cb61845606\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a9811cfb6238d929d1a9a7cb61845606\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Programming\GitHub\Android_github\NFC\android-nfc-paycardreader\app\src\main\AndroidManifest.xml

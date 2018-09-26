@@ -1,0 +1,4 @@
+#Wed Sep 26 11:24:47 MSK 2018
+base.0=C\:\\Users\\User\\Programming\\GitHub\\host-card-emulation-sample\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
