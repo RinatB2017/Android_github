@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:2:1-42:12
+MERGED from [com.android.support:design:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-23.4.0.aar\bc0b9cc829c7d428d682c15e43a49f50\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\cebbd139ef6b6ce3f34aa2e43dbafa0a\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\0f75e9296ecfe687a2fdaa6728c3f36a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\c19d44b8cdfc421d9dcba4eb041ffc31\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\b9cf91ce0a4366a7f09ec69d0c5e305c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\18f61e2bb24cabcca35c3281d505edaf\AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:3:5-30
+	xmlns:android
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.NFC
+ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:5:5-62
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:5:22-59
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:7:22-77
+application
+ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:10:5-40:19
+MERGED from [com.android.support:design:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-23.4.0.aar\bc0b9cc829c7d428d682c15e43a49f50\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-23.4.0.aar\bc0b9cc829c7d428d682c15e43a49f50\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\cebbd139ef6b6ce3f34aa2e43dbafa0a\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\cebbd139ef6b6ce3f34aa2e43dbafa0a\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\0f75e9296ecfe687a2fdaa6728c3f36a\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\0f75e9296ecfe687a2fdaa6728c3f36a\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\c19d44b8cdfc421d9dcba4eb041ffc31\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\c19d44b8cdfc421d9dcba4eb041ffc31\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\18f61e2bb24cabcca35c3281d505edaf\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\18f61e2bb24cabcca35c3281d505edaf\AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:15:9-40
+activity#cc.troikadumper.MainActivity
+ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:16:9-33:20
+	android:screenOrientation
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:19:13-49
+	android:label
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:18:13-45
+	android:theme
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:20:13-56
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:17:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:24:27-74
+intent-filter#action:name:android.nfc.action.TECH_DISCOVERED
+ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:26:13-28:29
+action#android.nfc.action.TECH_DISCOVERED
+ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:27:25-74
+meta-data#android.nfc.action.TECH_DISCOVERED
+ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:30:13-32:59
+	android:resource
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:32:17-56
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:31:17-66
+activity#cc.troikadumper.DumpListActivity
+ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:35:9-38:52
+	android:screenOrientation
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:38:13-49
+	android:parentActivityName
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:37:13-55
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml:36:13-45
+uses-sdk
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-23.4.0.aar\bc0b9cc829c7d428d682c15e43a49f50\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-23.4.0.aar\bc0b9cc829c7d428d682c15e43a49f50\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\cebbd139ef6b6ce3f34aa2e43dbafa0a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\cebbd139ef6b6ce3f34aa2e43dbafa0a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\0f75e9296ecfe687a2fdaa6728c3f36a\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\0f75e9296ecfe687a2fdaa6728c3f36a\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\c19d44b8cdfc421d9dcba4eb041ffc31\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\c19d44b8cdfc421d9dcba4eb041ffc31\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\b9cf91ce0a4366a7f09ec69d0c5e305c\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\b9cf91ce0a4366a7f09ec69d0c5e305c\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\18f61e2bb24cabcca35c3281d505edaf\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\18f61e2bb24cabcca35c3281d505edaf\AndroidManifest.xml:20:5-43
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml
+INJECTED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\cebbd139ef6b6ce3f34aa2e43dbafa0a\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Programming\GitHub\Android_github\TroikaDumper\src\main\AndroidManifest.xml
