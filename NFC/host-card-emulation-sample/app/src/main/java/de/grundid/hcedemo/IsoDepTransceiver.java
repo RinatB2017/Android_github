@@ -38,6 +38,11 @@ public class IsoDepTransceiver implements Runnable {
 	@Override
 	public void run() {
 		int messageCounter = 0;
+		if(isoDep == null) {
+			//TODO падаем
+			Log.i("States", "ERROR: isoDep is NULL");
+			return;
+		}
 		try {
 			isoDep.connect();
 			byte[] response = isoDep.transceive(createSelectAidApdu(AID_ANDROID));

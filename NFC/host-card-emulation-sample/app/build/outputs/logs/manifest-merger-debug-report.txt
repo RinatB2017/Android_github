@@ -1,87 +1,87 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:4:5-33
-		INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:4:5-33
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:6:5-30
-		INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:3:5-63
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:3:5-63
 	android:versionCode
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:5:5-28
-		INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.NFC
-ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:7:5-62
+ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:8:5-62
 	android:name
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:7:22-59
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:8:22-59
 application
-ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:9:5-36:19
+ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:10:5-37:19
 	android:label
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:13:9-41
 	android:icon
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:11:9-45
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:12:9-45
 	android:allowBackup
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:14:9-40
 activity#de.grundid.hcedemo.MainActivity
-ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:14:9-22:20
+ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:15:9-23:20
 	android:label
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:16:13-45
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:17:13-45
 	android:name
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:15:13-59
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:16:13-59
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:21:27-74
 service#de.grundid.hcedemo.MyHostApduService
-ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:24:9-35:19
+ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:25:9-36:19
 	android:exported
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:27:13-36
 	android:permission
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:27:13-69
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:28:13-69
 	android:name
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:25:13-46
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:26:13-46
 intent-filter#action:name:android.nfc.cardemulation.action.HOST_APDU_SERVICE
-ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:28:13-30:29
+ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:29:13-31:29
 action#android.nfc.cardemulation.action.HOST_APDU_SERVICE
-ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:29:17-93
+ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:30:17-93
 	android:name
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:29:25-90
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:30:25-90
 meta-data#android.nfc.cardemulation.host_apdu_service
-ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:32:13-34:55
+ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:33:13-35:55
 	android:resource
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:34:17-52
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:35:17-52
 	android:name
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml:33:17-75
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml:34:17-75
 uses-sdk
-INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\User\Programming\GitHub\host-card-emulation-sample\app\src\main\AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/host-card-emulation-sample/app/src/main/AndroidManifest.xml
