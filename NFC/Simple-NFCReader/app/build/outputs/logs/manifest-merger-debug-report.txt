@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:4:5-43
+		INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:3:5-63
+	android:versionCode
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.NFC
+ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:8:5-62
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:8:22-59
+uses-feature#android.hardware.nfc
+ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:10:5-12:35
+	android:required
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:12:9-32
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:11:9-44
+uses-sdk
+ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:14:5-47
+INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:14:5-47
+INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:14:5-47
+INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:14:5-47
+INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:14:5-47
+	android:targetSdkVersion
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:14:15-44
+		INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:14:5-47
+		INJECTED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:16:5-37:19
+	android:label
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:19:9-41
+	android:icon
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:18:9-45
+	android:allowBackup
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:20:9-40
+activity#net.vrallev.android.nfc.demo.MainActivity
+ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:21:9-36:20
+	android:label
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:22:13-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:27:27-74
+intent-filter#action:name:android.nfc.action.NDEF_DISCOVERED+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:29:13-35:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:30:25-74
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:32:27-73
+data
+ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:34:17-55
+	android:mimeType
+		ADDED from C:\Users\User\Programming\GitHub\Simple-NFCReader\app\src\main\AndroidManifest.xml:34:23-52
