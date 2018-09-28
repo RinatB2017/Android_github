@@ -1,4 +1,0 @@
-#Fri Sep 28 15:34:25 MSK 2018
-base.0=C\:\\Users\\User\\Programming\\GitHub\\Simple-NFCReader\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
-path.0=classes.dex
-renamed.0=classes.dex

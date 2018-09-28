@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/Simple-NFCReader/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/Simple-NFCReader/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/Simple-NFCReader/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/Simple-NFCReader/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/Simple-NFCReader/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/Simple-NFCReader/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/Simple-NFCReader/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/Simple-NFCReader/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    }
+]

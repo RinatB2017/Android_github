@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/nfc-reader/app/build/intermediates/res/merged/debug/layout_tag_divider.xml.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/nfc-reader/app/src/main/res/layout/tag_divider.xml"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/nfc-reader/app/build/intermediates/res/merged/debug/layout_tag_viewer.xml.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/nfc-reader/app/src/main/res/layout/tag_viewer.xml"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/nfc-reader/app/build/intermediates/res/merged/debug/drawable-mdpi_icon.png.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/nfc-reader/app/src/main/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/nfc-reader/app/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/nfc-reader/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/nfc-reader/app/build/intermediates/res/merged/debug/drawable-ldpi_icon.png.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/nfc-reader/app/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/nfc-reader/app/build/intermediates/res/merged/debug/layout_tag_text.xml.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/nfc-reader/app/src/main/res/layout/tag_text.xml"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/nfc-reader/app/build/intermediates/res/merged/debug/menu_menu_main.xml.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/nfc-reader/app/src/main/res/menu/menu_main.xml"
+    }
+]

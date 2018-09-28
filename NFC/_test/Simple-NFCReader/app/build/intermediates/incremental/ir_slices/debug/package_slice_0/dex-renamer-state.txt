@@ -1,0 +1,4 @@
+#Fri Sep 28 23:22:14 MSK 2018
+base.0=/home/boss/Programming/_GitHub/Android_github/NFC/Simple-NFCReader/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
