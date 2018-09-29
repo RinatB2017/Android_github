@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdkVersion 23
+    compileSdkVersion 27
     defaultConfig {
         applicationId "de.grundid.hcedemo"
         minSdkVersion 22
