@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\User\\Programming\\GitHub\\Android_github\\TroikaDumper\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "/home/boss/Programming/_GitHub/Android_github/NFC/TroikaDumper/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\Programming\\GitHub\\Android_github\\TroikaDumper\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "/home/boss/Programming/_GitHub/Android_github/NFC/TroikaDumper/src/main/res/values-w820dp/dimens.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

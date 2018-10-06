@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\User\\Programming\\GitHub\\Android_github\\TroikaDumper\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "/home/boss/Programming/_GitHub/Android_github/NFC/TroikaDumper/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-23.4.0.aar\\bc0b9cc829c7d428d682c15e43a49f50\\res\\values-land\\values-land.xml",
+                    "source": "/home/boss/.gradle/caches/transforms-1/files-1.1/design-23.4.0.aar/f6d3a9a604f790583f51100d9e875c8a/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\cebbd139ef6b6ce3f34aa2e43dbafa0a\\res\\values-land\\values-land.xml",
+                    "source": "/home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/5722f9083b93ec37856c951a72186a49/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

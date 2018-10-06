@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\User\\Programming\\GitHub\\Android_github\\TroikaDumper\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
+            "outputFile": "/home/boss/Programming/_GitHub/Android_github/NFC/TroikaDumper/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\cebbd139ef6b6ce3f34aa2e43dbafa0a\\res\\values-am\\values-am.xml",
+                    "source": "/home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/5722f9083b93ec37856c951a72186a49/res/values-am/values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
