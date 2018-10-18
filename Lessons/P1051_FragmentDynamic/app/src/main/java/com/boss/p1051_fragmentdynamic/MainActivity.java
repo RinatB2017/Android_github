@@ -29,11 +29,15 @@ public class MainActivity extends Activity {
             case R.id.btnAdd:
                 fTrans.add(R.id.frgmCont, frag1);
                 break;
+
             case R.id.btnRemove:
                 fTrans.remove(frag1);
                 break;
+
             case R.id.btnReplace:
                 fTrans.replace(R.id.frgmCont, frag2);
+                break;
+
             default:
                 break;
         }
