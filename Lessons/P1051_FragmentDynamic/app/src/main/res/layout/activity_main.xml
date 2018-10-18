@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,23 +25,13 @@
             android:onClick="onClick"
             android:text="@string/remove">
         </Button>
-        <Button
-            android:id="@+id/btnReplace"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="onClick"
-            android:text="@string/replace">
-        </Button>
-        <CheckBox
-            android:id="@+id/chbStack"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/stack">
-        </CheckBox>
     </LinearLayout>
-    <FrameLayout
+
+    <LinearLayout
         android:id="@+id/frgmCont"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </FrameLayout>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    </LinearLayout>
+
 </LinearLayout>
