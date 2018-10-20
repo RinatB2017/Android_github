@@ -1,0 +1,89 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:4:5-39
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:3:5-63
+	android:versionCode
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:4:40-63
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:7:4-8:22
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:7:21-63
+application
+ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:10:4-34:18
+	android:label
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:11:7-39
+	android:icon
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:10:17-46
+activity#com.deitel.weatherviewer.WeatherViewerActivity
+ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:12:7-18:18
+	android:label
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:13:10-42
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:12:17-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:14:10-17:26
+action#android.intent.action.MAIN
+ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:15:13-65
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:15:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:16:13-73
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:16:23-70
+receiver#com.deitel.weatherviewer.WeatherProvider
+ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:20:7-31:18
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:20:17-48
+meta-data#android.appwidget.provider
+ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:21:10-22:68
+	android:resource
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:22:13-65
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:21:21-62
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:23:10-26:26
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:24:13-25:62
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:24:21-93
+intent-filter#action:name:com.deitel.weatherviewer.UPDATE_WIDGET
+ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:27:10-30:26
+action#com.deitel.weatherviewer.UPDATE_WIDGET
+ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:28:13-29:59
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:28:21-90
+service#com.deitel.weatherviewer.WeatherProvider$WeatherService
+ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:33:7-65
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml:33:16-62
+uses-sdk
+INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/WeatherViewer/app/src/main/AndroidManifest.xml
