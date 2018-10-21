@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AndroidMarkerARDemo.iml" filepath="$PROJECT_DIR$/.idea/AndroidMarkerARDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidcalibration/androidcalibration.iml" filepath="$PROJECT_DIR$/androidcalibration/androidcalibration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mathlib/mathlib.iml" filepath="$PROJECT_DIR$/mathlib/mathlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary320/openCVLibrary320.iml" filepath="$PROJECT_DIR$/openCVLibrary320/openCVLibrary320.iml" />
+    </modules>
+  </component>
+</project>
