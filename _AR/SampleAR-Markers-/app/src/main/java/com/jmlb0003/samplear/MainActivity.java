@@ -1,6 +1,10 @@
 package com.jmlb0003.samplear;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
 import edu.dhbw.andar.ARObject;
@@ -23,9 +27,21 @@ public class MainActivity extends AndARActivity {
     private ARToolkit mArtoolkit;
     private ARObject mObject;
 
+    private void requestSmsPermission(String permission) {
+        //String permission = Manifest.permission.RECEIVE_SMS;
+        int grant = ContextCompat.checkSelfPermission(this, permission);
+        if (grant != PackageManager.PERMISSION_GRANTED) {
+            String[] permission_list = new String[1];
+            permission_list[0] = permission;
+            ActivityCompat.requestPermissions(this, permission_list, 1);
+        }
+    }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        requestSmsPermission(Manifest.permission.CAMERA);
 
         /**
          * In CustomRender we have set up lights and anything else nonAR-stuff
