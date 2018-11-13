@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1210fa-87cb-4be0-8452-ebdf526c42b5" name="Default" comment="" />
+    <list default="true" id="ff16ff0a-cf9b-46fd-b4fe-ae24cc7a6d0c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1273,18 +1278,26 @@
       </map>
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="381" />
-    <option name="width" value="1448" />
-    <option name="height" value="1019" />
+    <option name="x" value="820" />
+    <option name="width" value="1471" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -1294,24 +1307,17 @@
             </path>
             <path>
               <item name="TroikaDumper" type="1abcf292:AndroidViewProjectNode" />
-              <item name="TroikaDumper" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="TroikaDumper" type="1abcf292:AndroidViewProjectNode" />
-              <item name="TroikaDumper" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="troikadumper" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.last.selected" value="TroikaDumper" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="/opt/android-sdk-update-manager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1470,16 +1476,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bb1210fa-87cb-4be0-8452-ebdf526c42b5" name="Default" comment="" />
-      <created>1538839943226</created>
+      <changelist id="ff16ff0a-cf9b-46fd-b4fe-ae24cc7a6d0c" name="Default" comment="" />
+      <created>1542144894342</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1538839943226</updated>
+      <updated>1542144894342</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="381" y="0" width="1448" height="1019" extended-state="0" />
+    <frame x="820" y="0" width="1471" height="1038" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
@@ -1495,8 +1501,8 @@
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.32942554" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946997" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32912844" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" />
@@ -1505,9 +1511,9 @@
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
@@ -1516,10 +1522,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cc/troikadumper/Dump.java">
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="36">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
         </state>
       </provider>
     </entry>
