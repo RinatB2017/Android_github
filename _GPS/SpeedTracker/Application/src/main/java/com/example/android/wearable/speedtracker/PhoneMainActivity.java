@@ -26,9 +26,14 @@ import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 
+import android.Manifest;
 import android.app.DatePickerDialog;
+import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Environment;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.text.format.DateUtils;
 import android.util.Log;
@@ -39,6 +44,7 @@ import android.widget.TextView;
 import com.example.android.wearable.speedtracker.common.LocationEntry;
 import com.google.maps.GeoApiContext;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -59,11 +65,24 @@ public class PhoneMainActivity extends AppCompatActivity implements
     private SupportMapFragment mMapFragment;
 
     //TODO тест
+    private static final int RECORD_REQUEST_CODE = 101;
+
     private List<LatLng> places = new ArrayList<>();
     private String mapsApiKey;
     private int width;
     final int DEFAULT_ZOOM = 12; //15;
     //---
+
+    protected void requestPermission(String permissionType, int requestCode) {
+        int permission = ContextCompat.checkSelfPermission(this,
+                permissionType);
+
+        if (permission != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{permissionType}, requestCode
+            );
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,6 +101,8 @@ public class PhoneMainActivity extends AppCompatActivity implements
         mapsApiKey = this.getResources().getString(R.string.map_v2_api_key);
 
         width = getResources().getDisplayMetrics().widthPixels;
+
+        requestPermission(Manifest.permission.READ_EXTERNAL_STORAGE, RECORD_REQUEST_CODE);
         //---
     }
 
@@ -184,5 +205,51 @@ public class PhoneMainActivity extends AppCompatActivity implements
         CameraUpdate update = CameraUpdateFactory.newLatLngZoom(currentLatLng, DEFAULT_ZOOM);
         googleMap.moveCamera(update);
         //---
+    }
+
+    /* Проверяет, доступно ли external storage как минимум для чтения */
+    public boolean isExternalStorageReadable() {
+        String state = Environment.getExternalStorageState();
+        if (Environment.MEDIA_MOUNTED.equals(state) ||
+                Environment.MEDIA_MOUNTED_READ_ONLY.equals(state)) {
+            return true;
+        }
+        return false;
+    }
+
+    public void onTest(View view) {
+        send_log("test");
+
+        if(!isExternalStorageReadable()) {
+            send_log("ERROR: external storage no readable");
+            return;
+        }
+
+        File file = new File("/storage/emulated/0/Android/data/com.mendhak.gpslogger/files");
+        list_files(file);
+    }
+
+    public void send_log(String text) {
+        Log.i("States", text);
+    }
+
+    private void list_files(File path) {
+        if (path == null) {
+            send_log("path == null");
+            return;
+        }
+
+        File[] l_files = path.listFiles();
+        if (l_files == null) {
+            send_log("l_files == null");
+            return;
+        }
+        for (int n = 0; n < l_files.length; n++) {
+            if (l_files[n].isDirectory()) {
+                list_files(l_files[n]);
+            } else {
+                send_log("   file: " + l_files[n].getName() + " size: " + l_files[n].length());
+            }
+        }
     }
 }

@@ -23,24 +23,36 @@
         android:id="@+id/top_container"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
         android:layout_marginTop="10dp">
+
         <Button
             android:id="@+id/date_picker"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
             android:onClick="onClick"
-            android:layout_centerHorizontal="true"
-            android:text="@string/show_my_track"
-            />
+            android:text="@string/show_my_track" />
+
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onTest"
+            android:text="test" />
+
         <TextView
             android:id="@+id/selected_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/date_picker"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="5dp"
             android:layout_marginTop="5dp"
-            android:textStyle="italic"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_marginBottom="5dp"
+            android:textStyle="italic" />
     </RelativeLayout>
 
     <fragment
