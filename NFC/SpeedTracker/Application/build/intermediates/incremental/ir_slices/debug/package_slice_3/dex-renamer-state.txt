@@ -1,4 +1,0 @@
-#Wed Nov 14 13:03:31 MSK 2018
-base.0=/home/boss/Programming/_GitHub/Android_github/NFC/SpeedTracker/Application/build/intermediates/transforms/dexMerger/debug/3
-path.0=classes.dex
-renamed.0=classes.dex
