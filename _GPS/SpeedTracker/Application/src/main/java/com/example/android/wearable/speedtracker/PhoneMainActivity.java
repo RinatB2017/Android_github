@@ -16,12 +16,14 @@
 
 package com.example.android.wearable.speedtracker;
 
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 
 import android.app.DatePickerDialog;
@@ -35,6 +37,7 @@ import android.widget.DatePicker;
 import android.widget.TextView;
 
 import com.example.android.wearable.speedtracker.common.LocationEntry;
+import com.google.maps.GeoApiContext;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -55,6 +58,13 @@ public class PhoneMainActivity extends AppCompatActivity implements
     private GoogleMap mMap;
     private SupportMapFragment mMapFragment;
 
+    //TODO тест
+    private List<LatLng> places = new ArrayList<>();
+    private String mapsApiKey;
+    private int width;
+    final int DEFAULT_ZOOM = 12; //15;
+    //---
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,6 +72,17 @@ public class PhoneMainActivity extends AppCompatActivity implements
         mSelectedDateText = (TextView) findViewById(R.id.selected_date);
         mMapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mMapFragment.getMapAsync(this);
+
+        //TODO тест
+        places.add(new LatLng(55.754724, 37.621380));
+        places.add(new LatLng(55.760133, 37.618697));
+        places.add(new LatLng(55.764753, 37.591313));
+        places.add(new LatLng(55.728466, 37.604155));
+
+        mapsApiKey = this.getResources().getString(R.string.map_v2_api_key);
+
+        width = getResources().getDisplayMetrics().widthPixels;
+        //---
     }
 
     public void onClick(View view) {
@@ -139,5 +160,29 @@ public class PhoneMainActivity extends AppCompatActivity implements
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+
+        //TODO тест
+        MarkerOptions[] markers = new MarkerOptions[places.size()];
+        for (int i = 0; i < places.size(); i++) {
+            markers[i] = new MarkerOptions()
+                    .position(places.get(i));
+            googleMap.addMarker(markers[i]);
+        }
+
+        GeoApiContext geoApiContext = new GeoApiContext.Builder()
+                .apiKey(mapsApiKey)
+                .build();
+
+        /*
+        LatLngBounds.Builder latLngBuilder = new LatLngBounds.Builder();
+        LatLngBounds latLngBounds = latLngBuilder.build();
+        CameraUpdate track = CameraUpdateFactory.newLatLngBounds(latLngBounds, width, width, 25);
+        googleMap.moveCamera(track);
+        */
+
+        LatLng currentLatLng = new LatLng(55.754724, 37.621380);
+        CameraUpdate update = CameraUpdateFactory.newLatLngZoom(currentLatLng, DEFAULT_ZOOM);
+        googleMap.moveCamera(update);
+        //---
     }
 }
