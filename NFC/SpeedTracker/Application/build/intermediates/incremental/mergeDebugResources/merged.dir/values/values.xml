@@ -2267,7 +2267,7 @@ coordinates on a map on the phone.
         
         ]]>
     </string>
-    <string name="map_v2_api_key">YOUR_MAP_V2_API_KEY</string>
+    <string name="map_v2_api_key">AIzaSyComUhEqr9BL4JjqJE05Lck4j1uABIU08Y</string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="no_date">No data for the selected date</string>
     <string name="password_toggle_content_description">Show password</string>

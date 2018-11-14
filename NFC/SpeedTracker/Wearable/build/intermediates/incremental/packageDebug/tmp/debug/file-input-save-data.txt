@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Nov 14 12:11:54 MSK 2018
+#Wed Nov 14 13:03:11 MSK 2018
 2.base=/home/boss/Programming/_GitHub/Android_github/NFC/SpeedTracker/Wearable/build/intermediates/transforms/dexMerger/debug/3
 0.path=classes.dex
 2.baseType=DIRECTORY
