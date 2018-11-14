@@ -225,8 +225,19 @@ public class PhoneMainActivity extends AppCompatActivity implements
             return;
         }
 
-        File file = new File("/storage/emulated/0/Android/data/com.mendhak.gpslogger/files");
-        list_files(file);
+        //File file = new File("/storage/emulated/0/Android/data/com.mendhak.gpslogger/files");
+        //list_files(file);
+
+        places.clear();
+        for(double n=0; n<100.0; n+=1.0) {
+            places.add(new LatLng(55.754724 + n / 1000.0, 37.621380 + n / 1000.0));
+        }
+        MarkerOptions[] markers = new MarkerOptions[places.size()];
+        for (int i = 0; i < places.size(); i++) {
+            markers[i] = new MarkerOptions()
+                    .position(places.get(i));
+            mMap.addMarker(markers[i]);
+        }
     }
 
     public void send_log(String text) {
