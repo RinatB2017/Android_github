@@ -93,7 +93,7 @@ public class PhoneMainActivity extends AppCompatActivity implements OnMapReadyCa
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_open_file:
-                Intent intent = new Intent(this, FileActivity.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                Intent intent = new Intent(this, FileActivity.class);
                 if (intent != null) {
                     startActivity(intent);
                 }

@@ -14,7 +14,7 @@ public class FileActivity extends AppCompatActivity {
     }
 
     public void go_main(View view) {
-        Intent intent = new Intent(this, PhoneMainActivity.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        Intent intent = new Intent(this, PhoneMainActivity.class);
         if (intent != null) {
             startActivity(intent);
         }
