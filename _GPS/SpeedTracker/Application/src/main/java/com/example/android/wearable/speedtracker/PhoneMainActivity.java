@@ -24,11 +24,14 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import android.content.Intent;
 import android.location.Location;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 import org.w3c.dom.Document;
@@ -81,6 +84,32 @@ public class PhoneMainActivity extends AppCompatActivity implements OnMapReadyCa
     }
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_open_file:
+                Intent intent = new Intent(this, FileActivity.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                if (intent != null) {
+                    startActivity(intent);
+                }
+                break;
+
+            case R.id.action_test:
+                test();
+                break;
+
+            default:
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
@@ -119,7 +148,7 @@ public class PhoneMainActivity extends AppCompatActivity implements OnMapReadyCa
         return false;
     }
 
-    public void onTest(View view) {
+    public void test() {
         send_log("test");
 
         if(!isExternalStorageReadable()) {

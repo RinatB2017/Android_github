@@ -1,4 +1,0 @@
-#Thu Nov 15 20:01:00 MSK 2018
-base.0=/home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/build/intermediates/transforms/dexMerger/debug/4
-path.0=classes.dex
-renamed.0=classes.dex

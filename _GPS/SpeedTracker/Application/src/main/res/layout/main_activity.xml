@@ -19,23 +19,6 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <RelativeLayout
-        android:id="@+id/top_container"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="10dp">
-
-        <Button
-            android:id="@+id/btn_test"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="onTest"
-            android:text="test" />
-
-    </RelativeLayout>
-
     <fragment
         class="com.google.android.gms.maps.SupportMapFragment"
         android:id="@+id/map"

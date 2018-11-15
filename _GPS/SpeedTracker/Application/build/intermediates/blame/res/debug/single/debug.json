@@ -512,6 +512,10 @@
         "source": "/home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/eff5fb9ea358deda4d652c3df7a6fc9f/res/drawable/abc_ic_clear_material.xml"
     },
     {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/build/intermediates/res/merged/debug/menu_main.xml.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/res/menu/main.xml"
+    },
+    {
         "merged": "/home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/eff5fb9ea358deda4d652c3df7a6fc9f/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
@@ -1220,12 +1224,12 @@
         "source": "/home/boss/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/580ad220988ebea27dfc311e9ff843b5/res/interpolator/mtrl_linear_out_slow_in.xml"
     },
     {
-        "merged": "/home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4629f2aa52f3364f6d37d91e422acf0a/res/layout-v16/notification_template_custom_big.xml"
-    },
-    {
         "merged": "/home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/build/intermediates/res/merged/debug/anim_abc_popup_exit.xml.flat",
         "source": "/home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/eff5fb9ea358deda4d652c3df7a6fc9f/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
+        "source": "/home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4629f2aa52f3364f6d37d91e422acf0a/res/layout-v16/notification_template_custom_big.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -1458,6 +1462,10 @@
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "/home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/eff5fb9ea358deda4d652c3df7a6fc9f/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/build/intermediates/res/merged/debug/layout_activity_file.xml.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/res/layout/activity_file.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
