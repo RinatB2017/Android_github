@@ -103,8 +103,8 @@ public final class R {
         public static final int async = 0x7f080020;
         public static final int blocking = 0x7f080023;
         public static final int bottom = 0x7f080024;
-        public static final int cancel_action = 0x7f080026;
-        public static final int chronometer = 0x7f08002b;
+        public static final int cancel_action = 0x7f080027;
+        public static final int chronometer = 0x7f08002c;
         public static final int end = 0x7f080040;
         public static final int end_padder = 0x7f080041;
         public static final int forever = 0x7f08004c;
@@ -124,16 +124,16 @@ public final class R {
         public static final int right = 0x7f08007a;
         public static final int right_icon = 0x7f08007b;
         public static final int right_side = 0x7f08007c;
-        public static final int start = 0x7f0800a3;
-        public static final int status_bar_latest_event_content = 0x7f0800a4;
-        public static final int tag_transition_group = 0x7f0800a9;
-        public static final int tag_unhandled_key_event_manager = 0x7f0800aa;
-        public static final int tag_unhandled_key_listeners = 0x7f0800ab;
-        public static final int text = 0x7f0800ad;
-        public static final int text2 = 0x7f0800ae;
-        public static final int time = 0x7f0800b6;
-        public static final int title = 0x7f0800b7;
-        public static final int top = 0x7f0800ba;
+        public static final int start = 0x7f0800a2;
+        public static final int status_bar_latest_event_content = 0x7f0800a3;
+        public static final int tag_transition_group = 0x7f0800a8;
+        public static final int tag_unhandled_key_event_manager = 0x7f0800a9;
+        public static final int tag_unhandled_key_listeners = 0x7f0800aa;
+        public static final int text = 0x7f0800ac;
+        public static final int text2 = 0x7f0800ad;
+        public static final int time = 0x7f0800b5;
+        public static final int title = 0x7f0800b6;
+        public static final int top = 0x7f0800b9;
     }
     public static final class integer {
         private integer() {}

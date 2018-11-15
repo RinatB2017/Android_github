@@ -1075,6 +1075,7 @@ id auto
 id beginning
 id blocking
 id bottom
+id btn_test
 id buttonPanel
 id cancel_action
 id center
@@ -1092,7 +1093,6 @@ id coordinator
 id custom
 id customPanel
 id dark
-id date_picker
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1185,7 +1185,6 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
-id selected_date
 id shortcut
 id showCustom
 id showHome

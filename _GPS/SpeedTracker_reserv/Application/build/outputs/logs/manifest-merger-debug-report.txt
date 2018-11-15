@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-56:12
+ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-58:12
 MERGED from [com.android.support:design:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/580ad220988ebea27dfc311e9ff843b5/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/1fa4affb7d0b42bc3e055d7b912b2579/AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/f28c007ad353e01935927ecd90b154b8/AndroidManifest.xml:2:1-9:12
@@ -44,17 +44,17 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/t
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f64d9838bbb4a8f1595e188e81fa8ff3/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6d7c2ce02469d0738c6ca8edbb5457ab/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/eae911eb23e71fc77cec3298fbd42f33/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-58:12
 	package
 		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:4:5-56
 	android:versionName
 		INJECTED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-56:12
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-58:12
 		INJECTED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-56:12
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-58:12
 		INJECTED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:3:5-63
@@ -84,22 +84,26 @@ uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:18:5-78
 	android:name
 		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:18:22-76
-uses-feature#android.hardware.location.gps
-ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:21:5-90
-	android:required
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:21:64-87
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:20:5-80
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:21:19-63
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:20:22-77
+uses-feature#android.hardware.location.gps
+ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:23:5-90
+	android:required
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:23:64-87
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:23:19-63
 uses-feature#0x00020000
-ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:22:5-23:67
+ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:24:5-25:67
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/1fa4affb7d0b42bc3e055d7b912b2579/AndroidManifest.xml:26:5-28:35
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/1fa4affb7d0b42bc3e055d7b912b2579/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:23:9-41
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:25:9-41
 	android:required
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:23:42-65
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:25:42-65
 application
-ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:25:5-54:19
+ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:27:5-56:19
 MERGED from [com.android.support:design:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/580ad220988ebea27dfc311e9ff843b5/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/580ad220988ebea27dfc311e9ff843b5/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/1fa4affb7d0b42bc3e055d7b912b2579/AndroidManifest.xml:30:5-20
@@ -125,65 +129,65 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4629f2aa52f3364f6d37d91e422acf0a/AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:29:9-41
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:31:9-41
 	android:icon
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:28:9-45
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:30:9-45
 	android:allowBackup
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:27:9-35
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:29:9-35
 	android:theme
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:30:9-53
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:32:9-53
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:26:9-41
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:28:9-41
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:31:9-33:53
+ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:33:9-35:53
 	android:value
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:33:13-51
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:35:13-51
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:32:13-62
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:34:13-62
 meta-data#com.google.android.gms.version
-ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:34:9-35:68
+ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:36:9-37:68
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/boss/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/63fdb80e39ed7cb2684577bf51663422/AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/boss/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/63fdb80e39ed7cb2684577bf51663422/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:35:13-66
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:37:13-66
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:34:20-65
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:36:20-65
 activity#com.example.android.wearable.speedtracker.PhoneMainActivity
-ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:36:9-45:20
+ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:38:9-47:20
 	android:screenOrientation
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:39:13-49
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:41:13-49
 	android:label
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:38:13-45
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:40:13-45
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:37:13-46
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:39:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:40:13-44:29
+ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:42:13-46:29
 action#android.intent.action.MAIN
-ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:41:17-69
+ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:43:17-69
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:41:25-66
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:43:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:43:17-77
+ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:45:17-77
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:43:27-74
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:45:27-74
 service#com.example.android.wearable.speedtracker.db.UpdateService
-ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:46:9-53:19
+ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:48:9-55:19
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:46:18-50
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:48:18-50
 intent-filter#action:name:com.google.android.gms.wearable.DATA_CHANGED+data:host:*+data:pathPrefix:/location+data:scheme:wear
-ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:47:13-52:29
+ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:49:13-54:29
 action#com.google.android.gms.wearable.DATA_CHANGED
-ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:49:17-87
+ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:51:17-87
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:49:25-84
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:51:25-84
 data
-ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:51:17-94
+ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:53:17-94
 	android:host
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:51:45-61
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:53:45-61
 	android:scheme
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:51:23-44
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:53:23-44
 	android:pathPrefix
-		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:51:62-92
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml:53:62-92
 uses-sdk
 INJECTED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/boss/Programming/_GitHub/Android_github/_GPS/SpeedTracker/Application/src/main/AndroidManifest.xml
