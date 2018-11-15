@@ -94,9 +94,7 @@ public class PhoneMainActivity extends AppCompatActivity implements OnMapReadyCa
         switch (item.getItemId()) {
             case R.id.action_open_file:
                 Intent intent = new Intent(this, FileActivity.class);
-                if (intent != null) {
-                    startActivity(intent);
-                }
+                startActivity(intent);
                 break;
 
             case R.id.action_test:
