@@ -20,9 +20,7 @@ import org.xml.sax.SAXException;
 
 import android.location.Location;
 import android.os.Bundle;
-import android.os.Environment;
 import android.app.Activity;
-import android.view.Menu;
 import android.widget.TextView;
 
 // http://www.edumobile.org/android/get-location-from-gpx-file/
@@ -52,14 +50,6 @@ public class MainActivity extends Activity {
 
         textInfo.setText(info);
     }
-
-    /*
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-    */
 
     private List<Location> decodeGPX(File file){
         List<Location> list = new ArrayList<Location>();
