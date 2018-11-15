@@ -8,18 +8,15 @@ keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 
 android {
     compileSdkVersion 28
-    buildToolsVersion "28.0.3"
-
     defaultConfig {
         applicationId "com.simplemobiletools.filemanager.pro"
-        minSdkVersion 21
+        minSdkVersion 22
         targetSdkVersion 28
         versionCode 63
         versionName "6.0.0"
         multiDexEnabled true
         setProperty("archivesBaseName", "file-manager")
     }
-
     signingConfigs {
         release {
             keyAlias keystoreProperties['keyAlias']
@@ -28,7 +25,6 @@ android {
             storePassword keystoreProperties['storePassword']
         }
     }
-
     buildTypes {
         debug {
             applicationIdSuffix ".debug"
@@ -39,19 +35,18 @@ android {
             signingConfig signingConfigs.release
         }
     }
-
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
-
     lintOptions {
         checkReleaseBuilds false
         abortOnError false
+    }
+    productFlavors {
     }
 }
 
 dependencies {
     implementation 'com.simplemobiletools:commons:5.3.10'
-
     implementation files('../libs/RootTools.jar')
 }
