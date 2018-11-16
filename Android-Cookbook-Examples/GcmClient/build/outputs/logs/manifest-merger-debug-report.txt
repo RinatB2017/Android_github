@@ -1,0 +1,195 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:2:1-44:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c33bc085e6a1758e2ee9d089d6b7bda8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a206ea8f1456ea99c9c46ea95d1be2b1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b4cfdb655579f727394ffbeb42ad9481/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/432c6276f8e02a5cfd69953f1c9a3c40/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/bd3ceae6cf19e61d848a63605a290470/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/80adec93ff40f5a4adf10f20fb4945c5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9c2977130ddef8e583b8ce111f2c9d7a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/822b4c573d70bba120a6dd7a456678e3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/c26c3ec8a164423a38ff06df35aa9a44/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/e3c8f9e1edfbca681b038400c44bd220/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/d5ed65c0794d129b56c4425b2c68ffd1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/698ee35cbfc5cfa80288a3e40c1abb02/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/6bd01414333fd648305132717565fe7f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ee82a6272d0bec46f4c1a9a2bbf5f829/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7497d94f87c4e78551142ff6438702c8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1da67c597eb011006bbfb4c20f4af600/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/29ae9c060adc543696dfb28ace0d40cc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5e801aca10472334152a47fe9baf11be/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1029678e82c189232c139c8791a8d028/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/48d2cf7dc67023104896ff6e9bc7bab3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/2d75ea02d1be9b1c1bc9fb4bdd589e58/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f7ddcdb44299c01646277a304a9e106f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/659c85861b4af58116bec1ef31b890b6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/938119f7a106d23c282218811a5f128c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/24a691e886a32c7c9960e89983d0d799/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/adf373277467868a1d2687fc28f3125c/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:4:5-38
+	android:versionName
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:6:5-30
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:3:5-63
+	android:versionCode
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:5:5-28
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:9:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:10:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:11:22-79
+permission#com.darwinsys.gcmplay.permission.C2D_MESSAGE
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:13:5-14:47
+	android:protectionLevel
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:14:9-44
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:13:17-76
+uses-permission#com.darwinsys.gcmplay.permission.C2D_MESSAGE
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:15:5-84
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:15:22-81
+application
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:17:5-42:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7497d94f87c4e78551142ff6438702c8/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7497d94f87c4e78551142ff6438702c8/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1da67c597eb011006bbfb4c20f4af600/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1da67c597eb011006bbfb4c20f4af600/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7497d94f87c4e78551142ff6438702c8/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:20:9-41
+	android:icon
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:19:9-45
+	android:allowBackup
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:21:9-40
+meta-data#com.google.android.gms.version
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:22:9-23:68
+	android:value
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:23:12-65
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:22:20-65
+activity#com.darwinsys.gcmclient.GcmMainActivity
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:24:9-31:20
+	android:label
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:25:13-67
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:29:27-74
+receiver#com.darwinsys.gcmclient.GcmReceiver
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:32:9-38:20
+	android:permission
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:33:13-73
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:32:19-69
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.darwinsys.gcmplay
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:34:13-37:23
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:35:11-75
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:35:19-72
+category#com.darwinsys.gcmplay
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:36:11-60
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:36:21-57
+service#com.darwinsys.gcmclient.GcmService
+ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:39:9-41:19
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml:39:18-67
+uses-sdk
+INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c33bc085e6a1758e2ee9d089d6b7bda8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c33bc085e6a1758e2ee9d089d6b7bda8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a206ea8f1456ea99c9c46ea95d1be2b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a206ea8f1456ea99c9c46ea95d1be2b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b4cfdb655579f727394ffbeb42ad9481/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b4cfdb655579f727394ffbeb42ad9481/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/432c6276f8e02a5cfd69953f1c9a3c40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/432c6276f8e02a5cfd69953f1c9a3c40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/bd3ceae6cf19e61d848a63605a290470/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/bd3ceae6cf19e61d848a63605a290470/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/80adec93ff40f5a4adf10f20fb4945c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/80adec93ff40f5a4adf10f20fb4945c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9c2977130ddef8e583b8ce111f2c9d7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9c2977130ddef8e583b8ce111f2c9d7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/822b4c573d70bba120a6dd7a456678e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/822b4c573d70bba120a6dd7a456678e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/c26c3ec8a164423a38ff06df35aa9a44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/c26c3ec8a164423a38ff06df35aa9a44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/e3c8f9e1edfbca681b038400c44bd220/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/e3c8f9e1edfbca681b038400c44bd220/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/d5ed65c0794d129b56c4425b2c68ffd1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/d5ed65c0794d129b56c4425b2c68ffd1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/698ee35cbfc5cfa80288a3e40c1abb02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/698ee35cbfc5cfa80288a3e40c1abb02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/6bd01414333fd648305132717565fe7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/6bd01414333fd648305132717565fe7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ee82a6272d0bec46f4c1a9a2bbf5f829/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ee82a6272d0bec46f4c1a9a2bbf5f829/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7497d94f87c4e78551142ff6438702c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7497d94f87c4e78551142ff6438702c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1da67c597eb011006bbfb4c20f4af600/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1da67c597eb011006bbfb4c20f4af600/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/29ae9c060adc543696dfb28ace0d40cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/29ae9c060adc543696dfb28ace0d40cc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5e801aca10472334152a47fe9baf11be/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5e801aca10472334152a47fe9baf11be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1029678e82c189232c139c8791a8d028/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1029678e82c189232c139c8791a8d028/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/48d2cf7dc67023104896ff6e9bc7bab3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/48d2cf7dc67023104896ff6e9bc7bab3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/2d75ea02d1be9b1c1bc9fb4bdd589e58/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/2d75ea02d1be9b1c1bc9fb4bdd589e58/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f7ddcdb44299c01646277a304a9e106f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f7ddcdb44299c01646277a304a9e106f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/659c85861b4af58116bec1ef31b890b6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/659c85861b4af58116bec1ef31b890b6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/938119f7a106d23c282218811a5f128c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/938119f7a106d23c282218811a5f128c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/24a691e886a32c7c9960e89983d0d799/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/24a691e886a32c7c9960e89983d0d799/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/adf373277467868a1d2687fc28f3125c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/adf373277467868a1d2687fc28f3125c/AndroidManifest.xml:20:5-44
+INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/GcmClient/AndroidManifest.xml
