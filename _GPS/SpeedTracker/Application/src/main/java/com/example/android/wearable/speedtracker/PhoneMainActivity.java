@@ -32,7 +32,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -110,6 +109,10 @@ public class PhoneMainActivity extends AppCompatActivity implements OnMapReadyCa
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+
+        mMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
+        //mMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
+        //mMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
 
         //TODO тест
         /*
