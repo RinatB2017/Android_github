@@ -1,0 +1,4 @@
+#Sun Nov 18 01:01:03 MSK 2018
+base.0=/home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/Camera2Raw/Application/build/intermediates/transforms/dexMerger/debug/1
+path.0=classes.dex
+renamed.0=classes.dex
