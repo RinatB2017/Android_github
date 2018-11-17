@@ -6,8 +6,4 @@
         android:orderInCategory="100"
         android:title="File"
         app:showAsAction="never" />
-    <item android:id="@+id/action_test"
-        android:orderInCategory="100"
-        android:title="Test"
-        app:showAsAction="never" />
 </menu>

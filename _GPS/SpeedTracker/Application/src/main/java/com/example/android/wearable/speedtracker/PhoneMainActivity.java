@@ -60,7 +60,7 @@ import javax.xml.parsers.ParserConfigurationException;
 public class PhoneMainActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private static final String TAG = "PhoneMainActivity";
-    private GoogleMap mMap;
+    private GoogleMap gMap;
     private SupportMapFragment mMapFragment;
 
     //TODO тест
@@ -68,18 +68,42 @@ public class PhoneMainActivity extends AppCompatActivity implements OnMapReadyCa
     private String mapsApiKey;
     private int width;
     final int DEFAULT_ZOOM = 15;
+    String path;
+    String filename;
     //---
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
+
+        path = "/storage/emulated/0/Android/data/com.mendhak.gpslogger/files/";
+
         mMapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mMapFragment.getMapAsync(this);
 
         mapsApiKey = this.getResources().getString(R.string.map_v2_api_key);
 
         width = getResources().getDisplayMetrics().widthPixels;
+
+        //---
+        Intent intent = getIntent();
+        if(intent != null) {
+            filename = intent.getStringExtra("filename");
+            if (filename != null) {
+                if (!filename.isEmpty()) {
+                    File gpxFile = new File(filename);
+
+                    List<Location> gpxList = decodeGPX(gpxFile);
+
+                    places.clear();
+                    for (int i = 0; i < gpxList.size(); i++) {
+                        places.add(new LatLng(gpxList.get(i).getLatitude(), gpxList.get(i).getLongitude()));
+                    }
+                }
+            }
+        }
+        //---
     }
 
     @Override
@@ -96,10 +120,6 @@ public class PhoneMainActivity extends AppCompatActivity implements OnMapReadyCa
                 startActivity(intent);
                 break;
 
-            case R.id.action_test:
-                test();
-                break;
-
             default:
                 break;
         }
@@ -108,34 +128,31 @@ public class PhoneMainActivity extends AppCompatActivity implements OnMapReadyCa
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
-        mMap = googleMap;
+        gMap = googleMap;
 
-        mMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
-        //mMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
-        //mMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
+        gMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
+        //gMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
+        //gMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
 
         //TODO тест
-        /*
-        MarkerOptions[] markers = new MarkerOptions[places.size()];
-        for (int i = 0; i < places.size(); i++) {
-            markers[i] = new MarkerOptions()
-                    .position(places.get(i));
-            googleMap.addMarker(markers[i]);
+        if(places.size() > 0) {
+            MarkerOptions[] markers = new MarkerOptions[places.size()];
+            for (int i = 0; i < places.size(); i++) {
+                markers[i] = new MarkerOptions()
+                        .position(places.get(i));
+                gMap.addMarker(markers[i]);
+            }
+
+            if(filename != null) {
+                File gpxFile = new File(filename);
+                List<Location> gpxList = decodeGPX(gpxFile);
+                if(gpxList != null) {
+                    LatLng currentLatLng = new LatLng(gpxList.get(0).getLatitude(), gpxList.get(0).getLongitude());
+                    CameraUpdate update = CameraUpdateFactory.newLatLngZoom(currentLatLng, DEFAULT_ZOOM);
+                    googleMap.moveCamera(update);
+                }
+            }
         }
-
-        GeoApiContext geoApiContext = new GeoApiContext.Builder()
-                .apiKey(mapsApiKey)
-                .build();
-
-        LatLngBounds.Builder latLngBuilder = new LatLngBounds.Builder();
-        LatLngBounds latLngBounds = latLngBuilder.build();
-        CameraUpdate track = CameraUpdateFactory.newLatLngBounds(latLngBounds, width, width, 25);
-        googleMap.moveCamera(track);
-
-        LatLng currentLatLng = new LatLng(55.754724, 37.621380);
-        CameraUpdate update = CameraUpdateFactory.newLatLngZoom(currentLatLng, DEFAULT_ZOOM);
-        googleMap.moveCamera(update);
-        */
         //---
     }
 
@@ -157,9 +174,6 @@ public class PhoneMainActivity extends AppCompatActivity implements OnMapReadyCa
             return;
         }
 
-        //File file = new File("/storage/emulated/0/Android/data/com.mendhak.gpslogger/files");
-        //list_files(file);
-
         String path = "/storage/emulated/0/Android/data/com.mendhak.gpslogger/files/20181011.gpx";
         File gpxFile = new File(path);
 
@@ -173,12 +187,12 @@ public class PhoneMainActivity extends AppCompatActivity implements OnMapReadyCa
         for (int i = 0; i < places.size(); i++) {
             markers[i] = new MarkerOptions()
                     .position(places.get(i));
-            mMap.addMarker(markers[i]);
+            gMap.addMarker(markers[i]);
         }
 
         LatLng currentLatLng = new LatLng(gpxList.get(0).getLatitude(), gpxList.get(0).getLongitude());
         CameraUpdate update = CameraUpdateFactory.newLatLngZoom(currentLatLng, DEFAULT_ZOOM);
-        mMap.moveCamera(update);
+        gMap.moveCamera(update);
     }
 
     private List<Location> decodeGPX(File file){
@@ -232,25 +246,5 @@ public class PhoneMainActivity extends AppCompatActivity implements OnMapReadyCa
 
     public void send_log(String text) {
         Log.i("States", text);
-    }
-
-    private void list_files(File path) {
-        if (path == null) {
-            send_log("path == null");
-            return;
-        }
-
-        File[] l_files = path.listFiles();
-        if (l_files == null) {
-            send_log("l_files == null");
-            return;
-        }
-        for (int n = 0; n < l_files.length; n++) {
-            if (l_files[n].isDirectory()) {
-                list_files(l_files[n]);
-            } else {
-                send_log("   file: " + l_files[n].getName() + " size: " + l_files[n].length());
-            }
-        }
     }
 }
