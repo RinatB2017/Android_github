@@ -130,6 +130,8 @@ public class PhoneMainActivity extends AppCompatActivity implements OnMapReadyCa
     public void onMapReady(GoogleMap googleMap) {
         gMap = googleMap;
 
+        send_log("type " + gMap.getMapType());
+
         gMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
         //gMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
         //gMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
