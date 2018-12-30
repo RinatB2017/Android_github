@@ -1,0 +1,4 @@
+#Sun Dec 30 14:57:40 MSK 2018
+base.0=C\:\\Users\\User\\Programming\\GitHub\\AndroidStudioProjects\\Bluetooth\\ADBTM\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
