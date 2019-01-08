@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="app_name">Mobile Tuts NFC Demo</string>
-    <string name="explanation">Attach NFC Tag to read the content.</string>
-
-</resources>

@@ -1,4 +1,0 @@
-#Wed Nov 14 00:32:07 MSK 2018
-base.0=/home/boss/Programming/_GitHub/Android_github/NFC/nfc-reader/app/build/intermediates/transforms/dexMerger/debug/10
-path.0=classes.dex
-renamed.0=classes.dex
