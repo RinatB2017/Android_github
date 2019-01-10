@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "outputFile": "C:\\Users\\User\\Programming\\GitHub\\Android_github\\NFC\\CardReader\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/res/values-v11/template-styles.xml",
+                    "source": "C:\\Users\\User\\Programming\\GitHub\\Android_github\\NFC\\CardReader\\Application\\src\\main\\res\\values-v11\\template-styles.xml",
                     "from": {
                         "startLines": "19",
                         "startColumns": "4",
