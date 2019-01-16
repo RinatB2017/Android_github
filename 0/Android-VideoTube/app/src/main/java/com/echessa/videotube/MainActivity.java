@@ -37,8 +37,11 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
         seekToButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int skipToSecs = Integer.valueOf(seekToText.getText().toString());
-                player.seekToMillis(skipToSecs * 1000);
+                String str = seekToText.getText().toString();
+                if(!str.isEmpty()) {
+                    int skipToSecs = Integer.valueOf(seekToText.getText().toString());
+                    player.seekToMillis(skipToSecs * 1000);
+                }
             }
         });
     }
@@ -50,7 +53,8 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
         player.setPlaybackEventListener(playbackEventListener);
 
         if (!wasRestored) {
-            player.cueVideo("fhWaJi1Hsfo"); // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
+            //player.cueVideo("fhWaJi1Hsfo"); // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
+            player.cueVideo("wdGDyZzIEfM");
         }
     }
 
