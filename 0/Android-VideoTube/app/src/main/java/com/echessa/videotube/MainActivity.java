@@ -39,7 +39,7 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
             public void onClick(View v) {
                 String str = seekToText.getText().toString();
                 if(!str.isEmpty()) {
-                    int skipToSecs = Integer.valueOf(seekToText.getText().toString());
+                    int skipToSecs = Integer.valueOf(str);
                     player.seekToMillis(skipToSecs * 1000);
                 }
             }
