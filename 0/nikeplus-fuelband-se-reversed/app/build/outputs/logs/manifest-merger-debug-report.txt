@@ -1,0 +1,167 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/71eaaa1a080f214efd4bb2d322fbe19c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/0122caa7323a3d0ee06312badc754e07/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8d01438da326f6e846f9503a8dbf1eee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/f0349760db9a0d3d24307f0582619819/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1a3e7698a8bf172e8dd86bda5c4f8c6b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/0739ce8ea63eaae53830deae065d4094/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1efcb1a035fb2db24d18dd3c19c57a30/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/1ce51549fb70aebd00ea90419ac3df9e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1eeb82d8494d1956289004289fd4d453/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/d6f0b4e318637847a14a7b3931abf7cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a405c651ebc053a1d87ffe08ca907941/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/7094432513149314009f1df3511ef31f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5236bb66baff7db4d2f67008620e8fea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/da03554443dbaa383e3a176bff3a1b73/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/20cd5d5cf12806a575c963a44c292207/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/650125a408ba0bcd0b9ceed69449eaed/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d67dc5d0af02043e31a1ffe51ee2c3b7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ddbf1c0ce48f7dcf9f9ca76adc82d1f6/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/948cfd151f0db0fa0668d3340a7b5947/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5d0cc15f1b0fed0abf7e5b64826928eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d60e323c78c4eb6f0e8e38b6d4401b73/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/98bf48bcc0044bce3c8b7cc346a69b0a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/1ad6b368caa4bc60520504e210cdbdb7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/371434048f98ba7410dad91f480e4a8d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/879000f6cbec97eb709d8102da9406e2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/556849b78aaaac8a1c19ec192cba694c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2fbed13d82b31c9841cd3f0b4515aad0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e79e124af9485ff4a2ea3d270c57bc96/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:4:5-38
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:3:5-63
+	android:versionCode
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:9:22-71
+uses-feature#android.hardware.bluetooth_le
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:10:5-91
+	android:required
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:10:65-88
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:10:19-63
+application
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:13:5-27:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d67dc5d0af02043e31a1ffe51ee2c3b7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d67dc5d0af02043e31a1ffe51ee2c3b7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ddbf1c0ce48f7dcf9f9ca76adc82d1f6/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ddbf1c0ce48f7dcf9f9ca76adc82d1f6/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d67dc5d0af02043e31a1ffe51ee2c3b7/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:15:9-45
+	android:allowBackup
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:17:9-40
+activity#com.evilsocket.blehacks.MainActivity
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:19:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml:24:27-74
+uses-sdk
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/71eaaa1a080f214efd4bb2d322fbe19c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/71eaaa1a080f214efd4bb2d322fbe19c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/0122caa7323a3d0ee06312badc754e07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/0122caa7323a3d0ee06312badc754e07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8d01438da326f6e846f9503a8dbf1eee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8d01438da326f6e846f9503a8dbf1eee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/f0349760db9a0d3d24307f0582619819/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/f0349760db9a0d3d24307f0582619819/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1a3e7698a8bf172e8dd86bda5c4f8c6b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1a3e7698a8bf172e8dd86bda5c4f8c6b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/0739ce8ea63eaae53830deae065d4094/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/0739ce8ea63eaae53830deae065d4094/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1efcb1a035fb2db24d18dd3c19c57a30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1efcb1a035fb2db24d18dd3c19c57a30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/1ce51549fb70aebd00ea90419ac3df9e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/1ce51549fb70aebd00ea90419ac3df9e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1eeb82d8494d1956289004289fd4d453/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1eeb82d8494d1956289004289fd4d453/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/d6f0b4e318637847a14a7b3931abf7cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/d6f0b4e318637847a14a7b3931abf7cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a405c651ebc053a1d87ffe08ca907941/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a405c651ebc053a1d87ffe08ca907941/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/7094432513149314009f1df3511ef31f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/7094432513149314009f1df3511ef31f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5236bb66baff7db4d2f67008620e8fea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5236bb66baff7db4d2f67008620e8fea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/da03554443dbaa383e3a176bff3a1b73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/da03554443dbaa383e3a176bff3a1b73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/20cd5d5cf12806a575c963a44c292207/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/20cd5d5cf12806a575c963a44c292207/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/650125a408ba0bcd0b9ceed69449eaed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/650125a408ba0bcd0b9ceed69449eaed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d67dc5d0af02043e31a1ffe51ee2c3b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d67dc5d0af02043e31a1ffe51ee2c3b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ddbf1c0ce48f7dcf9f9ca76adc82d1f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ddbf1c0ce48f7dcf9f9ca76adc82d1f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/948cfd151f0db0fa0668d3340a7b5947/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/948cfd151f0db0fa0668d3340a7b5947/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5d0cc15f1b0fed0abf7e5b64826928eb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5d0cc15f1b0fed0abf7e5b64826928eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d60e323c78c4eb6f0e8e38b6d4401b73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d60e323c78c4eb6f0e8e38b6d4401b73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/98bf48bcc0044bce3c8b7cc346a69b0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/98bf48bcc0044bce3c8b7cc346a69b0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/1ad6b368caa4bc60520504e210cdbdb7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/1ad6b368caa4bc60520504e210cdbdb7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/371434048f98ba7410dad91f480e4a8d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/371434048f98ba7410dad91f480e4a8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/879000f6cbec97eb709d8102da9406e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/879000f6cbec97eb709d8102da9406e2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/556849b78aaaac8a1c19ec192cba694c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/556849b78aaaac8a1c19ec192cba694c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2fbed13d82b31c9841cd3f0b4515aad0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2fbed13d82b31c9841cd3f0b4515aad0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e79e124af9485ff4a2ea3d270c57bc96/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e79e124af9485ff4a2ea3d270c57bc96/AndroidManifest.xml:20:5-44
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/nikeplus-fuelband-se-reversed/app/src/main/AndroidManifest.xml
