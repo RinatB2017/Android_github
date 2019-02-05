@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="armeabi-v7a,armeabi"
-    api-level="22"
+    api-level="23"
     build-mode="FULL"
-    density="hdpi"
+    density="xhdpi"
     format="10"
+    ir-eligibility="FIELD_ADDED"
     plugin-version="3.3.0"
-    timestamp="1549358737852"
+    timestamp="1549361395438"
     token="-8963035566784351538"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1089" />
+        duration="500" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="78" />
+        duration="32" />
     <task
         name="verifier"
-        duration="32" />
+        duration="16" />
 
     <artifact
         location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
         location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
         location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
+        location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
         location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
         location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -62,31 +63,32 @@
 
     <build
         build-mode="FULL"
-        timestamp="1549358737852"
-        verifier="FULL_BUILD_REQUESTED" >
+        ir-eligibility="FIELD_ADDED"
+        timestamp="1549361395438"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
+            location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
+            location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
