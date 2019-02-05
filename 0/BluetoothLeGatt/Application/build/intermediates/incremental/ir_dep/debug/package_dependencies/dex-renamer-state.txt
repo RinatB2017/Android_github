@@ -1,0 +1,4 @@
+#Tue Feb 05 12:25:47 MSK 2019
+base.0=/home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex

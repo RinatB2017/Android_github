@@ -1,0 +1,126 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-53:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-53:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-53:12
+MERGED from [com.android.support:support-v13:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/7372b33c5f9a8e38da381d454bd40460/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/f24f6636441032afdbd298086924290c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/e5fd3afb3021893867723c2e0cdd5fb1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0b728593399b5a43ebf88c30ac5b35c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/eaadbb5abdac89f0f71fe87e915778af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/09e8cc3fdab886f408ae84ad8a9123c3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1d7bd1b370e7ee221476d50a5ae28f6c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b859d38642495df49e4d2cb99704e5d4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/962fd8a946d741f6ff27dceae43d2c64/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/c2f3aa08517a60bbcfacf25e3fe6d516/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/4e94da17cca9a0bbcbaab2da83b15350/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1348bed43473de47e7742918c6807020/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/bf59bd194b8db393f24e8ad8ff10e232/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/boss/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/6bf4a4d70ab5253a32c191f8c130c122/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/327fb6df751ef89175c0a6c40318b275/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-53:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-53:12
+	package
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:22:5-50
+	android:versionName
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:24:5-30
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:21:5-63
+	android:versionCode
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:23:5-28
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+uses-feature#android.hardware.bluetooth_le
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:32:5-34:34
+	android:required
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:34:9-32
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:33:9-53
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:36:5-67
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:36:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:37:5-73
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:37:22-71
+application
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:39:5-51:19
+	android:label
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:39:18-50
+	android:icon
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:40:9-45
+	android:theme
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:41:9-56
+activity#com.example.android.bluetoothlegatt.DeviceScanActivity
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:42:9-48:20
+	android:label
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:43:13-45
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:42:19-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:44:13-47:29
+action#android.intent.action.MAIN
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:45:17-68
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:46:17-76
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:46:27-74
+activity#com.example.android.bluetoothlegatt.DeviceControlActivity
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:49:9-58
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:49:19-56
+service#com.example.android.bluetoothlegatt.BluetoothLeService
+ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:50:9-77
+	android:enabled
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:50:53-75
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml:50:18-52
+uses-sdk
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/7372b33c5f9a8e38da381d454bd40460/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-v13-27.1.1.aar/7372b33c5f9a8e38da381d454bd40460/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/f24f6636441032afdbd298086924290c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/f24f6636441032afdbd298086924290c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/e5fd3afb3021893867723c2e0cdd5fb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/e5fd3afb3021893867723c2e0cdd5fb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0b728593399b5a43ebf88c30ac5b35c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0b728593399b5a43ebf88c30ac5b35c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/eaadbb5abdac89f0f71fe87e915778af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/eaadbb5abdac89f0f71fe87e915778af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/09e8cc3fdab886f408ae84ad8a9123c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/09e8cc3fdab886f408ae84ad8a9123c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1d7bd1b370e7ee221476d50a5ae28f6c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1d7bd1b370e7ee221476d50a5ae28f6c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b859d38642495df49e4d2cb99704e5d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b859d38642495df49e4d2cb99704e5d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/962fd8a946d741f6ff27dceae43d2c64/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/962fd8a946d741f6ff27dceae43d2c64/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/c2f3aa08517a60bbcfacf25e3fe6d516/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/c2f3aa08517a60bbcfacf25e3fe6d516/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/4e94da17cca9a0bbcbaab2da83b15350/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/4e94da17cca9a0bbcbaab2da83b15350/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1348bed43473de47e7742918c6807020/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1348bed43473de47e7742918c6807020/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/bf59bd194b8db393f24e8ad8ff10e232/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/bf59bd194b8db393f24e8ad8ff10e232/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/boss/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/6bf4a4d70ab5253a32c191f8c130c122/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/boss/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/6bf4a4d70ab5253a32c191f8c130c122/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/327fb6df751ef89175c0a6c40318b275/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/327fb6df751ef89175c0a6c40318b275/AndroidManifest.xml:20:5-44
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/0/BluetoothLeGatt/Application/src/main/AndroidManifest.xml
