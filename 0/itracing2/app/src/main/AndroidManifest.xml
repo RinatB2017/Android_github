@@ -19,16 +19,20 @@
         android:icon="@drawable/ic_launcher"
         android:supportsRtl="true"
                  android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
-        <activity android:name=".devices.DevicesActivity">
+        <activity
+            android:name=".devices.DevicesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".dashboard.DashboardActivity"
-                  android:parentActivityName=".devices.DevicesActivity"/>
-        <activity android:name=".preferences.PreferencesActivity" android:label="@string/preferences"
-                  android:parentActivityName=".devices.DevicesActivity"/>
+        <activity
+            android:name=".dashboard.DashboardActivity"
+            android:parentActivityName=".devices.DevicesActivity"/>
+        <activity
+            android:name=".preferences.PreferencesActivity"
+            android:label="@string/preferences"
+            android:parentActivityName=".devices.DevicesActivity"/>
         <service android:name=".BluetoothLEService"/>
         <receiver android:name=".receivers.LinkBackground">
             <intent-filter>
