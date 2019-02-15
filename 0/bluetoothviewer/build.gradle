@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.1'
+    }
+}
+
+// create gradle.properties with content
+//systemProp.sonar.host.url=https://sonarcloud.io
+//systemProp.sonar.login=get-token-from-sonarcloud
+// run ./gradlew sonarqube
+plugins {
+    id "org.sonarqube" version "2.6"
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
+ext {
+    compileSdkVersion = 19
+    storeFilePath = System.getenv('STORE_FILE')
+    storePassword = System.getenv('STORE_PASSWORD')
+    keyAlias = System.getenv('KEY_ALIAS')
+    keyPassword = System.getenv('KEY_PASSWORD')
+}
