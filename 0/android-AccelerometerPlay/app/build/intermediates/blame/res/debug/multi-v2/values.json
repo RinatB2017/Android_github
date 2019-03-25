@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/boss/Programming/_GitHub/Android_github/0/android-AccelerometerPlay/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/boss/Programming/_GitHub/Android_github/0/android-AccelerometerPlay/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endColumns": "54",
+                        "endOffsets": "737"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

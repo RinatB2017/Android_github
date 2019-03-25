@@ -1,0 +1,4 @@
+#Tue Mar 26 01:30:04 MSK 2019
+base.0=/home/boss/Programming/_GitHub/Android_github/0/android-AccelerometerPlay/app/build/intermediates/transforms/dexMerger/debug/7
+path.0=classes.dex
+renamed.0=classes.dex

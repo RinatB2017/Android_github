@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Mar 26 00:53:13 MSK 2019
+0.baseType=DIRECTORY
+0.base=/home/boss/Programming/_GitHub/Android_github/0/android-AccelerometerPlay/app/build/intermediates/dex/release/mergeDexRelease/out
+0.path=classes.dex
+0.set=DEX
+count=1
