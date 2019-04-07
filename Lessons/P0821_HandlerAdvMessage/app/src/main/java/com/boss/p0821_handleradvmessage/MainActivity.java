@@ -16,12 +16,12 @@ public class MainActivity extends Activity {
 
     final String LOG_TAG = "myLogs";
 
-    final int STATUS_NONE = 0; // нет подключения
-    final int STATUS_CONNECTING = 1; // подключаемся
-    final int STATUS_CONNECTED = 2; // подключено
-    final int STATUS_DOWNLOAD_START = 3; // загрузка началась
+    final int STATUS_NONE = 0;          // нет подключения
+    final int STATUS_CONNECTING = 1;    // подключаемся
+    final int STATUS_CONNECTED = 2;     // подключено
+    final int STATUS_DOWNLOAD_START = 3;// загрузка началась
     final int STATUS_DOWNLOAD_FILE = 4; // файл загружен
-    final int STATUS_DOWNLOAD_END = 5; // загрузка закончена
+    final int STATUS_DOWNLOAD_END = 5;  // загрузка закончена
     final int STATUS_DOWNLOAD_NONE = 6; // нет файлов для загрузки
 
     Handler h;
@@ -47,27 +47,33 @@ public class MainActivity extends Activity {
                         tvStatus.setText("Not connected");
                         pbDownload.setVisibility(View.GONE);
                         break;
+
                     case STATUS_CONNECTING:
                         btnConnect.setEnabled(false);
                         tvStatus.setText("Connecting");
                         break;
+
                     case STATUS_CONNECTED:
                         tvStatus.setText("Connected");
                         break;
+
                     case STATUS_DOWNLOAD_START:
                         tvStatus.setText("Start download " + msg.arg1 + " files");
                         pbDownload.setMax(msg.arg1);
                         pbDownload.setProgress(0);
                         pbDownload.setVisibility(View.VISIBLE);
                         break;
+
                     case STATUS_DOWNLOAD_FILE:
                         tvStatus.setText("Downloading. Left " + msg.arg2 + " files");
                         pbDownload.setProgress(msg.arg1);
                         saveFile((byte[]) msg.obj);
                         break;
+
                     case STATUS_DOWNLOAD_END:
                         tvStatus.setText("Download complete!");
                         break;
+
                     case STATUS_DOWNLOAD_NONE:
                         tvStatus.setText("No files for download");
                         break;
@@ -78,7 +84,6 @@ public class MainActivity extends Activity {
     }
 
     public void onclick(View v) {
-
         Thread t = new Thread(new Runnable() {
             Message msg;
             byte[] file;
