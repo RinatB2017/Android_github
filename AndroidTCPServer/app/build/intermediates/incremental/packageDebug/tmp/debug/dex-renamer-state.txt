@@ -1,0 +1,4 @@
+#Mon Apr 08 13:33:04 MSK 2019
+base.0=/home/boss/Programming/_GitHub/Android_github/AndroidTCPServer/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

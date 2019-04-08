@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/boss/Programming/_GitHub/Android_github/AndroidTCPClient/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
+            "map": [
+                {
+                    "source": "/home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/79eacaae23cc9f99f72b04c5c6a915a2/res/values-sw/values-sw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
