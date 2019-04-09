@@ -1,734 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0eb9f5e-45f3-4070-8fdd-075aa874398b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/java/com/lycha/example/augmentedreality/AugmentedPOI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/java/com/lycha/example/augmentedreality/CameraViewActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/java/com/lycha/example/augmentedreality/MyCurrentAzimuth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/java/com/lycha/example/augmentedreality/MyCurrentLocation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/java/com/lycha/example/augmentedreality/OnAzimuthChangedListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/java/com/lycha/example/augmentedreality/OnLocationChangedListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/res/drawable-hdpi/arrow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/res/drawable-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/res/drawable-ldpi/arrow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/res/drawable-ldpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/res/drawable-mdpi/arrow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/res/drawable-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/res/drawable-xhdpi/arrow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/res/layout/activity_camera_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/res/menu/activity_camera_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/res/values/arrays.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/import-summary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AR/augmented-reality-example/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/cardview_v7_23_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/library_1_0_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lombok_1_16_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="a6d9daf0-3b4c-4a60-b200-de5963154f59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_23_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_23_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_23_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_23_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_23_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_23_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_23_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_23_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_23_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_23_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_23_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_23_4_0_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PigeonMessanger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PigeonMessanger.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/.gradle/3.3/taskArtifacts/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/amulet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/arcs1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/arcs2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/avatars.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/badges.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/banners.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/bat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/bee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/blacksmith.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/brute.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/buffs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/burning_fist.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/chrome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/crab.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/dashboard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/demon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/dm300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/effects.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/elemental.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/exp_bar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/eye.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/fireball.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/font15x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/font1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/font25x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/font2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/font3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/game.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/ghost.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/gnoll.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/golem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/goo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/hp_bar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/king.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/large_buffs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/larva.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/locked_badge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/mage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/mimic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/monk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/pet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/piranha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/plants.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/ranger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/rat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/ratking.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/rogue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/rotting_fist.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/scorpio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/shaman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/sheep.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/shopkeeper.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/skeleton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_alert.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_badge.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_beacon.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_bee.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_blast.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_bones.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_boss.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_burning.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_challenge.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_charms.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_click.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_cursed.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_death.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_degrade.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_descend.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_dewdrop.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_door_open.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_drink.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_eat.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_evoke.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_falling.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_ghost.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_gold.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_hit.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_item.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_levelup.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_lightning.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_lullaby.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_mastery.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_meld.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_mimic.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_miss.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_plant.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_puff.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_ray.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_read.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_rocks.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_secret.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_shatter.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_step.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_teleport.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_tomb.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_trap.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_unlock.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_water.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/snd_zap.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/specks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/spell_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/spinner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/statue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/status_pane.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/succubus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/surface.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/surface.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/swarm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/tengu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/theme.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/thief.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/tiles0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/tiles1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/tiles2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/tiles3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/tiles4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/toolbar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/undead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/wandmaker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/warlock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/warrior.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/water0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/water1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/water2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/water3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/water4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/wraith.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/assets/yog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/Assets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/Badges.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/Bones.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/Challenges.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/Chrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/Dungeon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/DungeonTilemap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/FogOfWar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/GamesInProgress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/Journal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/PixelDungeon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/Preferences.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/Rankings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ResultDescriptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/Statistics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/Actor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/Char.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/blobs/Alchemy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/blobs/Blob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/blobs/ConfusionGas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/blobs/Fire.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/blobs/Foliage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/blobs/Freezing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/blobs/ParalyticGas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/blobs/Regrowth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/blobs/SacrificialFire.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/blobs/ToxicGas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/blobs/WaterOfAwareness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/blobs/WaterOfHealth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/blobs/WaterOfTransmutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/blobs/Web.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/blobs/WellWater.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Amok.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Awareness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Barkskin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Bleeding.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Blindness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Buff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Burning.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Charm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Combo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Cripple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/FlavourBuff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Frost.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Fury.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/GasesImmunity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Hunger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Invisibility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Levitation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Light.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/MindVision.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Ooze.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Paralysis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Poison.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Rage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Regeneration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Roots.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Shadows.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Sleep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Slow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/SnipersMark.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Speed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Terror.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Vertigo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/buffs/Weakness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/hero/Belongings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/hero/Hero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/hero/HeroAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/hero/HeroClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Acidic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Albino.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Bandit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Bat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Bestiary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Brute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Crab.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/CursePersonification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/DM300.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Elemental.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Eye.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/FetidRat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Gnoll.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Golem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Goo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/King.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Mimic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Mob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Monk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Piranha.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Rat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Scorpio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Senior.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Shaman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Shielded.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Skeleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Spinner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Statue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Succubus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Swarm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Tengu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Thief.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Warlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Wraith.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/Yog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/npcs/Bee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/npcs/ImpShopkeeper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/npcs/MirrorImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/npcs/NPC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/npcs/RatKing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/npcs/Shopkeeper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/BadgeBanner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/BannerSprites.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/BlobEmitter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/CellEmitter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/CheckedCell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/DeathRay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/Degradation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/Effects.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/EmoIcon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/Enchanting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/Fireball.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/Flare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/FloatingText.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/Halo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/IceBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/Identification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/Lightning.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/MagicMissile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/Pushing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/Ripple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/ShadowBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/Speck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/SpellSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/Splash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/Swap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/TorchHalo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/Wound.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/BlastParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/BloodParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/EarthParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/ElmoParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/EnergyParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/FlameParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/FlowParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/LeafParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/PoisonParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/PurpleParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/SacrificialParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/ShadowParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/ShaftParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/SmokeParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/SnowParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/SparkParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/WebParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/WindParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/effects/particles/WoolParticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/Amulet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/Ankh.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/ArmorKit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/Bomb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/DewVial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/Dewdrop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/EquipableItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/Generator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/Gold.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/Heap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/Honeypot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/ItemStatusHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/KindOfWeapon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/LloydsBeacon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/TomeOfMastery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/Torch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/Weightstone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/Armor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/ClassArmor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/ClothArmor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/HuntressArmor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/LeatherArmor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/MageArmor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/MailArmor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/PlateArmor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/RogueArmor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/ScaleArmor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/WarriorArmor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/glyphs/Affection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/glyphs/AntiEntropy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/glyphs/AutoRepair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/glyphs/Bounce.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/glyphs/Displacement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/glyphs/Entanglement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/glyphs/Metabolism.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/glyphs/Multiplicity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/glyphs/Potential.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/glyphs/Stench.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/armor/glyphs/Viscosity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/bags/Bag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/bags/Keyring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/bags/ScrollHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/bags/SeedPouch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/bags/WandHolster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/food/ChargrilledMeat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/food/Food.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/food/FrozenCarpaccio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/food/MysteryMeat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/food/OverpricedRation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/food/Pasty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/keys/GoldenKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/keys/IronKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/keys/Key.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/keys/SkeletonKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/potions/Potion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/potions/PotionOfExperience.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/potions/PotionOfFrost.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/potions/PotionOfHealing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/potions/PotionOfInvisibility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/potions/PotionOfLevitation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/potions/PotionOfLiquidFlame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/potions/PotionOfMight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/potions/PotionOfMindVision.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/potions/PotionOfParalyticGas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/potions/PotionOfPurity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/potions/PotionOfStrength.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/potions/PotionOfToxicGas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/quest/CorpseDust.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/quest/DarkGold.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/quest/DriedRose.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/quest/DwarfToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/quest/PhantomFish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/quest/Pickaxe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/quest/RatSkull.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/rings/Ring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/rings/RingOfAccuracy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/rings/RingOfDetection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/rings/RingOfElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/rings/RingOfEvasion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/rings/RingOfHaggler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/rings/RingOfHaste.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/rings/RingOfHerbalism.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/rings/RingOfMending.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/rings/RingOfPower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/rings/RingOfSatiety.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/rings/RingOfShadows.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/rings/RingOfThorns.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/scrolls/InventoryScroll.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/scrolls/Scroll.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/scrolls/ScrollOfChallenge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/scrolls/ScrollOfEnchantment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/scrolls/ScrollOfIdentify.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/scrolls/ScrollOfLullaby.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/scrolls/ScrollOfMagicMapping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/scrolls/ScrollOfMirrorImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/scrolls/ScrollOfPsionicBlast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/scrolls/ScrollOfRecharging.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/scrolls/ScrollOfRemoveCurse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/scrolls/ScrollOfTeleportation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/scrolls/ScrollOfTerror.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/scrolls/ScrollOfUpgrade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/scrolls/ScrollOfWipeOut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/wands/Wand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/wands/WandOfAmok.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/wands/WandOfAvalanche.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/wands/WandOfBlink.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/wands/WandOfDisintegration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/wands/WandOfFirebolt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/wands/WandOfFlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/wands/WandOfLightning.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/wands/WandOfMagicMissile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/wands/WandOfPoison.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/wands/WandOfReach.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/wands/WandOfRegrowth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/wands/WandOfSlowness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/wands/WandOfTeleportation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/Weapon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/enchantments/Death.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/enchantments/Fire.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/enchantments/Horror.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/enchantments/Instability.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/enchantments/Leech.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/enchantments/Luck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/enchantments/Paralysis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/enchantments/Poison.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/enchantments/Shock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/enchantments/Slow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/enchantments/Tempering.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/melee/BattleAxe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/melee/Dagger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/melee/Glaive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/melee/Knuckles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/melee/Longsword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/melee/Mace.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/melee/MeleeWeapon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/melee/Quarterstaff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/melee/ShortSword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/melee/Spear.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/melee/Sword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/melee/WarHammer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/missiles/Boomerang.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/missiles/CurareDart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/missiles/Dart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/missiles/IncendiaryDart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/missiles/Javelin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/missiles/MissileWeapon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/missiles/Shuriken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/items/weapon/missiles/Tamahawk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/CavesBossLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/CavesLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/CityBossLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/CityLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/DeadEndLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/HallsBossLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/HallsLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/LastLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/LastShopLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/Level.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/Patch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/PrisonBossLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/PrisonLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/RegularLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/SewerBossLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/SewerLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/Terrain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/features/AlchemyPot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/features/Chasm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/features/Door.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/features/HighGrass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/features/Sign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/AltarPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/ArmoryPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/BlacksmithPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/BossExitPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/CryptPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/EntrancePainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/ExitPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/GardenPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/LaboratoryPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/LibraryPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/MagicWellPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/Painter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/PassagePainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/PitPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/PoolPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/RatKingPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/ShopPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/StandardPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/StatuePainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/StoragePainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/TrapsPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/TreasuryPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/TunnelPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/VaultPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/painters/WeakFloorPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/traps/AlarmTrap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/traps/FireTrap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/traps/GrippingTrap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/traps/LightningTrap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/traps/ParalyticTrap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/traps/PoisonTrap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/traps/SummoningTrap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/levels/traps/ToxicTrap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/mechanics/Ballistica.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/mechanics/ShadowCaster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/plants/Dreamweed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/plants/Earthroot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/plants/Fadeleaf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/plants/Firebloom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/plants/Icecap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/plants/Plant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/plants/Rotberry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/plants/Sorrowmoss.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/plants/Sungrass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/scenes/AboutScene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/scenes/AmuletScene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/scenes/BadgesScene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/scenes/CellSelector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/scenes/GameScene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/scenes/InterlevelScene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/scenes/IntroScene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/scenes/PixelScene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/scenes/RankingsScene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/scenes/StartScene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/scenes/SurfaceScene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/scenes/TitleScene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/AcidicSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/AlbinoSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/BanditSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/BatSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/BeeSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/BlacksmithSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/BruteSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/BurningFistSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/CharSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/CrabSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/CursePersonificationSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/DM300Sprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/DiscardedItemSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/ElementalSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/EyeSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/FetidRatSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/GhostSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/GnollSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/GolemSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/GooSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/HeroSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/ImpSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/ItemSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/ItemSpriteSheet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/KingSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/LarvaSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/MimicSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/MirrorSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/MissileSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/MobSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/MonkSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/PiranhaSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/PlantSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/RatKingSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/RatSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/RottingFistSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/ScorpioSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/SeniorSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/ShamanSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/SheepSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/ShieldedSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/ShopkeeperSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/SkeletonSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/SpinnerSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/StatueSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/SuccubusSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/SwarmSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/TenguSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/ThiefSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/UndeadSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/WandmakerSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/WarlockSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/WraithSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/sprites/YogSprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/Archs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/AttackIndicator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/BadgesList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/Banner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/BuffIndicator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/BusyIndicator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/CheckBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/Compass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/DangerIndicator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/ExitButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/GameLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/GoldIndicator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/HealthBar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/HealthIndicator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/HighlightedText.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/Icons.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/ItemSlot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/LootIndicator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/PrefsButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/QuickSlot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/RedButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/ResumeButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/ScrollPane.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/SimpleButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/StatusPane.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/Tag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/Toast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/Toolbar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/ui/Window.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/utils/BArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/utils/GLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/utils/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/IconTitle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndBadge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndBag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndBlacksmith.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndCatalogus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndChallenges.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndChooseWay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndHero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndInfoCell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndInfoItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndInfoMob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndInfoPlant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndJournal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndOptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndQuest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndRanking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndResurrect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndSadGhost.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndSettings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndStory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndTabbed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndTitledMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndTradeItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/java/com/watabou/pixeldungeon/windows/WndWandmaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/res/drawable-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/res/drawable-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/res/drawable-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/import-summary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/local.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/pixel-dungeon.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRT/pixel-dungeon/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_AR/AndroidMarkerARDemo/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_AR/AndroidMarkerARDemo/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_AR/AndroidMarkerARDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_AR/AndroidMarkerARDemo/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_AR/AndroidMarkerARDemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../_AR/AndroidMarkerARDemo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_AR/AndroidMarkerARDemo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../_AR/AndroidMarkerARDemo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_AR/SampleAR-Markers-/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../_AR/SampleAR-Markers-/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_AR/SampleAR-Markers-/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_AR/SampleAR-Markers-/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_AR/SampleAR-Markers-/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../_AR/SampleAR-Markers-/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_AR/SampleAR-Markers-/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../_AR/SampleAR-Markers-/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_NeuroSky_SDK/neurosky-android-sdk/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../_NeuroSky_SDK/neurosky-android-sdk/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_NeuroSky_SDK/neurosky-android-sdk/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_NeuroSky_SDK/neurosky-android-sdk/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_NeuroSky_SDK/neurosky-android-sdk/app-java/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../_NeuroSky_SDK/neurosky-android-sdk/app-java/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_NeuroSky_SDK/neurosky-android-sdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../_NeuroSky_SDK/neurosky-android-sdk/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_NeuroSky_SDK/neurosky-android-sdk/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../_NeuroSky_SDK/neurosky-android-sdk/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -757,28 +57,46 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="4" />
+          <entry key="gradle" value="3" />
+          <entry key="java" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="4" />
+          <entry key="Groovy" value="3" />
+          <entry key="JAVA" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="3" />
+          <entry key="gradle" value="2" />
+          <entry key="java" value="10" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="3" />
+          <entry key="Groovy" value="2" />
+          <entry key="JAVA" value="10" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -786,27 +104,33 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/it/polimi/deib/p2pchat/discovery/MainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="444" />
-    <option name="width" value="1846" />
+    <option name="x" value="820" />
+    <option name="width" value="1472" />
     <option name="height" value="1031" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
+            <path>
+              <item name="PigeonMessanger" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
             <path>
               <item name="PigeonMessanger" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
@@ -815,15 +139,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="/opt/android-sdk-update-manager" />
+    <property name="device.picker.selection" value="Nexus_5X_API_28" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunDashboard">
@@ -1008,18 +331,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b0eb9f5e-45f3-4070-8fdd-075aa874398b" name="Default Changelist" comment="" />
-      <created>1554717744577</created>
+      <changelist id="a6d9daf0-3b4c-4a60-b200-de5963154f59" name="Default Changelist" comment="" />
+      <created>1554847466544</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1554717744577</updated>
+      <updated>1554847466544</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="444" y="0" width="1846" height="1031" extended-state="0" />
+    <frame x="820" y="0" width="1472" height="1031" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32960895" />
+      <window_info content_ui="combo" id="Project" visible="true" weight="0.2605932" />
       <window_info id="Structure" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
@@ -1027,35 +351,53 @@
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" />
       <window_info anchor="bottom" id="Logcat" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.32949308" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32949308" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Preview" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/it/polimi/deib/p2pchat/discovery/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="18">
+          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="385">
+          <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -1064,7 +406,7 @@
     <states>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>Android API 15 Platform</last-edited>
+          <last-edited>Android API 8 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
