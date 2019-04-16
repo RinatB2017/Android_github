@@ -7,6 +7,8 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Matrix;
 import android.graphics.Paint;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 
@@ -28,6 +30,9 @@ public class MainActivity extends Activity {
         public DrawView(Context context) {
             super(context);
             paint = new Paint(Paint.ANTI_ALIAS_FLAG);
+
+//            Drawable d = getResources().getDrawable(R.mipmap.ic_launcher);
+//            bitmapSource = ((BitmapDrawable)d).getBitmap();
 
             bitmapSource = BitmapFactory.decodeResource(getResources(), R.drawable.icon);
 
