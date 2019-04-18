@@ -1,0 +1,7 @@
+#Sat Nov 17 01:45:11 MSK 2018
+base.0=/home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/RGraphDemo/build/intermediates/transforms/dexMerger/debug/0
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/boss/Programming/_GitHub/Android_github/Android-Cookbook-Examples/RGraphDemo/build/intermediates/transforms/dexMerger/debug/1
