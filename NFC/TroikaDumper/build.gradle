@@ -9,7 +9,7 @@ buildscript{
     }
 
     dependencies{
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.android.tools.build:gradle:3.4.1'
     }
 }
 
@@ -18,6 +18,12 @@ apply plugin: 'com.android.application'
 apply plugin: "idea"
 
 android {
+    signingConfigs {
+        debug {
+            storePassword 'q12345'
+            keyPassword 'q12345'
+        }
+    }
     compileSdkVersion 28
     lintOptions {
         abortOnError false
