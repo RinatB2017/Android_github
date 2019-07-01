@@ -5,6 +5,12 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
+    signingConfigs {
+        debug {
+            storePassword 'q12345'
+            keyPassword 'q12345'
+        }
+    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.mhamdaoui.hostcardemulator"

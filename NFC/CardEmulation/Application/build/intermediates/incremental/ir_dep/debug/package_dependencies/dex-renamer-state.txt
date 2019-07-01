@@ -1,0 +1,4 @@
+#Tue Jul 02 01:35:30 MSK 2019
+base.0=/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex
