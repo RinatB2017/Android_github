@@ -1,15 +1,21 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        debug {
+            storePassword 'q12345'
+            keyPassword 'q12345'
+        }
+    }
     compileSdkVersion 28
-    //buildToolsVersion "22.0.1"
 
     defaultConfig {
         applicationId "me.aflak.bluetoothterminal"
-        minSdkVersion 21
+        minSdkVersion 22
         targetSdkVersion 28
         versionCode 12
         versionName "3.5"
+        signingConfig signingConfigs.debug
     }
     buildTypes {
         release {
