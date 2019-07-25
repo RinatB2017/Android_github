@@ -1,4 +1,4 @@
-#Thu Jul 25 14:27:06 MSK 2019
+#Thu Jul 25 15:18:21 MSK 2019
 base.0=/home/boss/Programming/_GitHub/Android_github/android-BluetoothChat/Application/build/intermediates/transforms/dexMerger/debug/6
 path.0=classes.dex
 renamed.0=classes.dex
