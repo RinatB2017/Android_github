@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        debug {
+            storePassword 'q12345'
+            keyPassword 'q12345'
+        }
+    }
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 28
+        signingConfig signingConfigs.debug
+    }
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ["../MediaStreamTest/src"]
+        }
+	manifest{ 
+            srcFile '../MediaStreamTest/AndroidManifest.xml'
+        }
+        res {
+            srcDir '../MediaStreamTest/res'
+        }
+        assets {
+            srcDir '../MediaStreamTest/assets'
+        }
+    }
+}
+
+}
+
+dependencies {
+    implementation 'com.vxg.mediasdk:encodersdk:2.0.68'
+}
+
+

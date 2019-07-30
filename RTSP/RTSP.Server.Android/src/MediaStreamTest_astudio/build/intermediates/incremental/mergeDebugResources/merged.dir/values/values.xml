@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="IMGQualityArray">
+        <item>Low (40)</item>
+        <item>Medium (70)</item>
+        <item>High (100)</item>
+    </string-array>
+    <string-array name="IMGQualityValues">
+        <item>40</item>
+        <item>70</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="audioBitrateArray">
+        <item>320 kbps</item>
+        <item>256 kbps</item>
+        <item>192 kbps</item>
+        <item>128 kbps</item>
+        <item>96 kbps</item>
+        <item>64 kbps</item>
+        <item>40 kbps</item>
+     </string-array>
+    <string-array name="audioBitrateValues">
+        <item>320</item>
+        <item>256</item>
+        <item>192</item>
+        <item>128</item>
+        <item>96</item>
+        <item>64</item>
+        <item>40</item>
+     </string-array>
+    <string-array name="audioChannelArray">
+    	<item>Stereo (2)</item>
+    	<item>Mono (1)</item>
+     </string-array>
+    <string-array name="audioChannelValues">
+         <item>2</item>
+         <item>1</item>
+     </string-array>
+    <string-array name="audioSamplingArray">
+        <item>48 kHz</item>
+        <item>44.1 kHz</item>
+        <item>32 kHz</item>
+        <item>16 kHz</item>
+     </string-array>
+    <string-array name="audioSamplingValues">
+        <item>48000</item>
+        <item>44100</item>
+        <item>32000</item>
+        <item>16000</item>
+     </string-array>
+    <string-array name="serverTypeArray">
+        <item>Publish RTMP</item>
+        <item>RTSP </item>
+    </string-array>
+    <string-array name="serverTypeValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="videoBitrateModeArray">
+        <item>ABR</item>
+        <item>VBR</item>
+        <item>CBR</item>
+        <item>CQ</item>
+    </string-array>
+    <string-array name="videoBitrateModeValues">
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="videoHRVBitrateArray">
+        <item>30000 kbps</item>
+        <item>20000 kbps</item>
+        <item>10000 kbps</item>
+        <item>5000 kbps</item>
+        <item>3000 kbps</item>
+        <item>1000 kbps</item>
+        <item>700 kbps</item>
+        <item>500 kbps</item>
+        <item>375 kbps</item>
+    </string-array>
+    <string-array name="videoHRVBitrateValues">
+        <item>30000</item>
+        <item>20000</item>
+        <item>10000</item>
+        <item>5000</item>
+        <item>3000</item>
+        <item>1000</item>
+        <item>700</item>
+        <item>500</item>
+        <item>375</item>
+    </string-array>
+    <string-array name="videoLRVBitrateArray">
+        <item>5000 kbps</item>
+        <item>3000 kbps</item>
+        <item>1000 kbps</item>
+        <item>700 kbps</item>
+        <item>500 kbps</item>
+        <item>375 kbps</item>
+    </string-array>
+    <string-array name="videoLRVBitrateValues">
+        <item>5000</item>
+        <item>3000</item>
+        <item>1000</item>
+        <item>700</item>
+        <item>500</item>
+        <item>375</item>
+    </string-array>
+    <string-array name="videoResArray">
+        <item>3840x2160</item>
+        <item>1920x1080</item>
+        <item>1280x720</item>
+        <item>720x576</item>
+        <item>720x480</item>
+        <item>640x480</item>
+        <item>352x280</item>
+        <item>320x240</item>
+        <item>176x144</item>
+        </string-array>
+    <string-array name="videoResValues">
+        <item>3840</item>
+        <item>1920</item>
+        <item>1280</item>
+        <item>721</item>
+        <item>720</item>
+        <item>640</item>
+        <item>352</item>
+        <item>320</item>
+        <item>176</item>
+    </string-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="app_name">Media Streamer (Demo)</string>
+    <string name="app_short_name">Media Streamer (Demo)</string>
+    <string name="item_thumb">item_thumb</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_settings">Settings</string>
+    <string name="settingsCommon">Defaults</string>
+    <string name="settingsCommon_record_summary"/>
+    <string name="settingsCommon_record_title">reset record parameters</string>
+    <string name="settingsCommon_server_summary"/>
+    <string name="settingsCommon_server_title">reset server parameters</string>
+    <string name="settingsCommon_set_summary">reset to default settings</string>
+    <string name="settingsCommon_set_title">reset to defaults</string>
+    <string name="settingsCommon_storage_summary"/>
+    <string name="settingsCommon_storage_title">reset storage parameters</string>
+    <string name="settingsCommon_streaming_summary"/>
+    <string name="settingsCommon_streaming_title">reset streaming parameters</string>
+    <string name="settingsGeneral">General</string>
+    <string name="settingsRecord">Streaming settings</string>
+    <string name="settingsRecord_HRVbitrate_summary">""</string>
+    <string name="settingsRecord_HRVbitrate_title">Video bitrate (kbps)</string>
+    <string name="settingsRecord_IMGquality_summary">""</string>
+    <string name="settingsRecord_IMGquality_title">img quality (0 to 100)</string>
+    <string name="settingsRecord_LRVDuration_summary">""</string>
+    <string name="settingsRecord_LRVDuration_title">chunk duration (seconds) min 10, max 1200</string>
+    <string name="settingsRecord_LRVbitrate_summary">""</string>
+    <string name="settingsRecord_LRVbitrate_title">Video bitrate (kbps)</string>
+    <string name="settingsRecord_audioBitrate_summary">""</string>
+    <string name="settingsRecord_audioBitrate_title">audio bitrate (kbps)</string>
+    <string name="settingsRecord_audioChannel_summary">""</string>
+    <string name="settingsRecord_audioChannel_title">audio channels (stereo/mono)</string>
+    <string name="settingsRecord_audioEnable_summary">""</string>
+    <string name="settingsRecord_audioEnable_title">"enable audio"</string>
+    <string name="settingsRecord_audioSampling_summary">""</string>
+    <string name="settingsRecord_audioSampling_title">audio sampling rate (kHz)</string>
+    <string name="settingsRecord_enable_summary">"RTMP mode only"</string>
+    <string name="settingsRecord_enable_title">Record (mp4)</string>
+    <string name="settingsRecord_secvideo_enable_summary">RTSP mode only</string>
+    <string name="settingsRecord_secvideo_enable_title">"Secondary Video (/ch1)"</string>
+    <string name="settingsRecord_videoRes_summary">""</string>
+    <string name="settingsRecord_videoRes_title">Video resolution</string>
+    <string name="settingsRecord_video_bitrate_mode_summary">""</string>
+    <string name="settingsRecord_video_bitrate_mode_title">Video bitrate mode</string>
+    <string name="settingsServer">Server settings</string>
+    <string name="settingsServer_connect_timeout_summary">""</string>
+    <string name="settingsServer_connect_timeout_title">connect timeout (seconds)</string>
+    <string name="settingsServer_done">Done</string>
+    <string name="settingsServer_enable_upload_summary">""</string>
+    <string name="settingsServer_enable_upload_title">enable upload</string>
+    <string name="settingsServer_login_summary">login</string>
+    <string name="settingsServer_login_title">login</string>
+    <string name="settingsServer_password_show">show password</string>
+    <string name="settingsServer_password_summary"/>
+    <string name="settingsServer_password_title">password</string>
+    <string name="settingsServer_remove_files_summary">""</string>
+    <string name="settingsServer_remove_files_title">remove files after upload</string>
+    <string name="settingsServer_urlapi_summary">upload api URL</string>
+    <string name="settingsServer_urlapi_title">upload api URL</string>
+    <string name="settingsServer_urlauth_summary">auth server URL</string>
+    <string name="settingsServer_urlauth_title">auth server URL</string>
+    <string name="settingsServer_urlfiles_summary">upload location URL</string>
+    <string name="settingsServer_urlfiles_title">upload location URL</string>
+    <string name="settingsStorage">Storage settings</string>
+    <string name="settingsStorage_allow_space_summary"/>
+    <string name="settingsStorage_allow_space_title">move clips to trash threshold (10 to 100%)</string>
+    <string name="settingsStorage_disable_upload_img_summary"/>
+    <string name="settingsStorage_disable_upload_img_title">disable img upload</string>
+    <string name="settingsStorage_enable_summary_summary">enables storage statistics on preview window</string>
+    <string name="settingsStorage_enable_summary_title">show summary</string>
+    <string name="settingsStorage_remove_importsrc_summary">removes the origin file has been imported</string>
+    <string name="settingsStorage_remove_importsrc_title">remove imported source files</string>
+    <string name="settingsStorage_storage_quota_enable_summary"/>
+    <string name="settingsStorage_storage_quota_enable_title">enable storage quota</string>
+    <string name="settingsStorage_storage_quota_size_summary"/>
+    <string name="settingsStorage_storage_quota_size_title">size threshold value (in Megabytes)</string>
+    <string name="settingsStorage_storage_quota_summary"/>
+    <string name="settingsStorage_storage_quota_time_summary"/>
+    <string name="settingsStorage_storage_quota_time_title">time threshold value (HH:MM)</string>
+    <string name="settingsStorage_storage_quota_title">storage quota</string>
+    <string name="settingsStreaming">Streaming settings</string>
+    <string name="settingsStreaming_enable_rtmp_summary">start lrv streaming to RTMP server while recording on</string>
+    <string name="settingsStreaming_enable_rtmp_title">enable RTMP</string>
+    <string name="settingsStreaming_login_summary">login</string>
+    <string name="settingsStreaming_login_title">login</string>
+    <string name="settingsStreaming_server_type_summary">Network server type</string>
+    <string name="settingsStreaming_server_type_title">Network server type</string>
+    <string name="settingsStreaming_urlch_summary"/>
+    <string name="settingsStreaming_urlch_title">Channel</string>
+    <string name="settingsStreaming_urlipport_summary"/>
+    <string name="settingsStreaming_urlipport_title">RTMP server ip:port</string>
+    <string name="settingsStreaming_urlpasscode_summary"/>
+    <string name="settingsStreaming_urlpasscode_title">pass_code</string>
+    <string name="settingsStreaming_urlport_summary"/>
+    <string name="settingsStreaming_urlport_title">RTSP server Port</string>
+    <string name="settingsStreaming_urlrtmp_summary"/>
+    <string name="settingsStreaming_urlrtmp_title">RTMP server address</string>
+    <string name="settingsTranscode_enable_summary">""</string>
+    <string name="settingsTranscode_enable_title">enable argb raw data</string>
+    <string name="settings_activity_title">Settings</string>
+</resources>

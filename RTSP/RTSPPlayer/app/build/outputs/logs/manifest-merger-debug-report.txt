@@ -1,0 +1,230 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:2:1-283:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:2:1-283:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:2:1-283:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:2:1-283:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/91ca39bf7264f24457e95d5a5c2143b0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/d4f92db989f78a0fe85b2f8d9eb7785c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/2edace7fe118875a54bd6788850048fe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/a9b6ce7afe3167733d2b9a9ac27ffbb6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/899ca42737dab57d8dad8bc5509d9931/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/9165ff2d5d1a703d3172e5abac45b650/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/b0035a2bc0eea848ee8772e9876495e9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/fd15756cf03d433ac7e56fb9901d6aef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/ecd8af92410920159a0fd80b62032361/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/86bb8adce9ca996076bb4590e94d0e40/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/c05baa860866911df089a56fed027629/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/1887ca48b2d23ec33df30cb4388712a2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/61e8067282347969b601eae5dcfa4d2d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/37e2dd8f9ff98d842e6dee88c5960f79/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/6d23cffcd0dd5305aebbcccd259a35b4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/b222e67971ee6b987ad515eab1701978/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/e173b69fdbc6ec6e81e9c5e7feeaaf6c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/1791848ae28d4f8751d2927890b0eaaa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/a1c417371cb5f74820f48c85678487a8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/ef67fb6beee224286df1918efeba0b80/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/000306388db968fe6e0f029bb8691192/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/48e862406e807c53e78f6524e8a0ddd6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/8a9cb3dae8c5141216dce25e81324522/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/cf7e61040825eaaba3880e8f9cd4d3bd/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:2:1-283:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:2:1-283:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:2:1-283:12
+	package
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:4:5-36
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:6:5-33
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:3:5-63
+	android:versionCode
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:5:5-29
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:7:5-35
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:11:5-86
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:11:22-83
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:13:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:14:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:15:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.READ_LOGS
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:17:22-65
+application
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:19:5-281:16
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/37e2dd8f9ff98d842e6dee88c5960f79/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/37e2dd8f9ff98d842e6dee88c5960f79/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:23:9-41
+	android:hardwareAccelerated
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:25:9-43
+	android:largeHeap
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:26:9-33
+	android:icon
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:21:9-37
+	android:allowBackup
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:24:9-40
+	android:logo
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:22:9-37
+activity#org.rtspplayer.sample.activity.MainActivity
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:28:9-273:20
+	android:label
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:30:13-45
+	android:configChanges
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:31:13-59
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:29:13-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:33:13-36:29
+action#android.intent.action.MAIN
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:35:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:httplive+data:scheme:icyx+data:scheme:mms+data:scheme:mmsh+data:scheme:rtmp+data:scheme:rtmpe+data:scheme:rtmps+data:scheme:rtp+data:scheme:rtsp+data:scheme:udp+data:scheme:vlc
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:38:13-54:29
+action#android.intent.action.VIEW
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:39:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:40:17-76
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:40:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:41:17-78
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:41:27-75
+data
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+	android:host
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:115:32-48
+	android:scheme
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+	android:pathPattern
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+	android:mimeType
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:mimeType:audio/*+data:mimeType:video/*+data:scheme:httplive+data:scheme:icyx+data:scheme:mms+data:scheme:mmsh+data:scheme:rtmp+data:scheme:rtmpe+data:scheme:rtmps+data:scheme:rtp+data:scheme:rtsp+data:scheme:udp
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:56:13-74:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:mimeType:*/avi+data:mimeType:*/mkv+data:mimeType:*/rmvb+data:mimeType:application/3gpp*+data:mimeType:application/mp4+data:mimeType:application/mpeg*+data:mimeType:application/ogg+data:mimeType:application/sdp+data:mimeType:application/vnd.3gp*+data:mimeType:application/vnd.apple.mpegurl+data:mimeType:application/vnd.dolby*+data:mimeType:application/vnd.dvd*+data:mimeType:application/vnd.rn-realmedia*+data:mimeType:application/x-extension-mp4+data:mimeType:application/x-flac+data:mimeType:application/x-matroska+data:mimeType:application/x-mpegURL+data:mimeType:application/x-ogg+data:mimeType:application/x-quicktimeplayer+data:mimeType:application/x-shockwave-flash+data:mimeType:application/xspf+xml+data:mimeType:audio/*+data:mimeType:misc/ultravox+data:mimeType:video/*+data:scheme:+data:scheme:content+data:scheme:file+data:scheme:ftp+data:scheme:http+data:scheme:https
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:75:13-109:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:host:*+data:host:*+data:host:*+data:pathPattern:.*\\..*\\..*\\..*\\.m3u8+data:pathPattern:.*\\..*\\..*\\..m3u8+data:pathPattern:.*\\..*\\.m3u8+data:pathPattern:.*\\.m3u8+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:111:13-123:20
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:host:*+data:host:*+data:host:*+data:pathPattern:.*\\..*\\..*\\..*\\.m3u+data:pathPattern:.*\\..*\\..*\\..m3u+data:pathPattern:.*\\..*\\.m3u+data:pathPattern:.*\\.m3u+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:125:4-137:20
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:pathPattern:.*\\.3G2+data:pathPattern:.*\\.3GP+data:pathPattern:.*\\.3GP2+data:pathPattern:.*\\.3GPP+data:pathPattern:.*\\.3g2+data:pathPattern:.*\\.3gp+data:pathPattern:.*\\.3gp2+data:pathPattern:.*\\.3gpp+data:pathPattern:.*\\.AMV+data:pathPattern:.*\\.ASF+data:pathPattern:.*\\.AVI+data:pathPattern:.*\\.DIVX+data:pathPattern:.*\\.DRC+data:pathPattern:.*\\.DV+data:pathPattern:.*\\.F4V+data:pathPattern:.*\\.FLV+data:pathPattern:.*\\.GVI+data:pathPattern:.*\\.GXF+data:pathPattern:.*\\.ISMV+data:pathPattern:.*\\.ISO+data:pathPattern:.*\\.M1V+data:pathPattern:.*\\.M2T+data:pathPattern:.*\\.M2TS+data:pathPattern:.*\\.M2V+data:pathPattern:.*\\.M3U+data:pathPattern:.*\\.MKV+data:pathPattern:.*\\.MOV+data:pathPattern:.*\\.MP2+data:pathPattern:.*\\.MP2V+data:pathPattern:.*\\.MP4+data:pathPattern:.*\\.MP4V+data:pathPattern:.*\\.MPE+data:pathPattern:.*\\.MPEG+data:pathPattern:.*\\.MPEG1+data:pathPattern:.*\\.MPEG2+data:pathPattern:.*\\.MPEG4+data:pathPattern:.*\\.MPG+data:pathPattern:.*\\.MPV2+data:pathPattern:.*\\.MTS+data:pathPattern:.*\\.MTV+data:pathPattern:.*\\.MXF+data:pathPattern:.*\\.MXG+data:pathPattern:.*\\.NSV+data:pathPattern:.*\\.NUT+data:pathPattern:.*\\.NUV+data:pathPattern:.*\\.OGM+data:pathPattern:.*\\.OGV+data:pathPattern:.*\\.OGX+data:pathPattern:.*\\.PS+data:pathPattern:.*\\.REC+data:pathPattern:.*\\.RM+data:pathPattern:.*\\.RMVB+data:pathPattern:.*\\.TOD+data:pathPattern:.*\\.TS+data:pathPattern:.*\\.TTS+data:pathPattern:.*\\.VOB+data:pathPattern:.*\\.VRO+data:pathPattern:.*\\.WEBM+data:pathPattern:.*\\.WM+data:pathPattern:.*\\.WMV+data:pathPattern:.*\\.WTV+data:pathPattern:.*\\.XESC+data:pathPattern:.*\\.amv+data:pathPattern:.*\\.asf+data:pathPattern:.*\\.avi+data:pathPattern:.*\\.divx+data:pathPattern:.*\\.drc+data:pathPattern:.*\\.dv+data:pathPattern:.*\\.f4v+data:pathPattern:.*\\.flv+data:pathPattern:.*\\.gvi+data:pathPattern:.*\\.gxf+data:pathPattern:.*\\.ismv+data:pathPattern:.*\\.iso+data:pathPattern:.*\\.m1v+data:pathPattern:.*\\.m2t+data:pathPattern:.*\\.m2ts+data:pathPattern:.*\\.m2v+data:pathPattern:.*\\.m3u+data:pathPattern:.*\\.mkv+data:pathPattern:.*\\.mov+data:pathPattern:.*\\.mp2+data:pathPattern:.*\\.mp2v+data:pathPattern:.*\\.mp4+data:pathPattern:.*\\.mp4v+data:pathPattern:.*\\.mpe+data:pathPattern:.*\\.mpeg+data:pathPattern:.*\\.mpeg1+data:pathPattern:.*\\.mpeg2+data:pathPattern:.*\\.mpeg4+data:pathPattern:.*\\.mpg+data:pathPattern:.*\\.mpv2+data:pathPattern:.*\\.mts+data:pathPattern:.*\\.mtv+data:pathPattern:.*\\.mxf+data:pathPattern:.*\\.mxg+data:pathPattern:.*\\.nsv+data:pathPattern:.*\\.nut+data:pathPattern:.*\\.nuv+data:pathPattern:.*\\.ogm+data:pathPattern:.*\\.ogv+data:pathPattern:.*\\.ogx+data:pathPattern:.*\\.ps+data:pathPattern:.*\\.rec+data:pathPattern:.*\\.rm+data:pathPattern:.*\\.rmvb+data:pathPattern:.*\\.tod+data:pathPattern:.*\\.ts+data:pathPattern:.*\\.tts+data:pathPattern:.*\\.vob+data:pathPattern:.*\\.vro+data:pathPattern:.*\\.webm+data:pathPattern:.*\\.wm+data:pathPattern:.*\\.wmv+data:pathPattern:.*\\.wtv+data:pathPattern:.*\\.xesc+data:scheme:+data:scheme:content+data:scheme:file+data:scheme:ftp+data:scheme:http+data:scheme:https
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:139:13-272:29
+activity#org.rtspplayer.sample.activity.PreferencesActivity
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:275:9-280:20
+	android:noHistory
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:277:13-37
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:276:13-78
+uses-sdk
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v4:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/91ca39bf7264f24457e95d5a5c2143b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/91ca39bf7264f24457e95d5a5c2143b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/d4f92db989f78a0fe85b2f8d9eb7785c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/d4f92db989f78a0fe85b2f8d9eb7785c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/2edace7fe118875a54bd6788850048fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/2edace7fe118875a54bd6788850048fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/a9b6ce7afe3167733d2b9a9ac27ffbb6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/a9b6ce7afe3167733d2b9a9ac27ffbb6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/899ca42737dab57d8dad8bc5509d9931/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/899ca42737dab57d8dad8bc5509d9931/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/9165ff2d5d1a703d3172e5abac45b650/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/9165ff2d5d1a703d3172e5abac45b650/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/b0035a2bc0eea848ee8772e9876495e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/b0035a2bc0eea848ee8772e9876495e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/fd15756cf03d433ac7e56fb9901d6aef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/fd15756cf03d433ac7e56fb9901d6aef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/ecd8af92410920159a0fd80b62032361/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/ecd8af92410920159a0fd80b62032361/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/86bb8adce9ca996076bb4590e94d0e40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/86bb8adce9ca996076bb4590e94d0e40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/c05baa860866911df089a56fed027629/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/c05baa860866911df089a56fed027629/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/1887ca48b2d23ec33df30cb4388712a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/1887ca48b2d23ec33df30cb4388712a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/61e8067282347969b601eae5dcfa4d2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/61e8067282347969b601eae5dcfa4d2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/37e2dd8f9ff98d842e6dee88c5960f79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/37e2dd8f9ff98d842e6dee88c5960f79/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/6d23cffcd0dd5305aebbcccd259a35b4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/6d23cffcd0dd5305aebbcccd259a35b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/b222e67971ee6b987ad515eab1701978/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/b222e67971ee6b987ad515eab1701978/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/e173b69fdbc6ec6e81e9c5e7feeaaf6c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/e173b69fdbc6ec6e81e9c5e7feeaaf6c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/1791848ae28d4f8751d2927890b0eaaa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/1791848ae28d4f8751d2927890b0eaaa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/a1c417371cb5f74820f48c85678487a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/a1c417371cb5f74820f48c85678487a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/ef67fb6beee224286df1918efeba0b80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/ef67fb6beee224286df1918efeba0b80/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/000306388db968fe6e0f029bb8691192/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/000306388db968fe6e0f029bb8691192/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/48e862406e807c53e78f6524e8a0ddd6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/48e862406e807c53e78f6524e8a0ddd6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/8a9cb3dae8c5141216dce25e81324522/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/8a9cb3dae8c5141216dce25e81324522/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/cf7e61040825eaaba3880e8f9cd4d3bd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/cf7e61040825eaaba3880e8f9cd4d3bd/AndroidManifest.xml:20:5-44
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml

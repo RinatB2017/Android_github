@@ -1,0 +1,138 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:2:1-45:12
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:4:5-45
+	android:versionName
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:6:5-32
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:3:5-63
+	android:versionCode
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:5:5-29
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml
+	android:installLocation
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:7:5-35
+application
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:9:5-29:19
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:22:5-25:19
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:22:5-25:19
+	android:label
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:12:9-47
+	android:launchMode
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:14:9-44
+	android:hardwareAccelerated
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:10:9-43
+	android:noHistory
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:15:9-33
+	android:configChanges
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:16:9-55
+	android:largeHeap
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:13:9-33
+	android:icon
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:11:9-37
+activity#veg.mediacapture.sdk.test.MainActivity
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:18:19-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:22:27-74
+activity#veg.mediacapture.sdk.test.SettingsActivity
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:25:9-28:20
+	android:label
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:27:13-60
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:26:13-70
+uses-feature#android.hardware.camera
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:31:5-60
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:17:5-60
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:17:5-60
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:31:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:32:5-70
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:18:5-70
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:18:5-70
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:32:19-67
+uses-permission#android.permission.CAMERA
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:34:2-62
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:20:5-65
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:20:5-65
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:34:19-59
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:35:5-71
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:11:5-71
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:35:22-68
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:37:5-79
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:12:5-79
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:37:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:38:5-67
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:13:5-67
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:38:22-64
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:39:5-86
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:39:22-83
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:40:5-81
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:14:5-81
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:40:22-78
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:41:5-75
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:41:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:42:5-68
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:15:5-68
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:42:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:43:5-79
+	android:name
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:43:22-76
+uses-sdk
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.vxg.mediasdk:encodersdk:2.0.68] /home/boss/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest/AndroidManifest.xml:2:1-45:12 reason: com.vxg.mediasdk.encodersdk requested WRITE_EXTERNAL_STORAGE

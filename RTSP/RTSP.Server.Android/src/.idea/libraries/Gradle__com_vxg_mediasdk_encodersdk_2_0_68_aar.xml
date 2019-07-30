@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vxg.mediasdk:encodersdk:2.0.68@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd458aa4c43d05d7d926d5ea41edfb4c/jars/libs/mediacapturesdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,4 @@
+#Tue Jul 30 21:24:07 MSK 2019
+base.0=/home/boss/Programming/_GitHub/Android_github/RTSP/RTSP.Server.Android/src/MediaStreamTest_astudio/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex
