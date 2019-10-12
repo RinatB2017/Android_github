@@ -1,12 +1,19 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        debug {
+            storePassword 'q12345'
+            keyPassword 'q12345'
+        }
+    }
     compileSdkVersion 29
 
     defaultConfig {
         applicationId "com.facebook.android.friendsmash"
         minSdkVersion 15
         targetSdkVersion 26
+        signingConfig signingConfigs.debug
     }
 
     buildTypes {
