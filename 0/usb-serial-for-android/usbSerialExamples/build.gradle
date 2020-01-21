@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         minSdkVersion 17
-        targetSdkVersion 28
+        targetSdkVersion 29
 
         testInstrumentationRunner "android.test.InstrumentationTestRunner"
         missingDimensionStrategy 'device', 'anyDevice'

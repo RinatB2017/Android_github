@@ -21,6 +21,7 @@
 
 package com.hoho.android.usbserial.examples;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -143,6 +144,7 @@ public class SerialConsoleActivity extends Activity {
         theTextView.append(msg);
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onResume() {
         super.onResume();
