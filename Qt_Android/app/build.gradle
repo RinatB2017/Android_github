@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        debug {
+            storePassword 'q12345'
+            keyPassword 'q12345'
+        }
+    }
+    compileSdkVersion 29
+
+    defaultConfig {
+        applicationId "penguin.in.flight.qt_tests"
+        minSdkVersion 14
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        signingConfig signingConfigs.debug
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs += ['/src/main/java']
+            res.srcDirs += ['src/main/res','src/main/qt_output/android-build/res']
+            jniLibs.srcDirs += 'src/main/qt_output/android-build/libs'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:23.4.0'
+    implementation files('src/main/qt_output/android-build/libs/QtAndroid-bundled.jar')
+    implementation files('src/main/qt_output/android-build/libs/QtAndroidAccessibility-bundled.jar')
+}
