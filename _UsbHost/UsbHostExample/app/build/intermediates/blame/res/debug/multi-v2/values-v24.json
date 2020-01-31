@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/7ba19d4c13a915d31338854ea04490b4/support-media-compat-28.0.0/res/values-v24/values-v24.xml",

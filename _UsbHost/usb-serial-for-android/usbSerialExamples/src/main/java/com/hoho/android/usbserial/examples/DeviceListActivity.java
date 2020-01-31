@@ -28,6 +28,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.hardware.usb.UsbDevice;
+import android.hardware.usb.UsbDeviceConnection;
 import android.hardware.usb.UsbManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -50,6 +51,7 @@ import com.hoho.android.usbserial.driver.UsbSerialDriver;
 import com.hoho.android.usbserial.driver.UsbSerialPort;
 import com.hoho.android.usbserial.driver.UsbSerialProber;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -61,6 +63,9 @@ import java.util.List;
 public class DeviceListActivity extends Activity {
 
     private final String TAG = DeviceListActivity.class.getSimpleName();
+
+    private final int READ_WAIT_MILLIS = 100;
+    private final int WRITE_WAIT_MILLIS = 100;
 
     private UsbManager mUsbManager;
     private UsbSerialPort mSerialPort;
@@ -229,5 +234,4 @@ public class DeviceListActivity extends Activity {
     private void showConsoleActivity(UsbSerialPort port) {
         SerialConsoleActivity.show(this, port);
     }
-
 }

@@ -1,6 +1,5 @@
 package ru.learn2prog.usbhostexample;
 
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
 
@@ -23,8 +22,6 @@ public class MainActivity extends Activity {
     private UsbDevice mDevice;
     private UsbDeviceConnection mConnection;
     private UsbEndpoint mEndpointIntr;
-
-//    private UsbSerialPort mUsbSerialPort;
 
     @Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -118,39 +115,4 @@ public class MainActivity extends Activity {
             }
          }
     }
-
-    /*
-    private void serial_open()
-    {
-        UsbManager mUsbManager = (UsbManager) DEVICE.getSystemService(Context.USB_SERVICE);
-        String type = “FTDI”;
-
-        for (UsbDevice usbDevice: mUsbManager.getDeviceList().values()) {
-            UsbSerialDriver usbSerialDriver = UsbSerialProber.probeSingleDevice(usbDevice);
-            if (usbSerialDriver == null) continue;
-            if (!type.equals(usbSerialDriver.getShortDeviceName())) continue;
-            mUsbSerialPort = usbSerialDriver.getPort(0);
-            mUsbSerialPort.open(mUsbManager);
-            break;
-        }
-    }
-
-    private void set_serial_param()
-    {
-        mUsbSerialPort.setParameters(baudRate, dataBits, stopBits, parity);
-    }
-
-    public int serial_read(final byte[] data) throws IOException {
-        return mUsbSerialPort.read(data, getReadTimeout());
-    }
-
-    public int serial_write(final byte[] data, final int length) throws IOException {
-        return mUsbSerialPort.write(data, length, getWriteTimeout());
-    }
-
-    private void serial_close()
-    {
-        mUsbSerialPort.close();
-    }
-    */
 }

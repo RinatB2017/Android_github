@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:2:1-32:12
+ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:2:1-32:12
 MERGED from [com.android.support:support-v4:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/5e6c966e41283eb28599ac75ae8916f4/support-v4-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/7ba19d4c13a915d31338854ea04490b4/support-media-compat-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/bc3876738bdb5d8e498d8c27630d1092/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
@@ -29,29 +29,29 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/t
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/855199d21a2457dffd94f776f414402b/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/0c580ad6917269345b415f2689381fa7/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/32c3c3c1ff1572cd4fbf4adc8b2e281b/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:2:1-32:12
 	package
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:4:5-43
-		INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
-		INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:4:5-43
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:6:5-30
-		INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
-		INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:3:5-63
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:3:5-63
 	android:versionCode
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:5:5-28
-		INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
-		INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
 uses-feature#android.hardware.usb.host
-ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:8:5-62
+ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:8:5-62
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:8:19-59
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:8:19-59
 application
-ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:10:5-30:19
+ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:10:5-30:19
 MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/b73d0db3c489aeab8b531c92b0313ef9/support-compat-28.0.0/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/b73d0db3c489aeab8b531c92b0313ef9/support-compat-28.0.0/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/b93ddaf99704c9896c23344bb8a6cc5b/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
@@ -59,49 +59,49 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/b73d0db3c489aeab8b531c92b0313ef9/support-compat-28.0.0/AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:13:9-41
 	android:icon
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:14:9-40
 activity#ru.learn2prog.usbhostexample.MainActivity
-ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:15:9-29:20
+ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:15:9-29:20
 	android:label
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:17:13-45
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:17:13-45
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:16:13-69
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:16:13-69
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
-ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.DEFAULT
-ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:20:17-76
+ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:20:17-76
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:20:27-73
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:20:27-73
 category#android.intent.category.LAUNCHER
-ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:21:27-74
 intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:24:13-26:29
+ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:24:13-26:29
 action#android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:25:17-90
+ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:25:17-90
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:25:25-87
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:25:25-87
 meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:27:13-28:57
+ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:27:13-28:57
 	android:resource
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:28:17-54
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:28:17-54
 	android:name
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml:27:24-86
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:27:24-86
 uses-sdk
-INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
-INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:support-v4:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/5e6c966e41283eb28599ac75ae8916f4/support-v4-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/5e6c966e41283eb28599ac75ae8916f4/support-v4-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/7ba19d4c13a915d31338854ea04490b4/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
@@ -152,13 +152,13 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/cach
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/0c580ad6917269345b415f2689381fa7/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/32c3c3c1ff1572cd4fbf4adc8b2e281b/runtime-1.1.1/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/32c3c3c1ff1572cd4fbf4adc8b2e281b/runtime-1.1.1/AndroidManifest.xml:20:5-44
-INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
-INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
+INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
-		INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
-		ADDED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
-		INJECTED from /home/boss/Programming/_GitHub/AndroidStudioProjects/UsbHostExample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
+		ADDED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml
