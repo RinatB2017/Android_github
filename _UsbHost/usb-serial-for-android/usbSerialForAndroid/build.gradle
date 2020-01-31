@@ -24,11 +24,11 @@ allprojects {
 }
 
 dependencies {
-    testImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.13'
     androidTestImplementation 'com.android.support:support-annotations:28.0.0'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'commons-net:commons-net:3.6'
-    androidTestImplementation 'org.apache.commons:commons-lang3:3.8.1'
+    androidTestImplementation 'commons-net:commons-net:20030805.205232'
+    androidTestImplementation 'org.apache.commons:commons-lang3:3.9'
 }
 
 //apply from: 'publishToMavenLocal.gradle'
