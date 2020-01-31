@@ -1,1 +1,45 @@
 https://habr.com/ru/post/277093/
+
+   public void usb_test(View view) throws IOException {
+//        send_log(Color.BLACK, "Find all available drivers from attached devices.");
+//        manager = (UsbManager) getSystemService(Context.USB_SERVICE);
+//        availableDrivers = UsbSerialProber.getDefaultProber().findAllDrivers(manager);
+//        if (availableDrivers.isEmpty()) {
+//            send_log(Color.RED, "availableDrivers.isEmpty()");
+//            return;
+//        }
+//
+//        // Open a connection to the first available driver.
+//        driver = availableDrivers.get(0);
+//        connection = manager.openDevice(driver.getDevice());
+//        if (connection == null) {
+//            // add UsbManager.requestPermission(driver.getDevice(), ..) handling here
+//            send_log(Color.RED, "connection == null");
+//            return;
+//        }
+//
+//        port = driver.getPorts().get(0); // Most devices have just one port (port 0)
+//        port.open(connection);
+//        port.setParameters(115200, 8, UsbSerialPort.STOPBITS_1, UsbSerialPort.PARITY_NONE);
+
+        String temp = "test";
+        final byte[] request = temp.getBytes();
+//        final byte[] response = new byte[100];
+
+        if(port == null)
+        {
+            send_log(Color.RED, "Port not created");
+            return;
+        }
+        port.write(request, WRITE_WAIT_MILLIS);
+
+//        mSerialIoManager = new SerialInputOutputManager(port, mListener);
+//        Executors.newSingleThreadExecutor().submit(mSerialIoManager);
+
+//        int len = port.read(response, READ_WAIT_MILLIS);
+//        send_log(Color.BLACK, new String(response));
+//        send_log(Color.BLACK, String.format("read %d bytes",Integer.valueOf(len)));
+
+//        port.close();
+    }
+    
