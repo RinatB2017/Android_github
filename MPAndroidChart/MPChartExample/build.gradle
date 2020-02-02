@@ -1,6 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        debug {
+            storePassword 'q12345'
+            keyPassword 'q12345'
+        }
+    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.xxmassdeveloper.mpchartexample"
@@ -9,6 +15,7 @@ android {
         versionCode 56
         versionName '3.1.0'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.debug
     }
 
     buildTypes {
@@ -20,7 +27,7 @@ android {
 }
 
 dependencies {
-    implementation "androidx.appcompat:appcompat:1.0.2"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.0.0'
     implementation project(':MPChartLib')
 }
