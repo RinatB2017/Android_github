@@ -18,8 +18,8 @@
 13-->/home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:10:5-30:19
 14        android:allowBackup="true"
 14-->/home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:11:9-35
-15        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-15-->[com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/b73d0db3c489aeab8b531c92b0313ef9/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/AndroidManifest.xml:22:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
 17-->/home/boss/Programming/_GitHub/Android_github/_UsbHost/UsbHostExample/app/src/main/AndroidManifest.xml:12:9-43

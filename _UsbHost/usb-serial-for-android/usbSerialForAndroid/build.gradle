@@ -1,12 +1,17 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion '28.0.3'
+    signingConfigs {
+        debug {
+            storePassword 'q12345'
+            keyPassword 'q12345'
+        }
+    }
+    compileSdkVersion 29
 
     defaultConfig {
         minSdkVersion 17
-        targetSdkVersion 28
+        targetSdkVersion 29
         consumerProguardFiles 'proguard-rules.pro'
         
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -14,6 +19,7 @@ android {
                 'rfc2217_server_host': '192.168.0.100',
                 'rfc2217_server_nonstandard_baudrates': 'true',   // true    false     false
         ]
+        signingConfig signingConfigs.debug
     }
 }
 

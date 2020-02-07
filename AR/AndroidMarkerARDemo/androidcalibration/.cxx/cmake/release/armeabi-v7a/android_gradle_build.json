@@ -1,0 +1,144 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/opt/android-sdk-update-manager/cmake/3.6.4111459/bin/cmake --build /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"NNPACK-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "NNPACK",
+			"buildType" : "release",
+			"output" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/../distribution/libs/armeabi-v7a/libNNPACK.a",
+			"toolchain" : "9282565421525429575"
+		},
+		"caffe2-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "caffe2",
+			"buildType" : "release",
+			"output" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/../distribution/libs/armeabi-v7a/libcaffe2.a",
+			"toolchain" : "9282565421525429575"
+		},
+		"cpufeatures-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "cpufeatures",
+			"buildCommand" : "/opt/android-sdk-update-manager/cmake/3.6.4111459/bin/cmake --build /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a --target cpufeatures",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC      -c ",
+					"src" : "/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures/cpu-features.c",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a/libcpufeatures.a",
+			"toolchain" : "9282565421525429575"
+		},
+		"glog-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "glog",
+			"buildType" : "release",
+			"output" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/../distribution/libs/armeabi-v7a/libglog.so",
+			"toolchain" : "9282565421525429575"
+		},
+		"lib_add-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_add",
+			"buildType" : "release",
+			"output" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/../distribution/libs/armeabi-v7a/libadd.so",
+			"toolchain" : "9282565421525429575"
+		},
+		"lib_opencv_java3-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_opencv_java3",
+			"buildType" : "release",
+			"output" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/../distribution/libs/armeabi-v7a/libopencv_java3.so",
+			"toolchain" : "9282565421525429575"
+		},
+		"native-opencv-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-opencv",
+			"buildCommand" : "/opt/android-sdk-update-manager/cmake/3.6.4111459/bin/cmake --build /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a --target native-opencv",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/MarkerDetector.cpp",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/native-opencv.cpp",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/GeometryTypes.cpp",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/Marker.cpp",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/TinyLA.cpp",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/CameraCalibration.cpp",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/ARDisplay.cpp",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/distribution/libs/armeabi-v7a/libnative-opencv.so",
+			"toolchain" : "9282565421525429575"
+		},
+		"protobuf-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "protobuf",
+			"buildType" : "release",
+			"output" : "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/../distribution/libs/armeabi-v7a/libprotobuf.a",
+			"toolchain" : "9282565421525429575"
+		}
+	},
+	"toolchains" : 
+	{
+		"9282565421525429575" : 
+		{
+			"cCompilerExecutable" : "/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

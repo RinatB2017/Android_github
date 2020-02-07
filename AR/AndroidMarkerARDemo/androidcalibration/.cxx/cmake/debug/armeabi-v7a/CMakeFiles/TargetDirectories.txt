@@ -1,0 +1,4 @@
+/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/native-opencv.dir
+/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/cpufeatures.dir

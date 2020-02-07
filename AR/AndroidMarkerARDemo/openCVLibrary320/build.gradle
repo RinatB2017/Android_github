@@ -1,11 +1,18 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
+    signingConfigs {
+        debug {
+            storePassword 'q12345'
+            keyPassword 'q12345'
+        }
+    }
+    compileSdkVersion 29
 
     defaultConfig {
         minSdkVersion 19
-        targetSdkVersion 28
+        targetSdkVersion 29
+        signingConfig signingConfigs.debug
     }
 
     buildTypes {

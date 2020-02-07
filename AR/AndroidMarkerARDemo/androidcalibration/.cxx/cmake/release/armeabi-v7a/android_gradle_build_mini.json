@@ -1,0 +1,52 @@
+{
+  "buildFiles": [
+    "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/opt/android-sdk-update-manager/cmake/3.6.4111459/bin/cmake --build /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "protobuf-Release-armeabi-v7a": {
+      "artifactName": "protobuf",
+      "abi": "armeabi-v7a",
+      "output": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/../distribution/libs/armeabi-v7a/libprotobuf.a"
+    },
+    "NNPACK-Release-armeabi-v7a": {
+      "artifactName": "NNPACK",
+      "abi": "armeabi-v7a",
+      "output": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/../distribution/libs/armeabi-v7a/libNNPACK.a"
+    },
+    "lib_opencv_java3-Release-armeabi-v7a": {
+      "artifactName": "lib_opencv_java3",
+      "abi": "armeabi-v7a",
+      "output": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/../distribution/libs/armeabi-v7a/libopencv_java3.so"
+    },
+    "lib_add-Release-armeabi-v7a": {
+      "artifactName": "lib_add",
+      "abi": "armeabi-v7a",
+      "output": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/../distribution/libs/armeabi-v7a/libadd.so"
+    },
+    "glog-Release-armeabi-v7a": {
+      "artifactName": "glog",
+      "abi": "armeabi-v7a",
+      "output": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/../distribution/libs/armeabi-v7a/libglog.so"
+    },
+    "caffe2-Release-armeabi-v7a": {
+      "artifactName": "caffe2",
+      "abi": "armeabi-v7a",
+      "output": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/../distribution/libs/armeabi-v7a/libcaffe2.a"
+    },
+    "native-opencv-Release-armeabi-v7a": {
+      "artifactName": "native-opencv",
+      "buildCommand": "/opt/android-sdk-update-manager/cmake/3.6.4111459/bin/cmake --build /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a --target native-opencv",
+      "abi": "armeabi-v7a",
+      "output": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/distribution/libs/armeabi-v7a/libnative-opencv.so"
+    },
+    "cpufeatures-Release-armeabi-v7a": {
+      "artifactName": "cpufeatures",
+      "buildCommand": "/opt/android-sdk-update-manager/cmake/3.6.4111459/bin/cmake --build /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a --target cpufeatures",
+      "abi": "armeabi-v7a",
+      "output": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/release/armeabi-v7a/libcpufeatures.a"
+    }
+  }
+}
