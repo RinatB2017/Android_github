@@ -1,0 +1,3 @@
+/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/computer_vision_native.dir

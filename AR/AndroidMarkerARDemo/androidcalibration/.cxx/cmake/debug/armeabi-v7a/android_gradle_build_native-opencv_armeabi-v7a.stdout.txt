@@ -1,4 +1,67 @@
-[1/1] Linking CXX shared library /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/distribution/libs/armeabi-v7a/libnative-opencv.so
+[1/10] Building C object CMakeFiles/cpufeatures.dir/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures/cpu-features.c.o
+[2/10] Linking C static library libcpufeatures.a
+[3/10] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/CameraCalibration.cpp.o
+[4/10] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/MarkerDetector.cpp.o
+[5/10] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/native-opencv.cpp.o
+[6/10] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/GeometryTypes.cpp.o
+[7/10] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/Marker.cpp.o
+[8/10] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/TinyLA.cpp.o
+[9/10] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/ARDisplay.cpp.o
+In file included from /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/MarkerDetector.cpp:19:
+In file included from ../../../../src/main/cpp/MarkerDetector.hpp:26:
+../../../../src/main/cpp/MarkerDetectionFacade.hpp:34:6: warning: 'auto_ptr<MarkerDetectionFacade>' is deprecated [-Wdeprecated-declarations]
+std::auto_ptr<MarkerDetectionFacade> createMarkerDetection(CameraCalibration calibration);
+     ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<MarkerDetectionFacade>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/MarkerDetector.cpp:31:6: warning: 'auto_ptr<MarkerDetectionFacade>' is deprecated [-Wdeprecated-declarations]
+std::auto_ptr<MarkerDetectionFacade> createMarkerDetection(CameraCalibration calibration)
+     ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<MarkerDetectionFacade>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/MarkerDetector.cpp:33:15: warning: 'auto_ptr<MarkerDetectionFacade>' is deprecated [-Wdeprecated-declarations]
+  return std::auto_ptr<MarkerDetectionFacade>(new MarkerDetector(calibration));
+              ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<MarkerDetectionFacade>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+3 warnings generated.
+In file included from /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/native-opencv.cpp:12:
+In file included from ../../../../src/main/cpp/MarkerDetector.hpp:26:
+../../../../src/main/cpp/MarkerDetectionFacade.hpp:34:6: warning: 'auto_ptr<MarkerDetectionFacade>' is deprecated [-Wdeprecated-declarations]
+std::auto_ptr<MarkerDetectionFacade> createMarkerDetection(CameraCalibration calibration);
+     ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<MarkerDetectionFacade>' has been explicitly marked deprecated here
+class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
+                           ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+#  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+                                      ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+1 warning generated.
+[10/10] Linking CXX shared library /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/distribution/libs/armeabi-v7a/libnative-opencv.so
 FAILED: : && /opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -O0 -fno-limit-debug-info  -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -shared -Wl,-soname,libnative-opencv.so -o /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/distribution/libs/armeabi-v7a/libnative-opencv.so CMakeFiles/native-opencv.dir/src/main/cpp/MarkerDetector.cpp.o CMakeFiles/native-opencv.dir/src/main/cpp/native-opencv.cpp.o CMakeFiles/native-opencv.dir/src/main/cpp/GeometryTypes.cpp.o CMakeFiles/native-opencv.dir/src/main/cpp/Marker.cpp.o CMakeFiles/native-opencv.dir/src/main/cpp/TinyLA.cpp.o CMakeFiles/native-opencv.dir/src/main/cpp/CameraCalibration.cpp.o CMakeFiles/native-opencv.dir/src/main/cpp/ARDisplay.cpp.o  -landroid ../../../../../distribution/libs/armeabi-v7a/libcaffe2.a ../../../../../distribution/libs/armeabi-v7a/libopencv_java3.so -llog -Wl,--no-whole-archive ../../../../../distribution/libs/armeabi-v7a/libNNPACK.a ../../../../../distribution/libs/armeabi-v7a/libglog.so ../../../../../distribution/libs/armeabi-v7a/libprotobuf.a libcpufeatures.a -ldl -latomic -lm && :
 /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/MarkerDetector.cpp:370: error: undefined reference to 'cv::imwrite(cv::String const&, cv::_InputArray const&, std::__ndk1::vector<int, std::__ndk1::allocator<int> > const&)'
 ../../../../src/main/cpp/ARDisplay.h:106: error: undefined reference to 'cv::imwrite(cv::String const&, cv::_InputArray const&, std::__ndk1::vector<int, std::__ndk1::allocator<int> > const&)'

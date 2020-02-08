@@ -1,0 +1,8 @@
+# ninja log v5
+0	846	0	CMakeFiles/augmented_image_native.dir/src/main/cpp/jni_interface.cc.o	ce086715b729dda2
+0	865	0	CMakeFiles/augmented_image_native.dir/src/main/cpp/background_renderer.cc.o	72f9a6791bfa074d
+0	871	0	CMakeFiles/augmented_image_native.dir/src/main/cpp/obj_renderer.cc.o	7835e9ab5d8f8ae0
+0	979	0	CMakeFiles/augmented_image_native.dir/src/main/cpp/augmented_image_renderer.cc.o	c4af59c47abe0394
+0	1169	0	CMakeFiles/augmented_image_native.dir/src/main/cpp/augmented_image_application.cc.o	8891796bbf178e6e
+0	1330	0	CMakeFiles/augmented_image_native.dir/src/main/cpp/util.cc.o	fad8020087332bad
+1330	2139	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libaugmented_image_native.so	1bbd0e2915a6aaa8

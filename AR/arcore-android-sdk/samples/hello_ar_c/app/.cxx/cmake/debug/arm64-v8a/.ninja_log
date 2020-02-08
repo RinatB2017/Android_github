@@ -1,0 +1,9 @@
+# ninja log v5
+1	645	0	CMakeFiles/hello_ar_native.dir/src/main/cpp/point_cloud_renderer.cc.o	cbbf16adff0b7c19
+0	825	0	CMakeFiles/hello_ar_native.dir/src/main/cpp/background_renderer.cc.o	ce0410e71d5b3666
+0	987	0	CMakeFiles/hello_ar_native.dir/src/main/cpp/obj_renderer.cc.o	983d7b8fdb20e441
+0	1050	0	CMakeFiles/hello_ar_native.dir/src/main/cpp/jni_interface.cc.o	dde0c5b6ec6351a1
+1	1074	0	CMakeFiles/hello_ar_native.dir/src/main/cpp/plane_renderer.cc.o	1aed955628017775
+0	1192	0	CMakeFiles/hello_ar_native.dir/src/main/cpp/hello_ar_application.cc.o	6bf017545ac25140
+1	1440	0	CMakeFiles/hello_ar_native.dir/src/main/cpp/util.cc.o	ad88f1ba54e70107
+1440	1612	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libhello_ar_native.so	f2a9589e73634e0e

@@ -1,0 +1,85 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/opt/android-sdk-update-manager/cmake/3.6.4111459/bin/cmake --build /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/.cxx/cmake/debug/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"arcore-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "arcore",
+			"buildType" : "debug",
+			"output" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/build/arcore-native/jni/x86/libarcore_sdk_c.so",
+			"toolchain" : "9282565421525429575"
+		},
+		"hello_ar_native-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "hello_ar_native",
+			"buildCommand" : "/opt/android-sdk-update-manager/cmake/3.6.4111459/bin/cmake --build /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/.cxx/cmake/debug/x86 --target hello_ar_native",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dhello_ar_native_EXPORTS -I../../../../src/main/cpp -I/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/../../libraries/glm -isystem /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/../../libraries/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/background_renderer.cc",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dhello_ar_native_EXPORTS -I../../../../src/main/cpp -I/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/../../libraries/glm -isystem /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/../../libraries/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/hello_ar_application.cc",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dhello_ar_native_EXPORTS -I../../../../src/main/cpp -I/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/../../libraries/glm -isystem /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/../../libraries/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/jni_interface.cc",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dhello_ar_native_EXPORTS -I../../../../src/main/cpp -I/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/../../libraries/glm -isystem /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/../../libraries/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/obj_renderer.cc",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dhello_ar_native_EXPORTS -I../../../../src/main/cpp -I/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/../../libraries/glm -isystem /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/../../libraries/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/plane_renderer.cc",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dhello_ar_native_EXPORTS -I../../../../src/main/cpp -I/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/../../libraries/glm -isystem /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/../../libraries/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/point_cloud_renderer.cc",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dhello_ar_native_EXPORTS -I../../../../src/main/cpp -I/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/../../libraries/glm -isystem /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/../../libraries/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/util.cc",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/build/intermediates/cmake/debug/obj/x86/libhello_ar_native.so",
+			"toolchain" : "9282565421525429575"
+		}
+	},
+	"toolchains" : 
+	{
+		"9282565421525429575" : 
+		{
+			"cCompilerExecutable" : "/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

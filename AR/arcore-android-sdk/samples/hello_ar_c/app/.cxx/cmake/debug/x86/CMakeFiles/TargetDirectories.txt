@@ -1,0 +1,3 @@
+/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/hello_ar_c/app/.cxx/cmake/debug/x86/CMakeFiles/hello_ar_native.dir

@@ -1,0 +1,67 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/opt/android-sdk-update-manager/cmake/3.6.4111459/bin/cmake --build /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/.cxx/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"arcore-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "arcore",
+			"buildType" : "release",
+			"output" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/build/arcore-native/jni/x86/libarcore_sdk_c.so",
+			"toolchain" : "9282565421525429575"
+		},
+		"computer_vision_native-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "computer_vision_native",
+			"buildCommand" : "/opt/android-sdk-update-manager/cmake/3.6.4111459/bin/cmake --build /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/.cxx/cmake/release/x86 --target computer_vision_native",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dcomputer_vision_native_EXPORTS -I../../../../src/main/cpp -I/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/../../libraries/glm -isystem /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/../../libraries/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -Wall -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/src/main/cpp/cpu_image_renderer.cc",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/.cxx/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dcomputer_vision_native_EXPORTS -I../../../../src/main/cpp -I/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/../../libraries/glm -isystem /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/../../libraries/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -Wall -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/src/main/cpp/computer_vision_application.cc",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/.cxx/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dcomputer_vision_native_EXPORTS -I../../../../src/main/cpp -I/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/../../libraries/glm -isystem /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/../../libraries/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -Wall -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/src/main/cpp/jni_interface.cc",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/.cxx/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dcomputer_vision_native_EXPORTS -I../../../../src/main/cpp -I/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/../../libraries/glm -isystem /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/../../libraries/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -Wall -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/src/main/cpp/util.cc",
+					"workingDirectory" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/.cxx/cmake/release/x86"
+				}
+			],
+			"output" : "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/computervision_c/app/build/intermediates/cmake/release/obj/x86/libcomputer_vision_native.so",
+			"toolchain" : "9282565421525429575"
+		}
+	},
+	"toolchains" : 
+	{
+		"9282565421525429575" : 
+		{
+			"cCompilerExecutable" : "/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

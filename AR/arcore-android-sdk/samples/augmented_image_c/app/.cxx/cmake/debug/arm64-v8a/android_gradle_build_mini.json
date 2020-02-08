@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/augmented_image_c/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/opt/android-sdk-update-manager/cmake/3.6.4111459/bin/cmake --build /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/augmented_image_c/app/.cxx/cmake/debug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "arcore-Debug-arm64-v8a": {
+      "artifactName": "arcore",
+      "abi": "arm64-v8a",
+      "output": "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/augmented_image_c/app/build/arcore-native/jni/arm64-v8a/libarcore_sdk_c.so"
+    },
+    "augmented_image_native-Debug-arm64-v8a": {
+      "artifactName": "augmented_image_native",
+      "buildCommand": "/opt/android-sdk-update-manager/cmake/3.6.4111459/bin/cmake --build /home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/augmented_image_c/app/.cxx/cmake/debug/arm64-v8a --target augmented_image_native",
+      "abi": "arm64-v8a",
+      "output": "/home/boss/Programming/_GitHub/Android_github/AR/arcore-android-sdk/samples/augmented_image_c/app/build/intermediates/cmake/debug/obj/arm64-v8a/libaugmented_image_native.so"
+    }
+  }
+}

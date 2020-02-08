@@ -1,0 +1,7 @@
+# ninja log v5
+0	322	0	CMakeFiles/computer_vision_native.dir/src/main/cpp/cpu_image_renderer.cc.o	6534958ef0f1dacd
+0	479	0	CMakeFiles/computer_vision_native.dir/src/main/cpp/jni_interface.cc.o	64443c5c4fe964bc
+0	567	0	CMakeFiles/computer_vision_native.dir/src/main/cpp/util.cc.o	ef765e64e1847099
+0	847	0	CMakeFiles/computer_vision_native.dir/src/main/cpp/computer_vision_application.cc.o	7dbd8a88d950fc29
+847	928	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libcomputer_vision_native.so	267696920c596828
+1	101	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libcomputer_vision_native.so	267696920c596828
