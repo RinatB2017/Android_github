@@ -16,7 +16,7 @@ package it.polimi.deib.p2pchat.discovery.actionlisteners;
  */
 import android.content.Context;
 import android.net.wifi.p2p.WifiP2pManager;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.Log;
 import android.widget.Toast;
 

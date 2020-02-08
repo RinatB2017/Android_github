@@ -16,11 +16,11 @@ package it.polimi.deib.p2pchat.discovery.services;
  * limitations under the License.
  */
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.fragment.app.Fragment;
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -97,7 +97,7 @@ public class WiFiP2pServicesFragment extends Fragment implements
     /**
      * Method called by {@link it.polimi.deib.p2pchat.discovery.services.WiFiServicesAdapter}
      * with the {@link it.polimi.deib.p2pchat.discovery.services.WiFiServicesAdapter.ItemClickListener}
-     * interface, when the user click on an element of the {@link android.support.v7.widget.RecyclerView}.
+     * interface, when the user click on an element of the {@link RecyclerView}.
      * @param view The clicked view.
      */
     @Override

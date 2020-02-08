@@ -18,7 +18,7 @@ package it.polimi.deib.p2pchat.discovery.socketmanagers;
  */
 
 import android.os.Handler;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.Log;
 
 import java.io.IOException;

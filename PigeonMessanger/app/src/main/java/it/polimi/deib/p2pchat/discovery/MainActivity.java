@@ -36,9 +36,10 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.os.StrictMode;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.ActionBarActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -504,7 +505,7 @@ public class MainActivity extends ActionBarActivity implements
     }
 
     /**
-     * Method to set the current item of the {@link android.support.v4.view.ViewPager} used
+     * Method to set the current item of the {@link ViewPager} used
      * in {@link it.polimi.deib.p2pchat.discovery.TabFragment}.
      *
      * @param numPage int that represents the index of the tab to show.
@@ -567,8 +568,8 @@ public class MainActivity extends ActionBarActivity implements
     }
 
     /**
-     * Method to setup the {@link android.support.v7.widget.Toolbar}
-     * as supportActionBar in this {@link android.support.v7.app.ActionBarActivity}.
+     * Method to setup the {@link androidx.appcompat.widget.Toolbar}
+     * as supportActionBar in this {@link androidx.appcompat.app.ActionBarActivity}.
      */
     private void setupToolBar() {
         toolbar = (Toolbar) findViewById(R.id.toolbar);

@@ -14,7 +14,7 @@ package it.polimi.deib.p2pchat.discovery.services.localdeviceguielement;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import android.support.v4.app.DialogFragment;
+import androidx.fragment.app.DialogFragment;
 
 
 import android.os.Bundle;

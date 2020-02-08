@@ -1,7 +1,7 @@
 package it.polimi.deib.p2pchat.discovery;
 
 import android.net.wifi.p2p.WifiP2pDevice;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import java.util.ArrayList;
 import java.util.List;
