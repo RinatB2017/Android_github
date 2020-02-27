@@ -1,0 +1,4 @@
+#Thu Feb 27 20:26:14 MSK 2020
+base.0=/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

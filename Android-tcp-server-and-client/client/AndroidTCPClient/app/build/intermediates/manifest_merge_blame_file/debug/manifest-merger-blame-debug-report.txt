@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.orderingapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:8:5-66
+11-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:8:22-63
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:9:5-74
+12-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:9:22-71
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:10:5-68
+13-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:10:22-65
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:11:5-67
+14-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:11:22-64
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:12:5-76
+15-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:12:22-73
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:13:5-79
+16-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:13:22-76
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:8:5-66
+17-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:8:22-63
+18
+19    <application
+19-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:16:5-32:19
+20        android:allowBackup="true"
+20-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:17:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/AndroidManifest.xml:22:18-86
+22        android:debuggable="true"
+23        android:icon="@drawable/ic_launcher"
+23-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:18:9-45
+24        android:label="@string/app_name"
+24-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:19:9-41
+25        android:theme="@android:style/Theme.NoTitleBar" >
+25-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:20:9-56
+26        <activity android:name="com.example.android_tcp_client.MainActivity" >
+26-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:21:9-28:20
+26-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:22:13-71
+27            <intent-filter>
+27-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:23:13-27:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:24:17-69
+28-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:24:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:26:17-77
+30-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:26:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.example.android_tcp_client.SettingsActivity" >
+33-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:29:9-31:20
+33-->/home/boss/Programming/_GitHub/AndroidStudioProjects/Tests/AndroidTCPClient/app/src/main/AndroidManifest.xml:30:13-75
+34        </activity>
+35    </application>
+36
+37</manifest>
