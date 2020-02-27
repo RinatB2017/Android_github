@@ -4,7 +4,7 @@
             "outputFile": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/d4f92db989f78a0fe85b2f8d9eb7785c/res/values-v24/values-v24.xml",
+                    "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

@@ -1,0 +1,775 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.rtspplayer.sample"
+4    android:installLocation="auto"
+5    android:versionCode="38"
+6    android:versionName="4.2.10" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="16"
+9-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+12-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:9:5-79
+12-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:9:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:10:5-67
+13-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:10:22-64
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+14-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:11:5-86
+14-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:11:22-83
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:12:5-81
+15-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:12:22-78
+16    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+16-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:13:5-75
+16-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:13:22-72
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:14:5-68
+17-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:14:22-65
+18    <uses-permission android:name="android.permission.GET_TASKS" />
+18-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:15:5-68
+18-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:15:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:16:5-78
+19-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:16:22-76
+20    <uses-permission android:name="android.permission.READ_LOGS" />
+20-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:17:5-67
+20-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:17:22-65
+21
+22    <application
+22-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:19:5-281:16
+23        android:allowBackup="true"
+23-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:20:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/AndroidManifest.xml:22:18-86
+25        android:debuggable="true"
+26        android:hardwareAccelerated="true"
+26-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:25:9-43
+27        android:icon="@drawable/app"
+27-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:21:9-37
+28        android:label="@string/app_name"
+28-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:23:9-41
+29        android:largeHeap="true"
+29-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:26:9-33
+30        android:logo="@drawable/app"
+30-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:22:9-37
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:24:9-40
+33        <activity
+33-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:28:9-273:20
+34            android:name="org.rtspplayer.sample.activity.MainActivity"
+34-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:29:13-71
+35            android:configChanges="orientation|screenSize"
+35-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:31:13-59
+36            android:label="@string/app_name" >
+36-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:30:13-45
+37            <intent-filter>
+37-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:33:13-36:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:34:17-69
+38-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:34:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:35:17-77
+40-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:35:27-74
+41            </intent-filter>
+42            <!-- This filter captures protocols without type info -->
+43            <intent-filter>
+43-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:38:13-54:29
+44                <action android:name="android.intent.action.VIEW" />
+44-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:39:17-69
+44-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:39:25-66
+45
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:40:17-76
+46-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:40:27-73
+47                <category android:name="android.intent.category.BROWSABLE" />
+47-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:41:17-78
+47-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:41:27-75
+48
+49                <data android:scheme="rtmp" />
+49-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+49-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+50                <data android:scheme="rtmpe" />
+50-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+50-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+51                <data android:scheme="rtmps" />
+51-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+51-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+52                <data android:scheme="rtp" />
+52-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+52-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+53                <data android:scheme="rtsp" />
+53-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+53-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+54                <data android:scheme="mms" />
+54-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+54-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+55                <data android:scheme="mmsh" />
+55-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+55-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+56                <data android:scheme="icyx" />
+56-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+56-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+57                <data android:scheme="httplive" />
+57-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+57-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+58                <data android:scheme="udp" />
+58-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+58-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+59                <data android:scheme="vlc" />
+59-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+59-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+60            </intent-filter>
+61            <!-- This filter captures protocols with type info -->
+62            <intent-filter>
+62-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:56:13-74:29
+63                <action android:name="android.intent.action.VIEW" />
+63-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:39:17-69
+63-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:39:25-66
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:40:17-76
+65-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:40:27-73
+66                <category android:name="android.intent.category.BROWSABLE" />
+66-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:41:17-78
+66-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:41:27-75
+67
+68                <data android:mimeType="video/*" />
+68-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+68-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+69                <data android:mimeType="audio/*" />
+69-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+69-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+70                <data android:scheme="rtmp" />
+70-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+70-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+71                <data android:scheme="rtmpe" />
+71-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+71-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+72                <data android:scheme="rtmps" />
+72-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+72-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+73                <data android:scheme="rtp" />
+73-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+73-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+74                <data android:scheme="rtsp" />
+74-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+74-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+75                <data android:scheme="mms" />
+75-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+75-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+76                <data android:scheme="mmsh" />
+76-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+76-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+77                <data android:scheme="icyx" />
+77-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+77-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+78                <data android:scheme="httplive" />
+78-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+78-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+79                <data android:scheme="udp" />
+79-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+79-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+80            </intent-filter>
+81            <intent-filter>
+81-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:75:13-109:29
+82                <action android:name="android.intent.action.VIEW" />
+82-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:39:17-69
+82-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:39:25-66
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:40:17-76
+84-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:40:27-73
+85                <category android:name="android.intent.category.BROWSABLE" />
+85-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:41:17-78
+85-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:41:27-75
+86
+87                <data android:scheme="" />
+87-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+87-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+88                <data android:scheme="file" />
+88-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+88-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+89                <data android:scheme="ftp" />
+89-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+89-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+90                <data android:scheme="content" />
+90-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+90-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+91                <data android:scheme="http" />
+91-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+91-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+92                <data android:scheme="https" />
+92-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+92-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+93                <data android:mimeType="video/*" />
+93-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+93-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+94                <data android:mimeType="audio/*" />
+94-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+94-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+95                <data android:mimeType="*/rmvb" />
+95-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+95-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+96                <data android:mimeType="*/avi" />
+96-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+96-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+97                <data android:mimeType="*/mkv" />
+97-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+97-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+98                <data android:mimeType="application/3gpp*" />
+98-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+98-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+99                <data android:mimeType="application/mp4" />
+99-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+99-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+100                <data android:mimeType="application/mpeg*" />
+100-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+100-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+101                <data android:mimeType="application/ogg" />
+101-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+101-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+102                <data android:mimeType="application/sdp" />
+102-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+102-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+103                <data android:mimeType="application/vnd.3gp*" />
+103-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+103-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+104                <data android:mimeType="application/vnd.apple.mpegurl" />
+104-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+104-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+105                <data android:mimeType="application/vnd.dvd*" />
+105-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+105-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+106                <data android:mimeType="application/vnd.dolby*" />
+106-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+106-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+107                <data android:mimeType="application/vnd.rn-realmedia*" />
+107-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+107-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+108                <data android:mimeType="application/x-extension-mp4" />
+108-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+108-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+109                <data android:mimeType="application/x-flac" />
+109-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+109-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+110                <data android:mimeType="application/x-matroska" />
+110-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+110-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+111                <data android:mimeType="application/x-mpegURL" />
+111-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+111-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+112                <data android:mimeType="application/x-ogg" />
+112-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+112-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+113                <data android:mimeType="application/x-quicktimeplayer" />
+113-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+113-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+114                <data android:mimeType="application/x-shockwave-flash" />
+114-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+114-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+115                <data android:mimeType="application/xspf+xml" />
+115-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+115-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+116                <data android:mimeType="misc/ultravox" />
+116-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+116-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:60:23-49
+117            </intent-filter>
+118            <intent-filter>
+118-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:111:13-123:20
+119                <action android:name="android.intent.action.VIEW" />
+119-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:39:17-69
+119-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:39:25-66
+120
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:40:17-76
+121-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:40:27-73
+122                <category android:name="android.intent.category.BROWSABLE" />
+122-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:41:17-78
+122-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:41:27-75
+123
+124                <data
+124-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+125                    android:host="*"
+125-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:115:32-48
+126                    android:pathPattern=".*\\.m3u8"
+126-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+127                    android:scheme="http" />
+127-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+128                <data
+128-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+129                    android:host="*"
+129-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:115:32-48
+130                    android:pathPattern=".*\\..*\\.m3u8"
+130-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+131                    android:scheme="http" />
+131-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+132                <data
+132-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+133                    android:host="*"
+133-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:115:32-48
+134                    android:pathPattern=".*\\..*\\..*\\..m3u8"
+134-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+135                    android:scheme="http" />
+135-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+136                <data
+136-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+137                    android:host="*"
+137-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:115:32-48
+138                    android:pathPattern=".*\\..*\\..*\\..*\\.m3u8"
+138-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+139                    android:scheme="http" />
+139-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+140            </intent-filter>
+141            <intent-filter>
+141-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:125:4-137:20
+142                <action android:name="android.intent.action.VIEW" />
+142-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:39:17-69
+142-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:39:25-66
+143
+144                <category android:name="android.intent.category.DEFAULT" />
+144-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:40:17-76
+144-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:40:27-73
+145                <category android:name="android.intent.category.BROWSABLE" />
+145-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:41:17-78
+145-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:41:27-75
+146
+147                <data
+147-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+148                    android:host="*"
+148-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:115:32-48
+149                    android:pathPattern=".*\\.m3u"
+149-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+150                    android:scheme="http" />
+150-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+151                <data
+151-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+152                    android:host="*"
+152-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:115:32-48
+153                    android:pathPattern=".*\\..*\\.m3u"
+153-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+154                    android:scheme="http" />
+154-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+155                <data
+155-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+156                    android:host="*"
+156-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:115:32-48
+157                    android:pathPattern=".*\\..*\\..*\\..m3u"
+157-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+158                    android:scheme="http" />
+158-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+159                <data
+159-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+160                    android:host="*"
+160-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:115:32-48
+161                    android:pathPattern=".*\\..*\\..*\\..*\\.m3u"
+161-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+162                    android:scheme="http" />
+162-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+163            </intent-filter>
+164            <intent-filter>
+164-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:139:13-272:29
+165                <action android:name="android.intent.action.VIEW" />
+165-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:39:17-69
+165-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:39:25-66
+166
+167                <category android:name="android.intent.category.DEFAULT" />
+167-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:40:17-76
+167-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:40:27-73
+168                <category android:name="android.intent.category.BROWSABLE" />
+168-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:41:17-78
+168-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:41:27-75
+169
+170                <data android:scheme="" />
+170-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+170-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+171                <data android:scheme="file" />
+171-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+171-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+172                <data android:scheme="ftp" />
+172-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+172-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+173                <data android:scheme="content" />
+173-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+173-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+174                <data android:scheme="http" />
+174-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+174-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+175                <data android:scheme="https" />
+175-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+175-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:23-44
+176                <data android:host="*" />
+176-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+176-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:115:32-48
+177
+178                <!-- video -->
+179
+180                <data android:pathPattern=".*\\.3g2" />
+180-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+180-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+181                <data android:pathPattern=".*\\.3gp" />
+181-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+181-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+182                <data android:pathPattern=".*\\.3gp2" />
+182-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+182-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+183                <data android:pathPattern=".*\\.3gpp" />
+183-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+183-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+184                <data android:pathPattern=".*\\.amv" />
+184-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+184-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+185                <data android:pathPattern=".*\\.asf" />
+185-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+185-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+186                <data android:pathPattern=".*\\.avi" />
+186-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+186-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+187                <data android:pathPattern=".*\\.divx" />
+187-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+187-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+188                <data android:pathPattern=".*\\.drc" />
+188-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+188-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+189                <data android:pathPattern=".*\\.dv" />
+189-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+189-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+190                <data android:pathPattern=".*\\.f4v" />
+190-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+190-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+191                <data android:pathPattern=".*\\.flv" />
+191-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+191-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+192                <data android:pathPattern=".*\\.gvi" />
+192-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+192-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+193                <data android:pathPattern=".*\\.gxf" />
+193-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+193-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+194                <data android:pathPattern=".*\\.ismv" />
+194-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+194-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+195                <data android:pathPattern=".*\\.iso" />
+195-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+195-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+196                <data android:pathPattern=".*\\.m1v" />
+196-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+196-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+197                <data android:pathPattern=".*\\.m2v" />
+197-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+197-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+198                <data android:pathPattern=".*\\.m2t" />
+198-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+198-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+199                <data android:pathPattern=".*\\.m2ts" />
+199-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+199-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+200                <data android:pathPattern=".*\\.m3u" />
+200-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+200-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+201                <!-- <data android:pathPattern=".*\\.m3u8" /> -->
+202                <data android:pathPattern=".*\\.mkv" />
+202-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+202-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+203                <data android:pathPattern=".*\\.mov" />
+203-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+203-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+204                <data android:pathPattern=".*\\.mp2" />
+204-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+204-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+205                <data android:pathPattern=".*\\.mp2v" />
+205-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+205-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+206                <data android:pathPattern=".*\\.mp4" />
+206-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+206-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+207                <data android:pathPattern=".*\\.mp4v" />
+207-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+207-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+208                <data android:pathPattern=".*\\.mpe" />
+208-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+208-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+209                <data android:pathPattern=".*\\.mpeg" />
+209-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+209-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+210                <data android:pathPattern=".*\\.mpeg1" />
+210-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+210-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+211                <data android:pathPattern=".*\\.mpeg2" />
+211-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+211-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+212                <data android:pathPattern=".*\\.mpeg4" />
+212-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+212-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+213                <data android:pathPattern=".*\\.mpg" />
+213-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+213-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+214                <data android:pathPattern=".*\\.mpv2" />
+214-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+214-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+215                <data android:pathPattern=".*\\.mts" />
+215-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+215-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+216                <data android:pathPattern=".*\\.mtv" />
+216-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+216-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+217                <data android:pathPattern=".*\\.mxf" />
+217-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+217-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+218                <data android:pathPattern=".*\\.mxg" />
+218-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+218-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+219                <data android:pathPattern=".*\\.nsv" />
+219-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+219-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+220                <data android:pathPattern=".*\\.nut" />
+220-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+220-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+221                <data android:pathPattern=".*\\.nuv" />
+221-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+221-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+222                <data android:pathPattern=".*\\.ogm" />
+222-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+222-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+223                <data android:pathPattern=".*\\.ogv" />
+223-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+223-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+224                <data android:pathPattern=".*\\.ogx" />
+224-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+224-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+225                <data android:pathPattern=".*\\.ps" />
+225-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+225-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+226                <data android:pathPattern=".*\\.rec" />
+226-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+226-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+227                <data android:pathPattern=".*\\.rm" />
+227-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+227-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+228                <data android:pathPattern=".*\\.rmvb" />
+228-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+228-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+229                <data android:pathPattern=".*\\.tod" />
+229-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+229-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+230                <data android:pathPattern=".*\\.ts" />
+230-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+230-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+231                <data android:pathPattern=".*\\.tts" />
+231-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+231-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+232                <data android:pathPattern=".*\\.vob" />
+232-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+232-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+233                <data android:pathPattern=".*\\.vro" />
+233-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+233-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+234                <data android:pathPattern=".*\\.webm" />
+234-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+234-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+235                <data android:pathPattern=".*\\.wm" />
+235-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+235-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+236                <data android:pathPattern=".*\\.wmv" />
+236-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+236-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+237                <data android:pathPattern=".*\\.wtv" />
+237-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+237-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+238                <data android:pathPattern=".*\\.xesc" />
+238-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+238-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+239                <data android:pathPattern=".*\\.3G2" />
+239-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+239-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+240                <data android:pathPattern=".*\\.3GP" />
+240-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+240-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+241                <data android:pathPattern=".*\\.3GP2" />
+241-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+241-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+242                <data android:pathPattern=".*\\.3GPP" />
+242-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+242-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+243                <data android:pathPattern=".*\\.AMV" />
+243-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+243-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+244                <data android:pathPattern=".*\\.ASF" />
+244-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+244-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+245                <data android:pathPattern=".*\\.AVI" />
+245-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+245-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+246                <data android:pathPattern=".*\\.DIVX" />
+246-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+246-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+247                <data android:pathPattern=".*\\.DRC" />
+247-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+247-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+248                <data android:pathPattern=".*\\.DV" />
+248-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+248-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+249                <data android:pathPattern=".*\\.F4V" />
+249-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+249-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+250                <data android:pathPattern=".*\\.FLV" />
+250-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+250-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+251                <data android:pathPattern=".*\\.GVI" />
+251-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+251-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+252                <data android:pathPattern=".*\\.GXF" />
+252-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+252-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+253                <data android:pathPattern=".*\\.ISMV" />
+253-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+253-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+254                <data android:pathPattern=".*\\.ISO" />
+254-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+254-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+255                <data android:pathPattern=".*\\.M1V" />
+255-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+255-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+256                <data android:pathPattern=".*\\.M2V" />
+256-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+256-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+257                <data android:pathPattern=".*\\.M2T" />
+257-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+257-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+258                <data android:pathPattern=".*\\.M2TS" />
+258-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+258-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+259                <data android:pathPattern=".*\\.M3U" />
+259-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+259-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+260                <!-- <data android:pathPattern=".*\\.M3U8" /> -->
+261                <data android:pathPattern=".*\\.MKV" />
+261-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+261-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+262                <data android:pathPattern=".*\\.MOV" />
+262-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+262-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+263                <data android:pathPattern=".*\\.MP2" />
+263-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+263-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+264                <data android:pathPattern=".*\\.MP2V" />
+264-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+264-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+265                <data android:pathPattern=".*\\.MP4" />
+265-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+265-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+266                <data android:pathPattern=".*\\.MP4V" />
+266-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+266-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+267                <data android:pathPattern=".*\\.MPE" />
+267-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+267-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+268                <data android:pathPattern=".*\\.MPEG" />
+268-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+268-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+269                <data android:pathPattern=".*\\.MPEG1" />
+269-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+269-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+270                <data android:pathPattern=".*\\.MPEG2" />
+270-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+270-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+271                <data android:pathPattern=".*\\.MPEG4" />
+271-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+271-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+272                <data android:pathPattern=".*\\.MPG" />
+272-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+272-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+273                <data android:pathPattern=".*\\.MPV2" />
+273-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+273-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+274                <data android:pathPattern=".*\\.MTS" />
+274-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+274-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+275                <data android:pathPattern=".*\\.MTV" />
+275-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+275-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+276                <data android:pathPattern=".*\\.MXF" />
+276-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+276-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+277                <data android:pathPattern=".*\\.MXG" />
+277-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+277-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+278                <data android:pathPattern=".*\\.NSV" />
+278-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+278-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+279                <data android:pathPattern=".*\\.NUT" />
+279-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+279-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+280                <data android:pathPattern=".*\\.NUV" />
+280-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+280-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+281                <data android:pathPattern=".*\\.OGM" />
+281-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+281-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+282                <data android:pathPattern=".*\\.OGV" />
+282-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+282-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+283                <data android:pathPattern=".*\\.OGX" />
+283-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+283-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+284                <data android:pathPattern=".*\\.PS" />
+284-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+284-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+285                <data android:pathPattern=".*\\.REC" />
+285-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+285-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+286                <data android:pathPattern=".*\\.RM" />
+286-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+286-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+287                <data android:pathPattern=".*\\.RMVB" />
+287-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+287-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+288                <data android:pathPattern=".*\\.TOD" />
+288-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+288-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+289                <data android:pathPattern=".*\\.TS" />
+289-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+289-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+290                <data android:pathPattern=".*\\.TTS" />
+290-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+290-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+291                <data android:pathPattern=".*\\.VOB" />
+291-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+291-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+292                <data android:pathPattern=".*\\.VRO" />
+292-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+292-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+293                <data android:pathPattern=".*\\.WEBM" />
+293-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+293-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+294                <data android:pathPattern=".*\\.WM" />
+294-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+294-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+295                <data android:pathPattern=".*\\.WMV" />
+295-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+295-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+296                <data android:pathPattern=".*\\.WTV" />
+296-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+296-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+297                <data android:pathPattern=".*\\.XESC" />
+297-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:43:17-47
+297-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:116:14-45
+298            </intent-filter>
+299        </activity>
+300        <activity
+300-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:275:9-280:20
+301            android:name="org.rtspplayer.sample.activity.PreferencesActivity"
+301-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:276:13-78
+302            android:noHistory="true" >
+302-->/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/src/main/AndroidManifest.xml:277:13-37
+303
+304            <!-- android:theme="@android:style/Theme.Black.NoTitleBar" -->
+305        </activity>
+306    </application>
+307
+308</manifest>

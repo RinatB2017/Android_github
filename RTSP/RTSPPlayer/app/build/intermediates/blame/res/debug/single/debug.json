@@ -13,7 +13,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable_blank_camera2.png.flat",
@@ -37,7 +37,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xxhdpi_player_next_xxhdpi_scaled.xml.flat",
@@ -97,7 +97,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/layout/notification_template_part_time.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xxhdpi_player_screen_zoom_xxhdpi.png.flat",
@@ -113,7 +113,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable/notification_icon_background.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable_preview_lefttop.png.flat",
@@ -217,7 +217,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/d4f92db989f78a0fe85b2f8d9eb7785c/res/layout/notification_template_big_media_narrow.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/res/layout/notification_template_big_media_narrow.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xhdpi_spinner_ab_default_mystyleplayer.9.png.flat",
@@ -229,7 +229,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout-large-port-xhdpi_player_control_large_port_xhdpi.xml.flat",
@@ -261,7 +261,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xhdpi_menu_dropdown_panel_mystyleplayer.9.png.flat",
@@ -273,7 +273,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/d4f92db989f78a0fe85b2f8d9eb7785c/res/layout/notification_template_lines_media.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/res/layout/notification_template_lines_media.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xhdpi_player_screen_crop_xhdpi_scaled.xml.flat",
@@ -285,7 +285,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xxhdpi_player_screen_crop_xxhdpi_scaled.xml.flat",
@@ -365,7 +365,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable/notification_tile_bg.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable/notification_tile_bg.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout-large-land-xhdpi_player_control_large_land_xhdpi.xml.flat",
@@ -425,7 +425,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/layout-v21/notification_action_tombstone.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-ldpi_player_lock_ldpi.png.flat",
@@ -489,7 +489,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/layout/notification_template_part_chronometer.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-hdpi_player_play_hdpi.png.flat",
@@ -529,7 +529,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/d4f92db989f78a0fe85b2f8d9eb7785c/res/layout/notification_template_big_media_narrow_custom.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/res/layout/notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xhdpi_ab_stacked_solid_mystyleplayer.9.png.flat",
@@ -537,7 +537,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-ldpi_player_screen_zoom_ldpi.png.flat",
@@ -557,7 +557,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/layout-v21/notification_action.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/layout-v21/notification_action.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout-large-port-mdpi_activity_main.xml.flat",
@@ -593,7 +593,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/layout/notification_action.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/layout/notification_action.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tab_selected_pressed_mystyleplayer.9.png.flat",
@@ -609,7 +609,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-hdpi_spinner_ab_disabled_mystyleplayer.9.png.flat",
@@ -637,7 +637,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/d4f92db989f78a0fe85b2f8d9eb7785c/res/layout/notification_media_cancel_action.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xhdpi_tab_unselected_mystyleplayer.9.png.flat",
@@ -669,7 +669,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable/notification_bg.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-ldpi_player_screen_crop_ldpi_scaled.xml.flat",
@@ -681,7 +681,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-v21/notification_action_background.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-v21/notification_action_background.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable_blank.png.flat",
@@ -697,7 +697,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-mdpi_spinner_ab_default_mystyleplayer.9.png.flat",
@@ -737,7 +737,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-hdpi_btn_cab_done_focused_mystyleplayer.9.png.flat",
@@ -897,7 +897,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/layout/notification_action_tombstone.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/layout/notification_action_tombstone.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-mdpi_ab_transparent_mystyleplayer.9.png.flat",
@@ -925,7 +925,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/layout/notification_template_icon_group.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ab_bottom_solid_mystyleplayer.9.png.flat",
@@ -961,7 +961,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/d4f92db989f78a0fe85b2f8d9eb7785c/res/layout/notification_template_big_media.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/res/layout/notification_template_big_media.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable_tab_indicator_ab_mystyleplayer.xml.flat",
@@ -1049,7 +1049,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/layout-v21/notification_template_icon_group.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/layout-v21/notification_template_icon_group.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-hdpi_player_screen_full_hdpi.png.flat",
@@ -1085,7 +1085,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/layout-v21/notification_template_custom_big.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-mdpi_player_screen_aspect_mdpi_scaled.xml.flat",
@@ -1117,7 +1117,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable/notification_bg_low.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable_min.png.flat",
@@ -1185,11 +1185,11 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/layout-v16/notification_template_custom_big.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/layout-v16/notification_template_custom_big.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/d4f92db989f78a0fe85b2f8d9eb7785c/res/layout/notification_template_big_media_custom.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/res/layout/notification_template_big_media_custom.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout-normal-land-ldpi_activity_main.xml.flat",
@@ -1197,7 +1197,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable_ab_background_textured_mystyleplayer.xml.flat",
@@ -1241,7 +1241,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-hdpi_but_close_pressed.png.flat",
@@ -1253,11 +1253,11 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/d4f92db989f78a0fe85b2f8d9eb7785c/res/layout/notification_media_action.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xhdpi_ab_bottom_solid_mystyleplayer.9.png.flat",
@@ -1305,7 +1305,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xhdpi_app.png.flat",
@@ -1313,7 +1313,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/d4f92db989f78a0fe85b2f8d9eb7785c/res/layout/notification_template_media.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/res/layout/notification_template_media.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-mdpi_player_screen_full_mdpi_scaled.xml.flat",
@@ -1377,7 +1377,7 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-xhdpi_cab_background_bottom_mystyleplayer.9.png.flat",
@@ -1433,11 +1433,11 @@
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/d4f92db989f78a0fe85b2f8d9eb7785c/res/layout/notification_template_media_custom.xml"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/res/layout/notification_template_media_custom.xml"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/c012b381bb37b6bb28b0c2823caf1a91/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+        "source": "/home/boss/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/home/boss/Programming/_GitHub/Android_github/RTSP/RTSPPlayer/app/build/intermediates/res/merged/debug/drawable-mdpi_player_screen_compact_mdpi.png.flat",
