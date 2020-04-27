@@ -358,7 +358,7 @@ class DeviceManager(private val context: Context) {
             device: BluetoothDevice, requestId: Int, offset: Int,
             characteristic: BluetoothGattCharacteristic
         ) {
-            val now = System.currentTimeMillis()
+//            val now = System.currentTimeMillis()
             when (characteristic.uuid) {
                 MAIN_CHARACTERISTIC_UUID -> {
                     insertLogs("Read Server Characteristic", characteristic.uuid.toString())
