@@ -1,0 +1,7 @@
+{
+  "ndkDirProperty": "/opt/android-sdk-update-manager/ndk-bundle",
+  "sdkFolder": "/opt/android-sdk-update-manager",
+  "sideBySideNdkFolderNames": [
+    "21.1.6352462"
+  ]
+}

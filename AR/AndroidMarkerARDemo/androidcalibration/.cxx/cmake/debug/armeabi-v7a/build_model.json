@@ -176,7 +176,6 @@
       "project": {
         "compilerSettingsCacheFolder": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/.cxx",
         "cxxFolder": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/.cxx",
-        "ideBuildTargetAbi": "armeabi-v7a,armeabi",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
