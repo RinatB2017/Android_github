@@ -1,58 +1,188 @@
 [
   {
     "level": "INFO",
-    "message": "Start JSON generation. Platform version: 19 min SDK version: armeabi-v7a"
+    "message": "Start JSON generation. Platform version: 19 min SDK version: armeabi-v7a",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "No CMake version was specified in build.gradle. Choosing a suitable version."
+    "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "Trying to locate CMake in local SDK repository."
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "CMake \u00273.10.2\u0027 found in SDK did not match requested version \u00273.6.0\u0027."
+    "message": "- CMake found in SDK at \u0027/opt/android-sdk-update-manager/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "- CMake found in SDK at \u0027/opt/android-sdk-update-manager/cmake/3.6.4111459\u0027 had version \u00273.6.0\u0027"
+    "message": "CMake \u00273.6.0\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "rebuilding JSON /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json due to:"
+    "message": "rebuilding JSON /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json due to:",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "- expected json /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder"
+    "message": "- expected json /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "- missing previous command file /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/armeabi-v7a/build_command.txt, will remove stale json folder"
+    "message": "- missing previous command file /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/armeabi-v7a/build_command.txt, will remove stale json folder",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "- command changed from previous, will remove stale json folder"
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "removing stale contents from \u0027/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/armeabi-v7a\u0027"
+    "message": "removing stale contents from \u0027/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/armeabi-v7a\u0027",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "created folder \u0027/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/armeabi-v7a\u0027"
+    "message": "created folder \u0027/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/armeabi-v7a\u0027",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "executing cmake Executable : /opt/android-sdk-update-manager/cmake/3.6.4111459/bin/cmake\narguments : \n-H/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib\n-B/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/armeabi-v7a\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_PLATFORM\u003dandroid-19\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/build/intermediates/cmake/debug/obj/armeabi-v7a\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DANDROID_NDK\u003d/opt/android-sdk-update-manager/ndk-bundle\n-DCMAKE_TOOLCHAIN_FILE\u003d/opt/android-sdk-update-manager/ndk-bundle/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d/opt/android-sdk-update-manager/cmake/3.6.4111459/bin/ninja\n-GAndroid Gradle - Ninja\n-DANDROID_PLATFORM\u003dandroid-19\n-DANDROID_TOOLCHAIN\u003dclang\n-DANDROID_STL\u003dgnustl_static\njvmArgs : \n\n"
+    "message": "executing cmake Executable : /opt/android-sdk-update-manager/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib\n-DCMAKE_FIND_ROOT_PATH\u003d/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/prefab/armeabi-v7a/prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/opt/android-sdk-update-manager/ndk-bundle/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003d/opt/android-sdk-update-manager/ndk-bundle\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_NDK\u003d/opt/android-sdk-update-manager/ndk-bundle\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/build/intermediates/cmake/debug/obj/armeabi-v7a\n-DCMAKE_MAKE_PROGRAM\u003d/opt/android-sdk-update-manager/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d19\n-DANDROID_PLATFORM\u003dandroid-19\n-DANDROID_TOOLCHAIN\u003dclang\n-DANDROID_STL\u003dgnustl_static\n-B/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/armeabi-v7a\n-GNinja\njvmArgs : \n\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "Executable : /opt/android-sdk-update-manager/cmake/3.6.4111459/bin/cmake\narguments : \n-H/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib\n-B/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/armeabi-v7a\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_PLATFORM\u003dandroid-19\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/build/intermediates/cmake/debug/obj/armeabi-v7a\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DANDROID_NDK\u003d/opt/android-sdk-update-manager/ndk-bundle\n-DCMAKE_TOOLCHAIN_FILE\u003d/opt/android-sdk-update-manager/ndk-bundle/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d/opt/android-sdk-update-manager/cmake/3.6.4111459/bin/ninja\n-GAndroid Gradle - Ninja\n-DANDROID_PLATFORM\u003dandroid-19\n-DANDROID_TOOLCHAIN\u003dclang\n-DANDROID_STL\u003dgnustl_static\njvmArgs : \n\n"
+    "message": "\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process /opt/android-sdk-update-manager/cmake/3.6.4111459/bin/cmake with arguments {-H/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib -B/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/armeabi-v7a -DANDROID_ABI\u003darmeabi-v7a -DANDROID_PLATFORM\u003dandroid-19 -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/build/intermediates/cmake/debug/obj/armeabi-v7a -DCMAKE_BUILD_TYPE\u003dDebug -DANDROID_NDK\u003d/opt/android-sdk-update-manager/ndk-bundle -DCMAKE_TOOLCHAIN_FILE\u003d/opt/android-sdk-update-manager/ndk-bundle/build/cmake/android.toolchain.cmake -DCMAKE_MAKE_PROGRAM\u003d/opt/android-sdk-update-manager/cmake/3.6.4111459/bin/ninja -GAndroid Gradle - Ninja -DANDROID_PLATFORM\u003dandroid-19 -DANDROID_TOOLCHAIN\u003dclang -DANDROID_STL\u003dgnustl_static}\n-- Configuring incomplete, errors occurred!\n\nCMake Error at /opt/android-sdk-update-manager/ndk-bundle/build/cmake/android.toolchain.cmake:250 (message):\n  gnustl_static is no longer supported.  Please switch to either c++_shared\n  or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  /opt/android-sdk-update-manager/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)\n  CMakeLists.txt\n\n\nCMake Error: CMAKE_C_COMPILER not set, after EnableLanguage\nCMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage\n"
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib\",\n  \"buildDirectory\": \"/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/armeabi-v7a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/.cxx/cmake/debug/prefab/armeabi-v7a/prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/opt/android-sdk-update-manager/ndk-bundle/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darmeabi-v7a\",\n    \"-DANDROID_NDK\\u003d/opt/android-sdk-update-manager/ndk-bundle\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darmeabi-v7a\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/opt/android-sdk-update-manager/ndk-bundle\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/build/intermediates/cmake/debug/obj/armeabi-v7a\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/opt/android-sdk-update-manager/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d19\",\n    \"-DANDROID_PLATFORM\\u003dandroid-19\",\n    \"-DANDROID_TOOLCHAIN\\u003dclang\",\n    \"-DANDROID_STL\\u003dgnustl_static\"\n  ]\n}\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Error at /opt/android-sdk-update-manager/ndk-bundle/build/cmake/android.toolchain.cmake:250 (message):\\n  gnustl_static is no longer supported.  Please switch to either c++_shared\\n  or c++_static.  See\\n  https://developer.android.com/ndk/guides/cpp-support.html for more\\n  information.\\nCall Stack (most recent call first):\\n  /opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\\n  CMakeLists.txt\\n\\n\",\"title\":\"Error\",\"type\":\"message\"}\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "ERROR",
+    "message": "CMake Error at /opt/android-sdk-update-manager/ndk-bundle/build/cmake/android.toolchain.cmake:250 (message):\n  gnustl_static is no longer supported.  Please switch to either c++_shared\n  or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  /opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage\",\"title\":\"Error\",\"type\":\"message\"}\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "ERROR",
+    "message": "CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage\",\"title\":\"Error\",\"type\":\"message\"}\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "ERROR",
+    "message": "CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring incomplete, errors occurred!\",\"type\":\"message\"}\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring incomplete, errors occurred!",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"errorMessage\":\"Configuration failed.\",\"inReplyTo\":\"configure\",\"type\":\"error\"}\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "ERROR",
+    "message": "Configuration failed.",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: com.android.ide.common.process.ProcessException: Error configuring CMake server (/opt/android-sdk-update-manager/cmake/3.10.2.4988404/bin).\r\nCMake Error at /opt/android-sdk-update-manager/ndk-bundle/build/cmake/android.toolchain.cmake:250 (message):\n  gnustl_static is no longer supported.  Please switch to either c++_shared\n  or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  /opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt\n\n\nCMake Error: CMAKE_C_COMPILER not set, after EnableLanguage\nCMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage\nConfiguring incomplete, errors occurred!\n",
+    "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/mathlib/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
   }
 ]

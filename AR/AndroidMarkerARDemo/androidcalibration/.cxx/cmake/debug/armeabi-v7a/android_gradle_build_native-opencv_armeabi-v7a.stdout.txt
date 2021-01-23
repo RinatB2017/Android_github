@@ -1,71 +1,133 @@
-[1/10] Building C object CMakeFiles/cpufeatures.dir/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures/cpu-features.c.o
-[2/10] Linking C static library libcpufeatures.a
-[3/10] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/CameraCalibration.cpp.o
-[4/10] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/MarkerDetector.cpp.o
-[5/10] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/native-opencv.cpp.o
-[6/10] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/GeometryTypes.cpp.o
-[7/10] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/Marker.cpp.o
-[8/10] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/TinyLA.cpp.o
-[9/10] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/ARDisplay.cpp.o
-In file included from /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/MarkerDetector.cpp:19:
+ninja: Entering directory `/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a'
+[1/6] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/Marker.cpp.o
+FAILED: CMakeFiles/native-opencv.dir/src/main/cpp/Marker.cpp.o 
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native-opencv.dir/src/main/cpp/Marker.cpp.o -MF CMakeFiles/native-opencv.dir/src/main/cpp/Marker.cpp.o.d -o CMakeFiles/native-opencv.dir/src/main/cpp/Marker.cpp.o -c ../../../../src/main/cpp/Marker.cpp
+In file included from ../../../../src/main/cpp/Marker.cpp:13:
+In file included from ../../../../src/main/cpp/Marker.hpp:20:
+In file included from ../../../../../distribution/include/opencv2/opencv.hpp:62:
+In file included from ../../../../../distribution/include/opencv2/flann.hpp:48:
+In file included from ../../../../../distribution/include/opencv2/flann/flann_base.hpp:43:
+In file included from ../../../../../distribution/include/opencv2/flann/all_indices.h:43:
+../../../../../distribution/include/opencv2/flann/autotuned_index.h:102:28: error: implicit instantiation of undefined template 'std::__ndk1::basic_ostringstream<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>'
+        std::ostringstream stream;
+                           ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/iosfwd:136:32: note: template is declared here
+    class _LIBCPP_TEMPLATE_VIS basic_ostringstream;
+                               ^
+1 error generated.
+[2/6] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/TinyLA.cpp.o
+FAILED: CMakeFiles/native-opencv.dir/src/main/cpp/TinyLA.cpp.o 
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native-opencv.dir/src/main/cpp/TinyLA.cpp.o -MF CMakeFiles/native-opencv.dir/src/main/cpp/TinyLA.cpp.o.d -o CMakeFiles/native-opencv.dir/src/main/cpp/TinyLA.cpp.o -c ../../../../src/main/cpp/TinyLA.cpp
+In file included from ../../../../src/main/cpp/TinyLA.cpp:13:
+In file included from ../../../../src/main/cpp/TinyLA.hpp:17:
+In file included from ../../../../../distribution/include/opencv2/opencv.hpp:62:
+In file included from ../../../../../distribution/include/opencv2/flann.hpp:48:
+In file included from ../../../../../distribution/include/opencv2/flann/flann_base.hpp:43:
+In file included from ../../../../../distribution/include/opencv2/flann/all_indices.h:43:
+../../../../../distribution/include/opencv2/flann/autotuned_index.h:102:28: error: implicit instantiation of undefined template 'std::__ndk1::basic_ostringstream<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>'
+        std::ostringstream stream;
+                           ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/iosfwd:136:32: note: template is declared here
+    class _LIBCPP_TEMPLATE_VIS basic_ostringstream;
+                               ^
+1 error generated.
+[3/6] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/MarkerDetector.cpp.o
+FAILED: CMakeFiles/native-opencv.dir/src/main/cpp/MarkerDetector.cpp.o 
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native-opencv.dir/src/main/cpp/MarkerDetector.cpp.o -MF CMakeFiles/native-opencv.dir/src/main/cpp/MarkerDetector.cpp.o.d -o CMakeFiles/native-opencv.dir/src/main/cpp/MarkerDetector.cpp.o -c ../../../../src/main/cpp/MarkerDetector.cpp
+In file included from ../../../../src/main/cpp/MarkerDetector.cpp:19:
+In file included from ../../../../src/main/cpp/MarkerDetector.hpp:20:
+In file included from ../../../../../distribution/include/opencv2/opencv.hpp:62:
+In file included from ../../../../../distribution/include/opencv2/flann.hpp:48:
+In file included from ../../../../../distribution/include/opencv2/flann/flann_base.hpp:43:
+In file included from ../../../../../distribution/include/opencv2/flann/all_indices.h:43:
+../../../../../distribution/include/opencv2/flann/autotuned_index.h:102:28: error: implicit instantiation of undefined template 'std::__ndk1::basic_ostringstream<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>'
+        std::ostringstream stream;
+                           ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/iosfwd:136:32: note: template is declared here
+    class _LIBCPP_TEMPLATE_VIS basic_ostringstream;
+                               ^
+In file included from ../../../../src/main/cpp/MarkerDetector.cpp:19:
 In file included from ../../../../src/main/cpp/MarkerDetector.hpp:26:
 ../../../../src/main/cpp/MarkerDetectionFacade.hpp:34:6: warning: 'auto_ptr<MarkerDetectionFacade>' is deprecated [-Wdeprecated-declarations]
 std::auto_ptr<MarkerDetectionFacade> createMarkerDetection(CameraCalibration calibration);
      ^
-/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<MarkerDetectionFacade>' has been explicitly marked deprecated here
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2194:28: note: 'auto_ptr<MarkerDetectionFacade>' has been explicitly marked deprecated here
 class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
                            ^
-/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:989:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
 #  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
                                       ^
-/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:978:48: note: expanded from macro '_LIBCPP_DEPRECATED'
 #    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
                                                ^
-/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/MarkerDetector.cpp:31:6: warning: 'auto_ptr<MarkerDetectionFacade>' is deprecated [-Wdeprecated-declarations]
+../../../../src/main/cpp/MarkerDetector.cpp:31:6: warning: 'auto_ptr<MarkerDetectionFacade>' is deprecated [-Wdeprecated-declarations]
 std::auto_ptr<MarkerDetectionFacade> createMarkerDetection(CameraCalibration calibration)
      ^
-/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<MarkerDetectionFacade>' has been explicitly marked deprecated here
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2194:28: note: 'auto_ptr<MarkerDetectionFacade>' has been explicitly marked deprecated here
 class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
                            ^
-/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:989:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
 #  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
                                       ^
-/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:978:48: note: expanded from macro '_LIBCPP_DEPRECATED'
 #    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
                                                ^
-/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/MarkerDetector.cpp:33:15: warning: 'auto_ptr<MarkerDetectionFacade>' is deprecated [-Wdeprecated-declarations]
+../../../../src/main/cpp/MarkerDetector.cpp:33:15: warning: 'auto_ptr<MarkerDetectionFacade>' is deprecated [-Wdeprecated-declarations]
   return std::auto_ptr<MarkerDetectionFacade>(new MarkerDetector(calibration));
               ^
-/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<MarkerDetectionFacade>' has been explicitly marked deprecated here
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2194:28: note: 'auto_ptr<MarkerDetectionFacade>' has been explicitly marked deprecated here
 class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
                            ^
-/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:989:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
 #  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
                                       ^
-/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:978:48: note: expanded from macro '_LIBCPP_DEPRECATED'
 #    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
                                                ^
-3 warnings generated.
-In file included from /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/native-opencv.cpp:12:
+3 warnings and 1 error generated.
+[4/6] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/ARDisplay.cpp.o
+FAILED: CMakeFiles/native-opencv.dir/src/main/cpp/ARDisplay.cpp.o 
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native-opencv.dir/src/main/cpp/ARDisplay.cpp.o -MF CMakeFiles/native-opencv.dir/src/main/cpp/ARDisplay.cpp.o.d -o CMakeFiles/native-opencv.dir/src/main/cpp/ARDisplay.cpp.o -c ../../../../src/main/cpp/ARDisplay.cpp
+In file included from ../../../../src/main/cpp/ARDisplay.cpp:5:
+In file included from ../../../../src/main/cpp/ARDisplay.h:8:
+In file included from ../../../../../distribution/include/opencv2/opencv.hpp:62:
+In file included from ../../../../../distribution/include/opencv2/flann.hpp:48:
+In file included from ../../../../../distribution/include/opencv2/flann/flann_base.hpp:43:
+In file included from ../../../../../distribution/include/opencv2/flann/all_indices.h:43:
+../../../../../distribution/include/opencv2/flann/autotuned_index.h:102:28: error: implicit instantiation of undefined template 'std::__ndk1::basic_ostringstream<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>'
+        std::ostringstream stream;
+                           ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/iosfwd:136:32: note: template is declared here
+    class _LIBCPP_TEMPLATE_VIS basic_ostringstream;
+                               ^
+1 error generated.
+[5/6] Building CXX object CMakeFiles/native-opencv.dir/src/main/cpp/native-opencv.cpp.o
+FAILED: CMakeFiles/native-opencv.dir/src/main/cpp/native-opencv.cpp.o 
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native-opencv.dir/src/main/cpp/native-opencv.cpp.o -MF CMakeFiles/native-opencv.dir/src/main/cpp/native-opencv.cpp.o.d -o CMakeFiles/native-opencv.dir/src/main/cpp/native-opencv.cpp.o -c ../../../../src/main/cpp/native-opencv.cpp
+In file included from ../../../../src/main/cpp/native-opencv.cpp:7:
+In file included from ../../../../../distribution/include/opencv2/opencv.hpp:62:
+In file included from ../../../../../distribution/include/opencv2/flann.hpp:48:
+In file included from ../../../../../distribution/include/opencv2/flann/flann_base.hpp:43:
+In file included from ../../../../../distribution/include/opencv2/flann/all_indices.h:43:
+../../../../../distribution/include/opencv2/flann/autotuned_index.h:102:28: error: implicit instantiation of undefined template 'std::__ndk1::basic_ostringstream<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>'
+        std::ostringstream stream;
+                           ^
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/iosfwd:136:32: note: template is declared here
+    class _LIBCPP_TEMPLATE_VIS basic_ostringstream;
+                               ^
+In file included from ../../../../src/main/cpp/native-opencv.cpp:12:
 In file included from ../../../../src/main/cpp/MarkerDetector.hpp:26:
 ../../../../src/main/cpp/MarkerDetectionFacade.hpp:34:6: warning: 'auto_ptr<MarkerDetectionFacade>' is deprecated [-Wdeprecated-declarations]
 std::auto_ptr<MarkerDetectionFacade> createMarkerDetection(CameraCalibration calibration);
      ^
-/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2079:28: note: 'auto_ptr<MarkerDetectionFacade>' has been explicitly marked deprecated here
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/memory:2194:28: note: 'auto_ptr<MarkerDetectionFacade>' has been explicitly marked deprecated here
 class _LIBCPP_TEMPLATE_VIS _LIBCPP_DEPRECATED_IN_CXX11 auto_ptr
                            ^
-/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:941:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:989:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
 #  define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
                                       ^
-/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:978:48: note: expanded from macro '_LIBCPP_DEPRECATED'
 #    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
                                                ^
-1 warning generated.
-[10/10] Linking CXX shared library /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/distribution/libs/armeabi-v7a/libnative-opencv.so
-FAILED: : && /opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -O0 -fno-limit-debug-info  -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -shared -Wl,-soname,libnative-opencv.so -o /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/distribution/libs/armeabi-v7a/libnative-opencv.so CMakeFiles/native-opencv.dir/src/main/cpp/MarkerDetector.cpp.o CMakeFiles/native-opencv.dir/src/main/cpp/native-opencv.cpp.o CMakeFiles/native-opencv.dir/src/main/cpp/GeometryTypes.cpp.o CMakeFiles/native-opencv.dir/src/main/cpp/Marker.cpp.o CMakeFiles/native-opencv.dir/src/main/cpp/TinyLA.cpp.o CMakeFiles/native-opencv.dir/src/main/cpp/CameraCalibration.cpp.o CMakeFiles/native-opencv.dir/src/main/cpp/ARDisplay.cpp.o  -landroid ../../../../../distribution/libs/armeabi-v7a/libcaffe2.a ../../../../../distribution/libs/armeabi-v7a/libopencv_java3.so -llog -Wl,--no-whole-archive ../../../../../distribution/libs/armeabi-v7a/libNNPACK.a ../../../../../distribution/libs/armeabi-v7a/libglog.so ../../../../../distribution/libs/armeabi-v7a/libprotobuf.a libcpufeatures.a -ldl -latomic -lm && :
-/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/MarkerDetector.cpp:370: error: undefined reference to 'cv::imwrite(cv::String const&, cv::_InputArray const&, std::__ndk1::vector<int, std::__ndk1::allocator<int> > const&)'
-../../../../src/main/cpp/ARDisplay.h:106: error: undefined reference to 'cv::imwrite(cv::String const&, cv::_InputArray const&, std::__ndk1::vector<int, std::__ndk1::allocator<int> > const&)'
-../../../../src/main/cpp/ARDisplay.h:107: error: undefined reference to 'cv::imwrite(cv::String const&, cv::_InputArray const&, std::__ndk1::vector<int, std::__ndk1::allocator<int> > const&)'
-../../../../src/main/cpp/ARDisplay.h:108: error: undefined reference to 'cv::imwrite(cv::String const&, cv::_InputArray const&, std::__ndk1::vector<int, std::__ndk1::allocator<int> > const&)'
-clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+1 warning and 1 error generated.
 ninja: build stopped: subcommand failed.

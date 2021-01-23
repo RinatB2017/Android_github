@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidMarkerARDemo.iml" filepath="$PROJECT_DIR$/AndroidMarkerARDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/androidcalibration/androidcalibration.iml" filepath="$PROJECT_DIR$/androidcalibration/androidcalibration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mathlib/mathlib.iml" filepath="$PROJECT_DIR$/mathlib/mathlib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/openCVLibrary320/openCVLibrary320.iml" filepath="$PROJECT_DIR$/openCVLibrary320/openCVLibrary320.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidcalibration/AndroidMarkerARDemo.androidcalibration.iml" filepath="$PROJECT_DIR$/.idea/modules/androidcalibration/AndroidMarkerARDemo.androidcalibration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mathlib/AndroidMarkerARDemo.mathlib.iml" filepath="$PROJECT_DIR$/.idea/modules/mathlib/AndroidMarkerARDemo.mathlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary320/AndroidMarkerARDemo.openCVLibrary320.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary320/AndroidMarkerARDemo.openCVLibrary320.iml" />
     </modules>
   </component>
 </project>

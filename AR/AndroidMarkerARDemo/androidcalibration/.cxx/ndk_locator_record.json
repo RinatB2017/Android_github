@@ -27,7 +27,7 @@
     },
     {
       "level": "INFO",
-      "message": "Found requested ndk.dir (/opt/android-sdk-update-manager/ndk-bundle) which has version 21.0.6113669"
+      "message": "Found requested ndk.dir (/opt/android-sdk-update-manager/ndk-bundle) which has version 22.0.7026061"
     }
   ]
 }

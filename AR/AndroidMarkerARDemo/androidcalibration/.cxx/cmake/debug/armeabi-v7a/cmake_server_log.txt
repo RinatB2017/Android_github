@@ -1,0 +1,371 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration",
+  "buildDirectory": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_CXX_FLAGS\u003d-frtti -fexceptions -std\u003dc++11 -O3",
+    "-DCMAKE_FIND_ROOT_PATH\u003d/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/prefab/armeabi-v7a/prefab",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/opt/android-sdk-update-manager/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "-DANDROID_ABI\u003darmeabi-v7a",
+    "-DANDROID_NDK\u003d/opt/android-sdk-update-manager/ndk-bundle",
+    "-DANDROID_PLATFORM\u003dandroid-19",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a",
+    "-DCMAKE_ANDROID_NDK\u003d/opt/android-sdk-update-manager/ndk-bundle",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/build/intermediates/cmake/debug/obj/armeabi-v7a",
+    "-DCMAKE_MAKE_PROGRAM\u003d/opt/android-sdk-update-manager/cmake/3.10.2.4988404/bin/ninja",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d19"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"The C compiler identification is Clang 11.0.5","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: The C compiler identification is Clang 11.0.5
+CMAKE SERVER: The C compiler identification is Clang 11.0.5
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"The CXX compiler identification is Clang 11.0.5","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: The CXX compiler identification is Clang 11.0.5
+CMAKE SERVER: The CXX compiler identification is Clang 11.0.5
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: /opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: /opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+CMAKE SERVER: Check for working C compiler: /opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":33,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: /opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: /opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+CMAKE SERVER: Check for working C compiler: /opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":65,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":96,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":126,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":155,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: /opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: /opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+CMAKE SERVER: Check for working CXX compiler: /opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":184,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: /opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: /opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+CMAKE SERVER: Check for working CXX compiler: /opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":211,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":237,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":262,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":287,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":311,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerId.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCompilerIdDetection.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Bruce-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SDCC-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Bruce-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SDCC-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Bruce-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SDCC-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Bruce-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SDCC-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Bruce-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SDCC-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-C-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerId.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCompilerIdDetection.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ADSP-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/ARMCC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/AppleClang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Borland-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Cray-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Embarcadero-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Fujitsu-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GHS-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/HP-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IAR-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Intel-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MIPSpro-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/MSVC-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/NVIDIA-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PGI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/PathScale-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SCO-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/TI-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Watcom-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/XL-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10/Modules/AndroidNdkModules.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","/opt/android-sdk-update-manager/ndk-bundle/build/cmake/android.toolchain.cmake","/opt/android-sdk-update-manager/ndk-bundle/build/cmake/platforms.cmake","/opt/android-sdk-update-manager/ndk-bundle/build/cmake/android.toolchain.cmake"]},{"isCMake":false,"isTemporary":true,"sources":[".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"/opt/android-sdk-update-manager/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a","name":"Project","sourceDirectory":"/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration","targets":[{"artifacts":["/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/distribution/libs/armeabi-v7a/libnative-opencv.so"],"buildDirectory":"/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -O0 -fno-limit-debug-info  -fPIC  ","defines":["native_opencv_EXPORTS"],"includePath":[{"path":"/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures"},{"path":"/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/../distribution/include"},{"path":"/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp"}],"isGenerated":false,"language":"CXX","sources":["src/main/cpp/MarkerDetector.cpp","src/main/cpp/native-opencv.cpp","src/main/cpp/GeometryTypes.cpp","src/main/cpp/Marker.cpp","src/main/cpp/TinyLA.cpp","src/main/cpp/CameraCalibration.cpp","src/main/cpp/ARDisplay.cpp"]}],"fullName":"libnative-opencv.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-landroid ../../../../../distribution/libs/armeabi-v7a/libcaffe2.a ../../../../../distribution/libs/armeabi-v7a/libopencv_java3.so -llog -Wl,--no-whole-archive ../../../../../distribution/libs/armeabi-v7a/libNNPACK.a ../../../../../distribution/libs/armeabi-v7a/libglog.so ../../../../../distribution/libs/armeabi-v7a/libprotobuf.a libcpufeatures.a -ldl -latomic -lm","linkerLanguage":"CXX","name":"native-opencv","sourceDirectory":"/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration","sysroot":"/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a/libcpufeatures.a"],"buildDirectory":"/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC  ","includePath":[{"path":"/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures"},{"path":"/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/../distribution/include"},{"path":"/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp"}],"isGenerated":false,"language":"C","sources":["/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures/cpu-features.c"]}],"fullName":"libcpufeatures.a","linkerLanguage":"C","name":"cpufeatures","sourceDirectory":"/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration","sysroot":"/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"STATIC_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

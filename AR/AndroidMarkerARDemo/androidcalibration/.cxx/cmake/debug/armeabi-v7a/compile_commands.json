@@ -1,0 +1,49 @@
+[
+{
+  "directory": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-opencv.dir/src/main/cpp/MarkerDetector.cpp.o -c /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/MarkerDetector.cpp",
+  "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/MarkerDetector.cpp"
+},
+
+{
+  "directory": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-opencv.dir/src/main/cpp/native-opencv.cpp.o -c /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/native-opencv.cpp",
+  "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/native-opencv.cpp"
+},
+
+{
+  "directory": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-opencv.dir/src/main/cpp/GeometryTypes.cpp.o -c /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/GeometryTypes.cpp",
+  "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/GeometryTypes.cpp"
+},
+
+{
+  "directory": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-opencv.dir/src/main/cpp/Marker.cpp.o -c /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/Marker.cpp",
+  "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/Marker.cpp"
+},
+
+{
+  "directory": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-opencv.dir/src/main/cpp/TinyLA.cpp.o -c /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/TinyLA.cpp",
+  "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/TinyLA.cpp"
+},
+
+{
+  "directory": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-opencv.dir/src/main/cpp/CameraCalibration.cpp.o -c /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/CameraCalibration.cpp",
+  "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/CameraCalibration.cpp"
+},
+
+{
+  "directory": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_opencv_EXPORTS -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O3 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-opencv.dir/src/main/cpp/ARDisplay.cpp.o -c /home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/ARDisplay.cpp",
+  "file": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/src/main/cpp/ARDisplay.cpp"
+},
+
+{
+  "directory": "/home/boss/Programming/_GitHub/Android_github/AR/AndroidMarkerARDemo/androidcalibration/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi19 --gcc-toolchain=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk-update-manager/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures -I../../../../../distribution/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/cpufeatures.dir/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures/cpu-features.c.o   -c /opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures/cpu-features.c",
+  "file": "/opt/android-sdk-update-manager/ndk-bundle/sources/android/cpufeatures/cpu-features.c"
+}
+]
