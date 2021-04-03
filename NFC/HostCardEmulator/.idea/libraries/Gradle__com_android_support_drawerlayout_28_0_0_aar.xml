@@ -2,10 +2,15 @@
   <library name="Gradle: com.android.support:drawerlayout:28.0.0@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9b49f46e45fca01089338ab87ae2603/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/92c17318869f949760044534b91284ac/drawerlayout-28.0.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9b49f46e45fca01089338ab87ae2603/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9b49f46e45fca01089338ab87ae2603/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/01b82986564379fedbf59d1aac45f949/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/92c17318869f949760044534b91284ac/drawerlayout-28.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/92c17318869f949760044534b91284ac/drawerlayout-28.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/92c17318869f949760044534b91284ac/drawerlayout-28.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -1,0 +1,29 @@
+com/example/android/nfcprovisioning/BuildConfig.java
+ com.example.android.nfcprovisioning.BuildConfig
+com/example/android/nfcprovisioning/TextWatcherWrapper.java
+ com.example.android.nfcprovisioning.TextWatcherWrapper
+ com.example.android.nfcprovisioning.TextWatcherWrapper$OnTextChangedListener
+com/example/android/nfcprovisioning/ProvisioningValuesLoader.java
+ com.example.android.nfcprovisioning.ProvisioningValuesLoader
+com/example/android/common/logger/LogFragment.java
+ com.example.android.common.logger.LogFragment
+ com.example.android.common.logger.LogFragment$1
+com/example/android/common/activities/SampleActivityBase.java
+ com.example.android.common.activities.SampleActivityBase
+com/example/android/common/logger/LogWrapper.java
+ com.example.android.common.logger.LogWrapper
+com/example/android/common/logger/MessageOnlyLogFilter.java
+ com.example.android.common.logger.MessageOnlyLogFilter
+com/example/android/common/logger/LogNode.java
+ com.example.android.common.logger.LogNode
+com/example/android/nfcprovisioning/NfcProvisioningFragment.java
+ com.example.android.nfcprovisioning.NfcProvisioningFragment
+com/example/android/nfcprovisioning/CompatUtils.java
+ com.example.android.nfcprovisioning.CompatUtils
+com/example/android/common/logger/Log.java
+ com.example.android.common.logger.Log
+com/example/android/common/logger/LogView.java
+ com.example.android.common.logger.LogView
+ com.example.android.common.logger.LogView$1
+com/example/android/nfcprovisioning/MainActivity.java
+ com.example.android.nfcprovisioning.MainActivity

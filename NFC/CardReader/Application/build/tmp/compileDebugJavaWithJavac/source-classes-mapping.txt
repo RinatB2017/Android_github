@@ -1,0 +1,26 @@
+com/example/android/common/logger/LogNode.java
+ com.example.android.common.logger.LogNode
+com/example/android/common/logger/Log.java
+ com.example.android.common.logger.Log
+com/example/android/cardreader/MainActivity.java
+ com.example.android.cardreader.MainActivity
+com/example/android/common/logger/LogView.java
+ com.example.android.common.logger.LogView
+ com.example.android.common.logger.LogView$1
+com/example/android/cardreader/BuildConfig.java
+ com.example.android.cardreader.BuildConfig
+com/example/android/cardreader/CardReaderFragment.java
+ com.example.android.cardreader.CardReaderFragment
+ com.example.android.cardreader.CardReaderFragment$1
+com/example/android/cardreader/LoyaltyCardReader.java
+ com.example.android.cardreader.LoyaltyCardReader
+ com.example.android.cardreader.LoyaltyCardReader$AccountCallback
+com/example/android/common/logger/LogFragment.java
+ com.example.android.common.logger.LogFragment
+ com.example.android.common.logger.LogFragment$1
+com/example/android/common/activities/SampleActivityBase.java
+ com.example.android.common.activities.SampleActivityBase
+com/example/android/common/logger/LogWrapper.java
+ com.example.android.common.logger.LogWrapper
+com/example/android/common/logger/MessageOnlyLogFilter.java
+ com.example.android.common.logger.MessageOnlyLogFilter

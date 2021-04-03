@@ -3,40 +3,44 @@ manifest
 ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:18:1-54:12
 INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:18:1-54:12
 INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:18:1-54:12
-MERGED from [com.android.support:support-v13:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-v13-28.0.0.aar/36da55cc904104b3fb70e10193dcf6ce/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/3e5b2fed3369c4f321475f1dcc3cb7cb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/205a4b7dabc10f42fdfc2471d16bb8e8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4a6c5a9593dd5179ac2d5d4f1b17ddd1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/b2cec5e548c46d571d0c4e65806d5ad0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/bf22382d7ab6e94ae9084b59b7ff00ab/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/77c2abc041478d69b39e47c87c3f3563/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/9086b1bb5297207b15f7eb05c8c135b4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/5531f39db59ae12751f4d81cb45a32e3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/133a7985ef766d29e508305bcdf34d61/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/451504a0101094e7a59f0f2ad401fe08/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0a60d08083b7f1ebde52bb1ae637405b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/37e2052e87453c50b147e77c06aded1f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/246a460e45c8b9bebfd902139563bb33/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/983d8a5f020d6f893054aeccccd7318d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ca100bfc826b5935754978975b11ec14/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/7d243145e8815005ec19fd647c24606e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/23e97514bbeda54b98d16a396c7d2f85/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/99940d1d939fd05e95a0fed05920a659/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fd331a4f896363141e01be8fdb010623/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9a09cdada961bbc7f64cddfa8153de63/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/83c607f27a15aa4adf9f0c001c669ff0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3b74ef2cd48b8580ed2c1acb43dd1d38/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0c2a2cf6d65065dfc7f9a2a6bf84e1d4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/bb84cd33af2437498e86cca54b9231a8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a9e83b245024d08a98e5866fc9b81f22/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ebb3f8e7828397e33772d8f468302bd3/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/b1e0337ca54cd44624790e3ccf87a94d/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/88a3378fcdab50f3a1067973d0519403/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/07439d166677f5f8a6dc4e742cdab290/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:18:1-54:12
+MERGED from [com.android.support:support-v13:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/bbdf7ba588c7e8d0f47a12d9811cb487/support-v13-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/42e8282a5a3fd7c3b3f0d0595e2df3f6/support-v4-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/26f9f0c17000c9e0a6b676caf9deebe8/cardview-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/65bf90c48b89b41813cde0a04f1b73cc/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/0c987097f99e7a4335b18a4229188bcc/support-media-compat-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/fbfb7c7ced2dd9c7976f805e2a51d90e/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/31701eb015b15d8e281e57b98ad9b8fb/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/1260008e6b28c2d2089d15c02c885941/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/1c9e2903f02dff600f06d93b0d1d0c3b/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/5ffa7b6fd9b9c4f4fae05cfac8b947c0/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/21c40582aa19c20b92b08fe79584521e/loader-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/a379726d39f0dc24f62f13da9754b22f/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/388fbd0dd723fcbc08c00c369be1c170/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/67b3ec6dc33e00778c2a5461e9ac08b6/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/aa8882fca5c0a2880eddbe0f90163556/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/9651d67507cfb958ec72395ba5625a82/customview-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/de622a0736ef79d65f2760cc3a6f7232/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/d798b9982e20884298922b2b3b526ba3/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/12a7da1d020b5d39bae909480b3a5d2b/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/52cee454e676dfe4361911031fbc7914/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/4b0e883c691dfe3b51c757996ffc5b59/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/94a5dbd40f5e2ad6d8071e40ea8f6314/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/de92dc3a730267fc4a06812d10ec8388/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/b644760f8ab7d532f1c483eacd5a47ce/print-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/126bbbba515a76748e0c79034fc43c1c/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/84a329d82ffc666455212e01b2932f47/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/a63ed492c7ce6edbf098a6fb9d5bed14/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/a17707910761fd10ce136764f87fecf1/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/522916342d38202e723564fa2ae9c270/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:18:1-54:12
 INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:18:1-54:12
 INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:18:1-54:12
 	package
 		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:20:5-45
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml
 	android:versionName
 		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:22:5-30
 		INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml
@@ -59,12 +63,12 @@ ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Applicat
 		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:27:19-54
 application
 ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:29:5-51:19
-MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/99940d1d939fd05e95a0fed05920a659/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/99940d1d939fd05e95a0fed05920a659/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fd331a4f896363141e01be8fdb010623/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fd331a4f896363141e01be8fdb010623/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/12a7da1d020b5d39bae909480b3a5d2b/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/12a7da1d020b5d39bae909480b3a5d2b/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/99940d1d939fd05e95a0fed05920a659/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/AndroidManifest.xml:22:18-91
 	android:label
 		ADDED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:30:9-41
 	android:icon
@@ -107,66 +111,66 @@ uses-sdk
 INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml
 INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml
-MERGED from [com.android.support:support-v13:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-v13-28.0.0.aar/36da55cc904104b3fb70e10193dcf6ce/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v13:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-v13-28.0.0.aar/36da55cc904104b3fb70e10193dcf6ce/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/3e5b2fed3369c4f321475f1dcc3cb7cb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/3e5b2fed3369c4f321475f1dcc3cb7cb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/205a4b7dabc10f42fdfc2471d16bb8e8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/205a4b7dabc10f42fdfc2471d16bb8e8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4a6c5a9593dd5179ac2d5d4f1b17ddd1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4a6c5a9593dd5179ac2d5d4f1b17ddd1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/b2cec5e548c46d571d0c4e65806d5ad0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/b2cec5e548c46d571d0c4e65806d5ad0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/bf22382d7ab6e94ae9084b59b7ff00ab/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/bf22382d7ab6e94ae9084b59b7ff00ab/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/77c2abc041478d69b39e47c87c3f3563/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/77c2abc041478d69b39e47c87c3f3563/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/9086b1bb5297207b15f7eb05c8c135b4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/9086b1bb5297207b15f7eb05c8c135b4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/5531f39db59ae12751f4d81cb45a32e3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/5531f39db59ae12751f4d81cb45a32e3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/133a7985ef766d29e508305bcdf34d61/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/133a7985ef766d29e508305bcdf34d61/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/451504a0101094e7a59f0f2ad401fe08/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/451504a0101094e7a59f0f2ad401fe08/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0a60d08083b7f1ebde52bb1ae637405b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0a60d08083b7f1ebde52bb1ae637405b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/37e2052e87453c50b147e77c06aded1f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/37e2052e87453c50b147e77c06aded1f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/246a460e45c8b9bebfd902139563bb33/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/246a460e45c8b9bebfd902139563bb33/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/983d8a5f020d6f893054aeccccd7318d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/983d8a5f020d6f893054aeccccd7318d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ca100bfc826b5935754978975b11ec14/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ca100bfc826b5935754978975b11ec14/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/7d243145e8815005ec19fd647c24606e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/7d243145e8815005ec19fd647c24606e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/23e97514bbeda54b98d16a396c7d2f85/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/23e97514bbeda54b98d16a396c7d2f85/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/99940d1d939fd05e95a0fed05920a659/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/99940d1d939fd05e95a0fed05920a659/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fd331a4f896363141e01be8fdb010623/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fd331a4f896363141e01be8fdb010623/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9a09cdada961bbc7f64cddfa8153de63/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9a09cdada961bbc7f64cddfa8153de63/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/83c607f27a15aa4adf9f0c001c669ff0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/83c607f27a15aa4adf9f0c001c669ff0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3b74ef2cd48b8580ed2c1acb43dd1d38/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3b74ef2cd48b8580ed2c1acb43dd1d38/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0c2a2cf6d65065dfc7f9a2a6bf84e1d4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0c2a2cf6d65065dfc7f9a2a6bf84e1d4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/bb84cd33af2437498e86cca54b9231a8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/bb84cd33af2437498e86cca54b9231a8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a9e83b245024d08a98e5866fc9b81f22/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/boss/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a9e83b245024d08a98e5866fc9b81f22/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ebb3f8e7828397e33772d8f468302bd3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ebb3f8e7828397e33772d8f468302bd3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/b1e0337ca54cd44624790e3ccf87a94d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/b1e0337ca54cd44624790e3ccf87a94d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/88a3378fcdab50f3a1067973d0519403/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/88a3378fcdab50f3a1067973d0519403/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/07439d166677f5f8a6dc4e742cdab290/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/07439d166677f5f8a6dc4e742cdab290/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/bbdf7ba588c7e8d0f47a12d9811cb487/support-v13-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/bbdf7ba588c7e8d0f47a12d9811cb487/support-v13-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/42e8282a5a3fd7c3b3f0d0595e2df3f6/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/42e8282a5a3fd7c3b3f0d0595e2df3f6/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/26f9f0c17000c9e0a6b676caf9deebe8/cardview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/26f9f0c17000c9e0a6b676caf9deebe8/cardview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/65bf90c48b89b41813cde0a04f1b73cc/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/65bf90c48b89b41813cde0a04f1b73cc/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/0c987097f99e7a4335b18a4229188bcc/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/0c987097f99e7a4335b18a4229188bcc/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/fbfb7c7ced2dd9c7976f805e2a51d90e/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/fbfb7c7ced2dd9c7976f805e2a51d90e/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/31701eb015b15d8e281e57b98ad9b8fb/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/31701eb015b15d8e281e57b98ad9b8fb/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/1260008e6b28c2d2089d15c02c885941/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/1260008e6b28c2d2089d15c02c885941/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/1c9e2903f02dff600f06d93b0d1d0c3b/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/1c9e2903f02dff600f06d93b0d1d0c3b/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/5ffa7b6fd9b9c4f4fae05cfac8b947c0/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/5ffa7b6fd9b9c4f4fae05cfac8b947c0/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/21c40582aa19c20b92b08fe79584521e/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/21c40582aa19c20b92b08fe79584521e/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/a379726d39f0dc24f62f13da9754b22f/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/a379726d39f0dc24f62f13da9754b22f/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/388fbd0dd723fcbc08c00c369be1c170/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/388fbd0dd723fcbc08c00c369be1c170/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/67b3ec6dc33e00778c2a5461e9ac08b6/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/67b3ec6dc33e00778c2a5461e9ac08b6/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/aa8882fca5c0a2880eddbe0f90163556/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/aa8882fca5c0a2880eddbe0f90163556/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/9651d67507cfb958ec72395ba5625a82/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/9651d67507cfb958ec72395ba5625a82/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/de622a0736ef79d65f2760cc3a6f7232/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/de622a0736ef79d65f2760cc3a6f7232/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/d798b9982e20884298922b2b3b526ba3/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/d798b9982e20884298922b2b3b526ba3/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/12a7da1d020b5d39bae909480b3a5d2b/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/12a7da1d020b5d39bae909480b3a5d2b/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/52cee454e676dfe4361911031fbc7914/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/52cee454e676dfe4361911031fbc7914/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/4b0e883c691dfe3b51c757996ffc5b59/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/4b0e883c691dfe3b51c757996ffc5b59/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/94a5dbd40f5e2ad6d8071e40ea8f6314/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/94a5dbd40f5e2ad6d8071e40ea8f6314/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/de92dc3a730267fc4a06812d10ec8388/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/de92dc3a730267fc4a06812d10ec8388/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/b644760f8ab7d532f1c483eacd5a47ce/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/b644760f8ab7d532f1c483eacd5a47ce/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/126bbbba515a76748e0c79034fc43c1c/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/126bbbba515a76748e0c79034fc43c1c/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/84a329d82ffc666455212e01b2932f47/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/84a329d82ffc666455212e01b2932f47/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/a63ed492c7ce6edbf098a6fb9d5bed14/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/a63ed492c7ce6edbf098a6fb9d5bed14/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/a17707910761fd10ce136764f87fecf1/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/a17707910761fd10ce136764f87fecf1/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/522916342d38202e723564fa2ae9c270/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/boss/.gradle/caches/transforms-2/files-2.1/522916342d38202e723564fa2ae9c270/runtime-1.1.1/AndroidManifest.xml:20:5-44
 INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml
 INJECTED from /home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml
 	android:targetSdkVersion

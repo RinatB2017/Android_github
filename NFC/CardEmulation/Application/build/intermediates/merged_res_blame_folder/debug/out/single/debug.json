@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/build/intermediates/res/merged/debug/menu_main.xml.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/build/intermediates/res/merged/debug/drawable-xxhdpi_card_background.png.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/res/drawable-xxhdpi/card_background.png"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/build/intermediates/res/merged/debug/xml_aid_list.xml.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/res/xml/aid_list.xml"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/build/intermediates/res/merged/debug/drawable-hdpi_tile.9.png.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/res/drawable-hdpi/tile.9.png"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/build/intermediates/res/merged/debug/layout-w720dp_activity_main.xml.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/res/layout-w720dp/activity_main.xml"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/build/intermediates/res/merged/debug/layout_main_fragment.xml.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/res/layout/main_fragment.xml"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/res/drawable-mdpi/ic_launcher.png"
+    }
+]

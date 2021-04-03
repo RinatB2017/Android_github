@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2013 The Android Open Source Project
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9     http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.cardreader"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="15"
+23-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="30" />
+24-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml
+25
+26    <!-- NFC Reader Mode was added in API 19. -->
+27    <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
+28    <uses-permission android:name="android.permission.NFC" />
+28-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:26:5-62
+28-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:26:22-59
+29
+30    <uses-feature
+30-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:27:5-81
+31        android:name="android.hardware.nfc"
+31-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:27:19-54
+32        android:required="true" />
+32-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:27:55-78
+33
+34    <application
+34-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:29:5-51:19
+35        android:allowBackup="true"
+35-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:29:18-44
+36        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+36-->[com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+37        android:debuggable="true"
+38        android:icon="@drawable/ic_launcher"
+38-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:31:9-45
+39        android:label="@string/app_name"
+39-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:30:9-41
+40        android:testOnly="true"
+41        android:theme="@style/AppTheme" >
+41-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:32:9-40
+42        <activity
+42-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:33:9-50:20
+43            android:name="com.example.android.cardreader.MainActivity"
+43-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:33:19-47
+44            android:label="@string/app_name"
+44-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:34:19-51
+45            android:launchMode="singleTop" >
+45-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:35:19-49
+46            <intent-filter>
+46-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:36:13-39:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:37:17-69
+47-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:37:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:38:17-77
+49-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:38:27-74
+50            </intent-filter>
+51
+52            <!--
+53                 NFC-related intent filter. Allows application to handle messages from any
+54                 NFC-A devices discovered. Other Android devices are required to support NFC-A.
+55                 See: res/xml/nfc_tech_filter.xml
+56            -->
+57            <intent-filter>
+57-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:44:13-46:29
+58                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+58-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:45:17-77
+58-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:45:25-74
+59            </intent-filter>
+60
+61            <meta-data
+61-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:47:13-49:59
+62                android:name="android.nfc.action.TECH_DISCOVERED"
+62-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:48:17-66
+63                android:resource="@xml/nfc_tech_filter" />
+63-->/home/boss/Programming/_GitHub/Android_github/NFC/CardReader/Application/src/main/AndroidManifest.xml:49:17-56
+64        </activity>
+65    </application>
+66
+67</manifest>

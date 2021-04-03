@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2013 The Android Open Source Project
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9     http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.cardemulation"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="22"
+23-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="30" />
+24-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml
+25
+26    <!-- Card emulation was introduced in API 19. -->
+27    <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
+28    <uses-feature
+28-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:26:5-85
+29        android:name="android.hardware.nfc.hce"
+29-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:26:19-58
+30        android:required="true" />
+30-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:26:59-82
+31
+32    <uses-permission android:name="android.permission.NFC" />
+32-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:27:5-62
+32-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:27:22-59
+33
+34    <application
+34-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:29:5-60:19
+35        android:allowBackup="true"
+35-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:30:9-35
+36        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+36-->[com.android.support:support-compat:28.0.0] /home/boss/.gradle/caches/transforms-2/files-2.1/49dd2c14dcc57c7f4a0aa1d53483e871/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+37        android:debuggable="true"
+38        android:icon="@drawable/ic_launcher"
+38-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:32:9-45
+39        android:label="@string/app_name"
+39-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:31:9-41
+40        android:testOnly="true"
+41        android:theme="@style/AppTheme" >
+41-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:33:9-40
+42
+43        <!-- Basic UI for sample discoverability. -->
+44        <activity
+44-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:36:9-42:20
+45            android:name="com.example.android.cardemulation.MainActivity"
+45-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:36:19-47
+46            android:label="@string/app_name" >
+46-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:37:19-51
+47            <intent-filter>
+47-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:38:13-41:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:39:17-69
+48-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:39:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:40:17-77
+50-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:40:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <!-- BEGIN_INCLUDE(CardEmulationManifest) -->
+55        <!-- Service for handling communication with NFC terminal. -->
+56        <service
+56-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:46:9-58:19
+57            android:name="com.example.android.cardemulation.CardService"
+57-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:46:18-45
+58            android:exported="true"
+58-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:47:18-41
+59            android:permission="android.permission.BIND_NFC_SERVICE" >
+59-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:48:18-74
+60
+61            <!-- Intent filter indicating that we support card emulation. -->
+62            <intent-filter>
+62-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:50:13-53:29
+63                <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE" />
+63-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:51:17-92
+63-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:51:25-90
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:52:17-75
+65-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:52:27-73
+66            </intent-filter>
+67            <!--
+68                 Required XML configuration file, listing the AIDs that we are emulating cards
+69                 for. This defines what protocols our card emulation service supports.
+70            -->
+71            <meta-data
+71-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:56:13-57:58
+72                android:name="android.nfc.cardemulation.host_apdu_service"
+72-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:56:24-82
+73                android:resource="@xml/aid_list" />
+73-->/home/boss/Programming/_GitHub/Android_github/NFC/CardEmulation/Application/src/main/AndroidManifest.xml:57:24-56
+74        </service>
+75        <!-- END_INCLUDE(CardEmulationManifest) -->
+76    </application>
+77
+78</manifest>

@@ -1,0 +1,28 @@
+com/example/android/common/logger/LogNode.java
+ com.example.android.common.logger.LogNode
+com/example/android/cardemulation/CardService.java
+ com.example.android.cardemulation.CardService
+com/example/android/common/logger/Log.java
+ com.example.android.common.logger.Log
+com/example/android/common/logger/LogView.java
+ com.example.android.common.logger.LogView
+ com.example.android.common.logger.LogView$1
+com/example/android/cardemulation/AccountStorage.java
+ com.example.android.cardemulation.AccountStorage
+com/example/android/cardemulation/BuildConfig.java
+ com.example.android.cardemulation.BuildConfig
+com/example/android/cardemulation/CardEmulationFragment.java
+ com.example.android.cardemulation.CardEmulationFragment
+ com.example.android.cardemulation.CardEmulationFragment$1
+ com.example.android.cardemulation.CardEmulationFragment$AccountUpdater
+com/example/android/common/logger/LogFragment.java
+ com.example.android.common.logger.LogFragment
+ com.example.android.common.logger.LogFragment$1
+com/example/android/common/activities/SampleActivityBase.java
+ com.example.android.common.activities.SampleActivityBase
+com/example/android/cardemulation/MainActivity.java
+ com.example.android.cardemulation.MainActivity
+com/example/android/common/logger/LogWrapper.java
+ com.example.android.common.logger.LogWrapper
+com/example/android/common/logger/MessageOnlyLogFilter.java
+ com.example.android.common.logger.MessageOnlyLogFilter
