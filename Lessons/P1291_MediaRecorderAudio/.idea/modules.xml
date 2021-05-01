@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/HDD/Programming/AndroidStudioProjects/Lessons/P1291_MediaRecorderAudio/P1291_MediaRecorderAudio.iml" filepath="$USER_HOME$/HDD/Programming/AndroidStudioProjects/Lessons/P1291_MediaRecorderAudio/P1291_MediaRecorderAudio.iml" />
-      <module fileurl="file://$USER_HOME$/HDD/Programming/AndroidStudioProjects/Lessons/P1291_MediaRecorderAudio/app/app.iml" filepath="$USER_HOME$/HDD/Programming/AndroidStudioProjects/Lessons/P1291_MediaRecorderAudio/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/P1291_MediaRecorderAudio.iml" filepath="$PROJECT_DIR$/.idea/modules/P1291_MediaRecorderAudio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/P1291_MediaRecorderAudio.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/P1291_MediaRecorderAudio.app.iml" />
     </modules>
   </component>
 </project>
